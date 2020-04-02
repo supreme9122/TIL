@@ -57,6 +57,14 @@ Github는 유튜브로 생각하기
 - git branch : 브랜치 목록보기
 - git branch -d [branch-name] : 지정한 브렌치를 삭제
 
+### $ git branch -d 브랜치 이름
+
+>브랜치 삭제
+
+### $ git branch -D
+
+>병합하지 않은 브랜치 강제 삭제
+
 ### $ git checkout
 >로컬 저장소의 브랜치를 전활 할때 사용.
 
@@ -78,3 +86,25 @@ Github는 유튜브로 생각하기
 
 ### $ git pull
 >원격 브랜치의 변경 사항을 캡처하기 위해서 사용
+
+### $ git log -p
+
+>지금까지 작업 했던 내역을 출력해줌(자세하게)
+
+### $ git diff
+
+>현재 작업중인 변경사항을 보여줌 (commit 전)
+
+### $ git commit -a
+
+>git add없이 바로 업로드
+
+### $ git commit -am
+
+>git commit -a, git commit -m을 동시에 적용
+
+
+
+*** git 명령어 관련 좋은 블로그**
+
+[빨간당무 마을](https://redcarrot.tistory.com/227)
