@@ -7,7 +7,7 @@ public class Multiplication {
         int b =  sc.nextInt();
 
         int c = b%10;
-        int d = b/10%10;
+        int d = b/10%10; 
         int e = b/100;
         
         System.out.println(a*c);
