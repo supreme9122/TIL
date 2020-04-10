@@ -1,7 +1,7 @@
 
 public class CharOperatorExample {
     public static void main(String[] args) {
-        char c1 = (char)('A' + 1);
+        char c1 = 'A' + 1;
         char c2 = 'A';
         //char c3 = c2 + 1;     //컴파일 에러 : c2는 산술 연산의 기본 타입인 int로 변환 되어 연산하고,
                                 //             char 타입 변수 c3에 대입이 불가능하여 컴파일 에러 발생.
