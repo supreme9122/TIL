@@ -428,11 +428,11 @@ Ex) 45와 25를 비트 논리 연산해보자.
 
 - 45를 이진수로 표현한 것.
 
-  ![image-20200413020240485](https://github.com/supreme9122/TIL/blob/master/img/image-20200413020222051.png)
+  ![image-20200413020240485](https://github.com/supreme9122/TIL/blob/master/img/image-20200413020240485.png)
 
 - 25를 이진수로 표현한 것.
 
-  ![image-20200413020319058](https://github.com/supreme9122/TIL/blob/master/img/image-20200413020240485.png)
+  ![image-20200413020319058](https://github.com/supreme9122/TIL/blob/master/img/image-20200413020319058.png)
 
 - 45와 25의 비트 논리곱(&)과 논리합(|) 연산을 수행하면 다음과 같다.
 
