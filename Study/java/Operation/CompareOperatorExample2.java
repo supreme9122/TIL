@@ -1,7 +1,7 @@
 
 public class CompareOperatorExample2 {
     public static void main(String[] args) {
-        //p.89 비교 연산자
+        //p.89 비교 연산자 
         int v2 = 1;
         double v3 = 1.0;
         System.out.println(v2 == v3);       //true
