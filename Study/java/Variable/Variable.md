@@ -25,7 +25,7 @@
 
 #### 초기값은 변수를 선언함과 동시에 주는것도 가능하다.
 
-
+![variable2](https://github.com/supreme9122/TIL/blob/master/img/variable2.jpg)
 
 **`리터럴 : 소스 코드 내에서 직접 입력된 값`**
 
