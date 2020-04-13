@@ -13,7 +13,7 @@ public class CheckOverflowExample {
 
     public static int safeAdd(int left, int right){
         if(right>0){
-           if(left>Integer.MAX_VALUE-right){                    //2000000000>147483647
+           if(left>Integer.MAX_VALUE-right){                    
                throw new ArithmeticException("오버플로우발생");
            } 
         }else{
@@ -25,7 +25,7 @@ public class CheckOverflowExample {
     }
     public static int safeMultiply(int left, int right){
         if(right>0){
-           if(left>Integer.MAX_VALUE/right){                    //1073741823
+           if(left>Integer.MAX_VALUE/right){                    
                throw new ArithmeticException("오버플로우발생");
            } 
         }else{
