@@ -14,6 +14,10 @@ public class OperationsPromotionExample {
         System.out.println("유니코드 : " + intValue2);
         System.out.println("출력문자 : " + (char)intValue2);
 
+        int intValue3 = 10;
+        int intValue4 = intValue3/4;
+        System.out.println(intValue4);
+
         int intValue5 = 10;
         //int intValue6 = 10 / 4.0;    //컴파일 에러 : 4.0은 실수 이기때문에 강제 타입 변환를 해야함.
         double doubleValue = intValue5 / 4.0;
