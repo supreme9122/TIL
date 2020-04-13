@@ -21,7 +21,7 @@
 
 #### 변수를 선언 후 변수값을 저장하는 것은 아래 그림과 같다.
 
-![변수의 사용](https://github.com/supreme9122/TIL/blob/master/img/변수의 사용.jpg)
+![variable](https://github.com/supreme9122/TIL/blob/master/img/variable.jpg)
 
 #### 초기값은 변수를 선언함과 동시에 주는것도 가능하다.
 
