@@ -10,7 +10,7 @@
 
 #### 이런 흐름을 원하는 방향으로 바꿀 수 있게 해주는 것이 흐름 제어문이다.
 
-![codeRunFlowControl](C:\Users\김재빠\Desktop\ReadMe.md\img\codeRunFlowControl.JPG)
+![codeRunFlowControl](https://github.com/supreme9122/TIL/blob/master/img/codeRunFlowControl.JPG)
 
 - ### 제어문의 종류
 
@@ -36,13 +36,13 @@
 
 ### 1. if문
 
-![if](C:\Users\김재빠\Desktop\ReadMe.md\img\if.png)
+![if](https://github.com/supreme9122/TIL/blob/master/img/if.png)
 
 조건식에서는 true 또는 false 값을 산출할 수 있는 연산식이나, boolean 변수가 올 수 있다.
 
 조건식이 true이면 블록안에를 실행하고 false이면 블록안을 실행 하지 않는다.
 
-![if2](C:\Users\김재빠\Desktop\ReadMe.md\img\if2.png)
+![if2](https://github.com/supreme9122/TIL/blob/master/img/if2.png)
 
 중괄호 {  } 블록은 여러개의 실행문을 하나로 묶기 위해 작성된다. 
 
