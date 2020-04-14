@@ -2,7 +2,7 @@
 
 #### 하나의 값을 저장할 수 있는 메모리 공간이다.
 
-# 변수 선언
+## 1. 변수 선언
 
 #### 타입(데이터타입) : int, String, boolean 등
 
@@ -17,7 +17,7 @@
   * 자바 예약어 사용 불가
     * Ex) int, boolean, public, class, new, void, if, true, package 등
 
-# 변수의 사용
+## 2. 변수의 사용
 
 #### 변수를 선언 후 변수값을 저장하는 것은 아래 그림과 같다.
 
@@ -51,7 +51,7 @@
 
 
 
-# 변수의 사용범위
+## 3. 변수의 사용범위
 
 #### 변수는 선언된 블록 내에서만 사용 가능하다.
 
@@ -59,11 +59,331 @@
 
 # 데이터 타입
 
-Project 폴더 내 Variable.java 내용 정리함
+```java
+public class Variable {
 
-이것이 자바다 예제 풀이
+    public static void main(String[] args) {
+        //정수형
+        byte by = -1;       // 1byte = 8bit = 256개 = -128 ~ 127
+        short sh = 2;      // 2byte = 16bit = 65,536개 = -32768 ~ 32767
+        int in = 4;          // 4byte = 32bit = 4,294,967,296개 = -2,147,483,648 ~ 2,147,483,647
+        long lo = 8;        // 8byte = 64bit = 18,446,744,073,709,551,616개 = -9,223,372,036,854,775,808 ~ 9,223,372,036,854,775,808
+        
+        //실수형(소수점을 나타내기 위한 데이터형)
+        float fl = 4;      // 4byte = 32bit
+        double dou = 8.8;  // 8byte = 64bit
 
-> 각 데이터 타입별 Java 소스코드 참조.
+        in = in +2;
+        System.out.println("정수형 입니다.");
+        System.out.println(by);
+        System.out.println(sh);
+        System.out.println(in);
+        System.out.println(lo);
+
+        dou = dou + 0.2;
+        System.out.println("실수형 입니다.");
+        System.out.println(fl);
+        System.out.println(dou);
+
+        //문자형(하나의 문자, ''를 사용한다.)
+        char ch = 'a';
+        System.out.println("문자형 입니다.");
+        System.out.println(ch);
+
+        //문자열
+        String str = "String";
+        System.out.println("문자열 입니다.");
+        System.out.println(str);
+
+        //논리형
+        boolean bool = true;
+        System.out.println("논리형 입니다.");
+        System.out.println(bool);
+    }
+}
+```
+
+#### 결과
+
+```java
+정수형 입니다.
+-1
+2
+6
+8
+실수형 입니다.
+4.0
+9.0
+문자형 입니다.
+a
+문자열 입니다.
+String
+논리형 입니다.
+true
+```
+
+
+
+#### 예제 ByteExample.java(byte 타입 변수)
+
+```java
+public class ByteExample{
+    public static void main(String[] args) {
+        //byte 타입은 색상 정보 및 파일 또는 이미지 등의 이진 데이터 처리를 주로한다.
+        //1byte = 8bit = 256개 = -128 ~ 127 (양수에서 0이 포함되기 때문에 127까지)
+        //위 범위를 초과하는 타입 변수가 저장될때 error 발생.
+        
+        byte var1 = -128;
+        byte var2 = -30;
+        byte var3 = 0;
+        byte var4 = 30;
+        byte var5 = 127;
+        //byte var6 = 128; //컴파일 에러
+        
+        System.out.println(var1);
+        System.out.println(var2);
+        System.out.println(var3);
+        System.out.println(var4);
+        System.out.println(var5);
+        //System.out.println(var6);
+        }
+    }
+```
+
+#### 결과
+
+```java
+-128
+-30
+0
+30
+127
+```
+
+
+
+#### 예제 GarbageValueExample.java(byte 타입 변수)
+
+```java
+public class GarbageValueExample {
+    public static void main(String[] args) {
+        byte var1 = 125;
+        int var2 = 125;
+
+        // for문 5회 반복실행
+        for(int i=0; i<5; i++){
+            var1++;
+            var2++;
+            System.out.println("var1 : " + var1 + " \t " + "var2 : " + var2);
+            // byte변수는 127이 넘어가는 순간 -128로 다시 저장됨.
+        }
+    }
+}
+```
+
+#### 결과
+
+```java
+var1 : 126       var2 : 126
+var1 : 127       var2 : 127
+var1 : -128      var2 : 128
+var1 : -127      var2 : 129
+var1 : -126      var2 : 130
+```
+
+
+
+#### 예제 CharExample.java(char 타입 변수)
+
+```java
+public class CharExample {
+    public static void main(String[] args) {
+        char c1 = 'A';          //문자를 직접 저장
+        char c2 = 65;           //10진수로 저장
+        char c3 = '\u0041';     //16진수로 저장
+
+        char c4 = '가';         //문자를 직접 저장
+        char c5 = 44032;        //10진수로 저장
+        char c6 = '\uac00';     //16진수로 저장
+
+        int AUnicode = 'A';     //A 유니코드 얻기
+        int KaUnicode = '가';   //가 유니코드 얻기
+        
+        System.out.println(c1);
+        System.out.println(c2);
+        System.out.println(c3);
+        System.out.println(c4);
+        System.out.println(c5);
+        System.out.println(c6);
+        System.out.println(AUnicode);
+        System.out.println(KaUnicode);
+    }
+}
+```
+
+#### 결과
+
+```java
+A
+A
+A
+가
+가
+가
+65
+44032
+```
+
+
+
+#### 예제 IntExample.java(int 타입 변수)
+
+```java
+public class IntExample {
+    public static void main(String[] args) {
+        // int 타입은 4byte로 표현되는 정수값을 저장
+        // 4byte = 32bit = 4,294,967,296개 = -2,147,483,648 ~ 2,147,483,647
+        // int 타입은 정수 연산을 위한 기본 타입이기 때문에 byte, short 타입으로 연산하면 int타입으로 자동 변환된다.
+        
+        int var1 = 10;
+        int var2 = 012;
+        int var3 = 0xA;
+
+        System.out.println(var1);
+        System.out.println(var2);
+        System.out.println(var3);
+
+        // 결과값은 모두 10으로 동일하다.
+    }
+
+}
+```
+
+#### 결과
+
+```java
+10
+10
+10
+```
+
+
+
+#### 예제 LongExmaple.java(long 타입 변수)
+
+```java
+public class LongExample {
+    public static void main(String[] args) {
+        // long타입은 8byte로 표현되는 정수값을 저장
+        // 8byte = 64bit = 18,446,744,073,709,551,616개 = -9,223,372,036,854,775,808 ~ 9,223,372,036,854,775,808
+        // long타입 변수를 초기화 할때는 정수값 뒤에 'l', 'L'을 붙여 8byte 정수 데이터임을 알려주는것.
+
+        long var1 = 10;
+        long var2 = 20L;
+        // long var3 = 1000000000000;       //컴파일 에러 : int범위를 초과 하였으나 'L'을 붙이지 않았기 때문
+        long var4 = 1000000000000L;
+
+        System.out.println(var1);
+        System.out.println(var2);
+        System.out.println(var4);
+
+    }
+
+}
+```
+
+#### 결과
+
+```java
+10
+20
+1000000000000
+```
+
+
+
+#### 예제 FloatDoubleExample.java(flaot과 double타입)
+
+```java
+
+public class FloatDoubleExample {
+    public static void main(String[] args) {
+        // 실수 타입(float, double)은 소수점이 있는 실수 데이터 저장
+        // float = 4byte =, double = 8byte
+        // double은 float보다 약 두 배의 자릿수가 배정되어 높은 정밀도를 요구하는 계산에서 사용
+        // JAVA는 실수 리터럴의 기본 값을 double로 간주하기 때문에 실수 리터럴을 float에 저장하려면 리터럴뒤에 'f', 'F'를 입력해야한다.
+        
+        //실수값 저장
+        double var1 = 3.14;
+        //float var2 = 3.14; //컴파일 에러 : float타입을 사용하는데 리터럴 뒤에 'F'를 붙이지 않았기 때문
+        float var3 = 3.14F;
+
+        //정밀도 테스트
+        double var4 = 0.1234567890123456789;
+        float var5 = 0.1234567890123456789F;
+
+        System.out.println("var1 : " + var1);
+        System.out.println("var3 : " + var3);
+        System.out.println("var4 : " + var4);
+        System.out.println("var5 : " + var5);
+
+        //e 사용하기
+        int var6 = 3000000;
+        double var7 = 3e6;
+        float var8 = 3e6F;
+        double var9 = 2e-3;
+        double var10 = 2e4;
+
+        System.out.println("var6 : " + var6);
+        System.out.println("var7 : " + var7);
+        System.out.println("var8 : " + var8);
+        System.out.println("var9 : " + var9);
+        System.out.println("var10 : " + var10);
+
+    }
+
+}
+```
+
+#### 결과
+
+```java
+var1 : 3.14
+var3 : 3.14
+var4 : 0.12345678901234568
+var5 : 0.12345679
+var6 : 3000000
+var7 : 3000000.0
+var8 : 3000000.0
+var9 : 0.002
+var10 : 20000.0
+```
+
+
+
+#### 예제 BooleanExample.java(boolean 타입)
+
+```java
+public class BooleanExample {
+    public static void main(String[] args) {
+        // boolean 타입은 1byte로 표현되는 논리값(true/false)을 저장
+        
+        boolean stop = true;
+        if(stop){
+            System.out.println("중지합니다.");
+        }else{
+            System.out.println("시작합니다.");
+        }
+    }
+
+}
+```
+
+#### 결과
+
+```java
+중지합니다.
+```
 
 
 
@@ -73,32 +393,217 @@ byte  → int 또는 int → byte로 변환하는것.
 
 자동 타입변환과 강제 타입변환이 존재함.
 
-- #### 자동 타입 변환
+## 1. 자동 타입 변환
 
-  > 작은 크기 타입이 큰 크기를 가지는 타입에 저장될때 발생
-  >
-  > 예를 들어 byte타입은 1byte타입, int는 4byte 타입이다.
-  >
-  > `byte(1) < short(2) < int(4) < long(8) < float(4) < double(8)`
-  >
-  > *** float은 4byte크기 이지만 표현할 수 있는 값의 범위가 더 크기 때문에 위와 같이 표현**
-  >
-  > 정수 타입이 실수 타입으로 변환하는 것은 무조건 자동타입 변환된다.
+작은 크기 타입이 큰 크기를 가지는 타입에 저장될때 발생
 
-  
+예를 들어 byte타입은 1byte타입, int는 4byte 타입이다.
 
-- #### 강제 타입 변환 (캐스팅 : Casting)
+> `byte(1) < short(2) < int(4) < long(8) < float(4) < double(8)`
+>
+> *** float은 4byte크기 이지만 표현할 수 있는 값의 범위가 더 크기 때문에 위와 같이 표현**
+>
+> 정수 타입이 실수 타입으로 변환하는 것은 무조건 자동타입 변환된다.
 
-  > 자동 타입 변환이 불가능할 때 데이터 타입을 쪼개어서 저장하는것.
-  >
-  > 따라서 하위 타입으로 강제 타입 변환 할경우 하위 타입의 범위안에 속해야한다.
-  >
-  > 캐스팅 연산자 ()를 사용한다.
-  >
-  > - 주의 사항
-  >   1. 입력 받은 값을 변환할 때 값의 손실이 발생하면 안되기 때문에 강제 타입 변환 하기전 검사하는 것이 좋다.
-  >   2. 정수 타입을 실수 타입으로 변환할 때 정밀도 손실을 피해야 한다.
-  >      - p. 55에 예제(FromIntToFloat.java)를 참고 할것.
+#### 예제 PromotionExample.java(자동 타입 변환)
+
+```java
+public class PromotionExmaple {
+    public static void main(String[] args) {
+        // 이것이 자바다. p.51
+        
+        // int intValue = 200;
+        // double doubleValue = intValue;   // 200.0
+        
+        // char charValue = 'A';
+        // int intValue = charValue;           // 65
+
+        // 자동타입 변환에서 단 하나의 예외
+        // char는 2byte 크기를 가지지만, char의 범위는 음수가 없기 때문에 byte타입을 char타입으로 변환 시킬 수 없다.
+
+        // byte byteValue = 65;
+        // char charValue = byteValue       // 컴파일 에러
+
+        byte byteValue = 10;
+        int intValue = byteValue;           // byte → int 
+        System.out.println(intValue);
+
+        char charValue = '가';
+        intValue = charValue;               // char → int
+        System.out.println("가의 유니코드 : " + intValue);
+
+        intValue = 500;
+        long longValue = intValue;          // int → long
+        System.out.println(longValue);
+
+        intValue = 200;
+        double doubleValue = intValue;      // int → double
+        System.out.println(doubleValue);
+
+        // short shortValue = 65;
+        // charValue = shortValue;          // 위 설명과 마찬가지로 short도 자동형 변환이 안된다.
+
+    }
+
+}
+```
+
+#### 결과
+
+```java
+10
+가의 유니코드 : 44032
+500
+200.0
+```
+
+
+
+## 2. 강제 타입 변환 (캐스팅 : Casting)
+
+자동 타입 변환이 불가능할 때 데이터 타입을 쪼개어서 저장하는것.
+
+따라서 하위 타입으로 강제 타입 변환 할경우 하위 타입의 범위안에 속해야한다. 캐스팅 연산자 ()를 사용한다.
+
+> - 주의 사항
+>  1. 입력 받은 값을 변환할 때 값의 손실이 발생하면 안되기 때문에 강제 타입 변환 하기전 검사하는 것이 좋다.
+>   2. 정수 타입을 실수 타입으로 변환할 때 정밀도 손실을 피해야 한다.
+>     - p. 55에 예제(FromIntToFloat.java)를 참고 할것.
+
+
+
+#### 예제 CastingExample.java(강제 타입 변환)
+
+```java
+public class CastingExample {
+    public static void main(String[] args) {
+        // p.54
+        
+        int intValue = 44032;
+        char charValue = (char)intValue;
+        System.out.println(charValue);
+
+        long longValue = 500;
+        intValue = (int)longValue;
+        System.out.println(intValue);
+
+        double doubleValue = 3.14;
+        intValue = (int)doubleValue;
+        System.out.println(intValue);
+
+    }
+
+}
+```
+
+#### 결과
+
+```java
+가
+500
+3
+```
+
+
+
+#### 예제 CheckValueBeforeCasting.java(변환으로 인한 데이터 손실이 발생되지 않도록 한다.)
+
+```java
+public class CheckValueBeforeCasting {
+    public static void main(String[] args) {
+        
+        int i = 128;
+
+        if(i<Byte.MIN_VALUE || i>Byte.MAX_VALUE){
+            System.out.println("byte 타입으로 변환할 수 없습니다.");
+            System.out.println("값을 다시 확인해 주세요");
+        }else{
+            byte b = (byte)i;
+            System.out.println(b);
+        }
+
+    }
+
+}
+```
+
+#### 결과
+
+```java
+byte 타입으로 변환할 수 없습니다.
+값을 다시 확인해 주세요
+```
+
+
+
+#### 예제 FromIntToFloat.java(정수 타입을 실수 타입으로 변환할 때 정밀도 손실을 피한다.)
+
+```java
+public class FromIntToFloat {
+    public static void main(String[] args) {
+        // num1과 num2에 123456780을 저장시키고 num2를 float타입으로 변환시킨 후,
+        // 다시 int타입으로 변환해서 num2에 저장하고 num1에서 num2를 빼면?
+
+        int num1 = 123456780;
+        int num2 = 123456780;
+
+        float num3 = num2;
+        num2 = (int)num3;
+
+        int result = num1 - num2;
+        System.out.println(result);
+
+        // 값이 0이 나올것으로 예상했지만 -4가 출력된다.
+        // float타입은 다음과 같은 비트 수가 할당 되어 있다.
+        // float : 부호(1비트) + 지수(11비트) + 가수(23비트)
+        // num2의 값 123456780은 23비트로 표현 할 수 없기 때문에 근사치로 값이 나온다.
+        // 따라서 11라인에 자동 타입 변환 할 때 num3의 값은 근사치 값으로 num2에는 근사치 값이 저장된다.
+        // 해결책으로 double 타입을 사용하면 된다.
+        // double타입은 다음과 같은 비트 수가 할당 되어 있다.
+        // double : 부호(1비트) + 지수(11비트) + 가수(52비트)
+        // int의 크기는 32bit이므로 double의 가수52비트 보다 작기 때문에 어떠한 int값이라도 안전하게 정밀도 손실을 피할 수 있다.
+
+    }
+
+}
+```
+
+#### 결과
+
+```java
+-4
+```
+
+
+
+#### 예제 FromIntToDouble.java(정수 타입을 실수 타입으로 변활할 때 정밀도 손실을 피한다.)
+
+```java
+public class FromInToDouble {
+    public static void main(String[] args) {
+        
+        int num1 = 123456780;
+        int num2 = 123456780;
+
+        double num3 = num2;
+        num2 = (int)num3;
+
+        int result = num1 - num2;
+        System.out.println(result);
+
+        // 앞선 예제 float타입으로 정밀도 손실이 발생 했으나
+        // double타입을 사용하니 정밀도 손실을 피할 수 있었다.
+
+    }
+
+}
+```
+
+#### 결과
+
+```java
+0
+```
 
 
 
@@ -108,7 +613,49 @@ byte  → int 또는 int → byte로 변환하는것.
 
 자바는 정수 연산일 경우 int타입을 기본으로 한다.
 
-p.59 예제(OperationPromotionExample.java)를 참고 하여 이해 하면 좋음.
+#### 예제 OperationPromotionExample.java(연산식에서 자동 타입 변환)
+
+```java
+public class OperationsPromotionExample {
+    public static void main(String[] args) {
+        byte byteValue1 = 10;
+        byte byteValue2 = 20;
+        //byte byteValue3 = byteValue1 + byteValue2;    //컴파일 에러 : 자바의 정수 연산일 경우 int타입을 기본으로 한다.
+        int intValue = byteValue1 + byteValue2;
+        System.out.println(intValue);
+
+        char charValue1 = 'A';
+        char charValue2 = 1;
+        //char charValue3 = charValue1 + charValue2;    //컴파일 에러 : 위 사유와 동일
+        int intValue2 = charValue1 + charValue2;
+        System.out.println("유니코드 : " + intValue2);
+        System.out.println("출력문자 : " + (char)intValue2);
+
+        int intValue3 = 10;
+        int intValue4 = intValue3/4;
+        System.out.println(intValue4);
+
+        int intValue5 = 10;
+        //int intValue6 = 10 / 4.0;    //컴파일 에러 : 4.0은 실수 이기때문에 강제 타입 변환를 해야함.
+        double doubleValue = intValue5 / 4.0;
+        System.out.println(doubleValue);
+
+    }
+
+}
+```
+
+#### 결과
+
+```java
+30
+유니코드 : 66
+출력문자 : B
+2
+2.5
+```
+
+
 
 
 
