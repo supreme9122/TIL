@@ -81,6 +81,35 @@
 
 
 
+#### 예제 SignOperatorExample.java (부호 연산자)
+
+```java
+public class SignOperatorExample{
+    public static void main(String[] args) {
+        int x = -100;
+        int result1 = +x;
+        int result2 = -x;
+        System.out.println("result1 = " + result1);
+        System.out.println("result2 = " + result2);
+
+        short s = 100;
+        //short result3 = -s;   //컴파일 에러 : 산출 결과 타입은 int이므로 에러 발생.
+        int result3 = -s;
+        System.out.println(result3); 
+    }
+}
+```
+
+#### 결과
+
+```java
+result1 = -100
+result2 = 100
+result3 = -100
+```
+
+
+
 ## 2. 증감 연산자(++, --)
 
 #### 변수의 값을 1증가(++), 1감소(--)시키는 연산자. boolean타입을 제외한 모든 기본 타입의 피연산자를 사용 할 수 있다.
@@ -109,11 +138,98 @@
 
 
 
-## 3. 논리 부정연산자(!)
+#### 예제 IncreaseDecreaseOperatorExample.java(증감 연산자)
+
+```java
+public class IncreaseDecreaseOperatorExample {
+    public static void main(String[] args) {
+        int x = 10;
+        int y = 10;
+        int z;
+
+        System.out.println("------------------------------");
+        x++;    //11
+        ++x;    //12
+        System.out.println("x = "+x);   //12
+
+        System.out.println("------------------------------");
+        y--;    //9
+        --y;    //8
+        System.out.println("y = "+y);   //8
+
+        System.out.println("------------------------------");
+        z = x++;    
+        System.out.println("z = "+z);   //12
+        System.out.println("x = "+x);   //13
+
+        System.out.println("------------------------------");
+        z = ++x;    
+        System.out.println("z = "+z);   //14
+        System.out.println("x = "+x);   //14
+
+        System.out.println("------------------------------");
+        z = ++x + y++;  //15 + 8
+        System.out.println("z = "+z);   //23
+        System.out.println("x = "+x);   //15
+        System.out.println("y = "+y);   //9
+    }
+
+}
+```
+
+#### 결과
+
+```java
+------------------------------
+x = 12
+------------------------------
+y = 8
+------------------------------
+z = 12
+x = 13
+------------------------------
+z = 14
+x = 14
+------------------------------
+z = 23
+x = 15
+y = 9
+```
+
+
+
+## 3. 논리 부정 연산자(!)
 
 #### true, false로 변경하기 때문에 boolean타입에만 사용가능.
 
 #### 조건문과 제어문에서 조건식의 값을 부정하도록 해서 실행 흐름을 제어할 때 사용하며 두 가지 상태(true/false)를 번갈아가며 변경하는 토글(toggle) 기능을 구현할 때도 사용된다.
+
+
+
+#### 예제 DenyLogicOperatorExample.java (논리 부정 연산자)
+
+```java
+public class DenyLogicOperatorExample {
+    public static void main(String[] args) {
+        boolean play = true;
+        System.out.println(play);
+
+        play = !play;
+        System.out.println(play);
+
+        play = !play;
+        System.out.println(play);
+    }
+}
+```
+
+#### 결과
+
+```java
+true
+false
+true
+```
 
 
 
@@ -124,6 +240,52 @@
 - 비트반전연산자 주의사항 : 산출타입은 int타입이다.
 
 #### Integer.toBinaryString()메소드 : 정수값을 총 32비트의 문자열로 리턴함.
+
+
+
+#### 예제 BiteReverseOperatorExample.java(비트 반전 연산자)
+
+```java
+public class BiteReverseOperatorExample {
+    public static void main(String[] args) {
+        int v1 = 10;
+        int v2 = ~v1;
+        int v3 = ~v1+1;
+        System.out.println(toBinaryString(v1) + " (십진수 : "+ v1 + ")");
+        System.out.println(toBinaryString(v2) + " (십진수 : "+ v2 + ")");
+        System.out.println(toBinaryString(v3) + " (십진수 : "+ v3 + ")");
+        System.out.println();
+
+        int v4 = -10;
+        int v5 = ~v4;
+        int v6 = ~v4+1;
+        System.out.println(toBinaryString(v4) + " (십진수 : "+ v4 + ")");
+        System.out.println(toBinaryString(v5) + " (십진수 : "+ v5 + ")");
+        System.out.println(toBinaryString(v6) + " (십진수 : "+ v6 + ")");
+        System.out.println();
+    }    
+
+        public static String toBinaryString(int value){
+            String str = Integer.toBinaryString(value);
+            while(str.length() < 32){
+                str = '0'+str;
+            }
+            return str;
+        }
+}
+```
+
+#### 결과
+
+```java
+00000000000000000000000000001010 (십진수 : 10)
+11111111111111111111111111110101 (십진수 : -11)
+11111111111111111111111111110110 (십진수 : -10)
+
+11111111111111111111111111110110 (십진수 : -10)
+00000000000000000000000000001001 (십진수 : 9)
+00000000000000000000000000001010 (십진수 : 10)
+```
 
 
 
@@ -167,6 +329,50 @@
 >
 >    - Ex) int +double → double+ double = double
 
+
+
+#### 예제 ArithmeticOperatorExample.java(산술 연산자)
+
+```java
+public class ArithmeticOperatorExample {
+    public static void main(String[] args) {
+        int v1 = 5;
+        int v2 = 2;
+
+        int result1 = v1 + v2;
+        System.out.println("result1 = "+ result1);
+
+        int result2 = v1 - v2;
+        System.out.println("result2 = "+ result2);
+
+        int result3 = v1 * v2;
+        System.out.println("result3 = "+ result3);
+
+        int result4 = v1 / v2;
+        System.out.println("result4 = "+ result4);
+
+        int result5 = v1 % v2;
+        System.out.println("result5 = "+ result5);
+
+        double result6 = v1 / (double)v2;       //소수점 첫째자리 수를 정확하게 구하기위해 v1, v2둘중 하나를 Casting(강제타입변환)함.
+        System.out.println("result6 = "+ result6);
+    }
+}
+```
+
+#### 결과
+
+```java
+result1 = 7
+result2 = 3
+result3 = 10
+result4 = 2
+result5 = 1
+result6 = 2.5
+```
+
+
+
 ##### char타입도 정수타입으로 산출 가능하다.
 
 - 주의사항 : char타입이 산술연산이 될 경우 int타입으로 변환되므로 산출 타입은 int이다.
@@ -185,6 +391,34 @@
 
 
 
+#### 예제 CharOperationExample.java(char 타입 연산)
+
+```java
+
+public class CharOperatorExample {
+    public static void main(String[] args) {
+        char c1 = 'A' + 1;
+        char c2 = 'A';
+        //char c3 = c2 + 1;     //컴파일 에러 : c2는 산술 연산의 기본 타입인 int로 변환 되어 연산하고,
+                                //             char 타입 변수 c3에 대입이 불가능하여 컴파일 에러 발생.
+                                //             Casting(강제타입변환)을 통해 char타입으로 얻어야 한다.
+                                //             char c3 = (char)(c2+1);
+        System.out.println("c1 : "+ c1);        //B
+        System.out.println("c2 : "+ c2);        //A
+        //System.out.println("c1 : "+ c1); 
+    }
+}
+```
+
+#### 결과
+
+```java
+c1 : B
+c2 : A
+```
+
+
+
 ### 오버플로우 탐지
 
 산출 연산을 할 때 산출값이 산출 타입으로 표현 가능한지 살펴봐야 한다.
@@ -195,19 +429,77 @@
 
 
 
-Ex)
+#### 예제 OverflowExample.java(오버플로우)
 
-> int x = 1000000;
->
-> int y = 1000000;
->
-> int z = x*y;				// -727379968
->
-> int 타입의 저장되는 값을 초과하기 때문에 쓰레기값을 얻었다.
->
-> 오버플로우를 해결하기 위해서는 int타입을 long타입으로 변경 해줘야 한다.
+```java
+public class OverflowExample {
+    public static void main(String[] args) {
+        int x = 1000000;	
+        int y = 1000000;
+        int z = x * y;
+        // int 타입의 저장되는 값을 초과하기 때문에 쓰레기값을 얻었다.
+		//오버플로우를 해결하기 위해서는 int타입을 long타입으로 변경 해줘야 한다.
+        System.out.println(z);
+    }
+}
+```
 
-p. 81 산술 연산 전에 오버플로우를 탐지 하는 예제
+#### 결과
+
+```java
+-727379968		//쓰레기값 출력
+```
+
+
+
+#### 예제 CheckOverflowExample.java(산술 연산 전에 오버플로우를 탐지)
+
+```java
+public class CheckOverflowExample {
+    public static void main(String[] args) {
+        try {
+            int result = safeMultiply(46340, 46342);
+            System.out.println(result);
+        } catch (ArithmeticException e) {
+            System.out.println("오버플로우가 발생하여 정확하게 계산 할 수 없음.");
+        }
+        
+
+    }
+
+    public static int safeAdd(int left, int right){	//두 인자값의 합을 구할 때
+        if(right>0){
+           if(left>Integer.MAX_VALUE-right){                    
+               throw new ArithmeticException("오버플로우발생");
+           } 
+        }else{
+            if(left<Integer.MIN_VALUE-right){                  
+                throw new ArithmeticException("오버플로우 발생2");
+            }
+        }
+        return left+right;
+    }
+    
+    public static int safeMultiply(int left, int right){ //두 인자값의 곱을 구할 때
+        if(right>0){
+           if(left>Integer.MAX_VALUE/right){                    
+               throw new ArithmeticException("오버플로우발생");
+           } 
+        }else{
+            if(left<Integer.MIN_VALUE/right){
+                throw new ArithmeticException("오버플로우 발생2");
+            }
+        }
+        return left*right;
+    }
+}
+```
+
+#### 결과
+
+```java
+오버플로우가 발생하여 정확하게 계산 할 수 없음.
+```
 
 
 
@@ -235,59 +527,100 @@ Ex)
 
 
 
+#### 예제 InfinityAndNaNCheckExample.java(Infinity와 NaN)
+
+```java
+public class InfinityAndNaNCheckExample {
+    public static void main(String[] args) {
+        //p.84 Infinity와 NaN
+        
+        int x = 5;
+        double y = 0.0;
+
+        double z = x/y;
+
+        System.out.println(Double.isInfinite(z));
+        System.out.println(Double.isNaN(z));
+
+        System.out.println(z+2);
+    }
+}
+```
+
+#### 결과
+
+```java
+true
+false
+Infinity
+```
+
+
+
+
+
 ### 입력값의 NaN 검사
 
 부동소수점을 입력받을 때는 반드시 NaN 검사를 해야 한다.
 
 이것이 자바다. p.85~86 NaN문제점 해결
 
-Ex) "NaN" 문자열의 문제점
+#### 예제 InputDataCheckNaNExample.java("NaN" 문자열의 문제점)
 
->String userInput = "NaN";								  // 사용자로부터 입력받은 값 : 악의를 가진 사용자가 NaN을 																																  입력한것으로 가정
->
->
->
->double val = Double.valueOf( userInput );	  // 입력값을 double 타입으로 변환
->
->
->
->double currentBalance =  10000.0;
->
->currentBalance += val;										// currentBalace에 NaN이 저장됨.
+```java
+public class CheckOverflowExample {
+    public static void main(String[] args) {
+		String userInput = "NaN";	// 사용자로부터 입력받은 값 : 악의를 가진 사용자가 															  	     	  NaN을 입력한것으로 가정
+		double val = Double.valueOf( userInput );  // 입력값을 double 타입으로 변환
 
-이처럼 악의성 있는 사용자가 숫자로 변환 되지 않는 "NaN"을 입력 했을 경우
+		double currentBalance =  10000.0;
+		currentBalance += val;	// currentBalace에 NaN이 저장됨.
+    }
+}
+```
 
-NaN은 산술 연산이 가능하여 어느 데이터와 산술이 된다면 데이터가 엉망이 될 것이다.
+#### 결과
 
-따라서 아래 코드와 같이 수정 해야 한다.
+```
+NaN
+```
 
-Ex)
+> 이처럼 악의성 있는 사용자가 숫자로 변환 되지 않는 "NaN"을 입력 했을 경우
+>
+> NaN은 산술 연산이 가능하여 어느 데이터와 산술이 된다면 데이터가 엉망이 될 것이다.
+>
+> 따라서 아래 코드와 같이 수정 해야 한다.
 
-> String userInput = "NaN";								  // 사용자로부터 입력받은 값 : 악의를 가진 사용자가 NaN을 																																  입력한것으로 가정
->
-> 
->
-> double val = Double.valueOf( userInput );	  // 입력값을 double 타입으로 변환
->
-> 
->
-> double currentBalance =  10000.0;
->
-> 
->
-> 
->
-> if(Double.isNaN(val)){										// NaN을 검사함
->
-> ​	System.out.println("NaN이 입력되어 처리할 수 없음.")
->
-> ​	val = 0.0;
->
-> }
->
-> 
->
-> currentBalance += val;										// currentBalace의 원래 값이 유지
+
+
+#### 예제 InputDataCheckNaNExample2.java("NaN"을 체크하고 연산 수행)
+
+```java
+public class CheckOverflowExample {
+    public static void main(String[] args) {
+		String userInput = "NaN";	// 사용자로부터 입력받은 값 : 악의를 가진 사용자가 																		  NaN을 입력한것으로 가정
+		double val = Double.valueOf( userInput );// 입력값을 double 타입으로 변환
+        
+		double currentBalance =  10000.0;
+
+        if(Double.isNaN(val)){	// NaN을 검사함
+		System.out.println("NaN이 입력되어 처리할 수 없음.")
+		val = 0.0;
+		}
+		currentBalance += val;	// currentBalace의 원래 값이 유지
+        System.out.println(currenBalance);
+    }
+}
+```
+
+#### 결과
+
+```java
+NaN이 입력되어 처리할 수 없음.
+10000.0
+```
+
+
 
 - NaN을 검사하는 if문 주의사항 : == 연산자를 사용 하면 안된다. NaN은 !=연산자를 제외한 모든 연산자를 false로 리턴하기 때문이다.
 
@@ -303,7 +636,34 @@ Ex)
 >
 > 3 + 3.0 + "JDK"			//  6.0JDK
 
- 
+ #### 예제 StringConcatExample.java(문자열 연결 연산자)
+
+```java
+public class StringConcatExample {
+    public static void main(String[] args) {
+        //p.87  문자열 연결 연산자
+        
+        String str1 = "JDK" + 6.0;
+        String str2 = str1 + "특징";
+        System.out.println(str2);
+
+        String str3 = "JDK" + 3 + 3.0;
+        String str4 = 3 + 3.0 + "JDK";
+        System.out.println(str3);
+        System.out.println(str4);
+    }
+}
+```
+
+#### 결과
+
+```java
+JDK6.0특징
+JDK33.0
+6.0JDK
+```
+
+
 
 ## 3. 비교 연산자(<, <=, >, <=, ==, !=)
 
@@ -324,6 +684,41 @@ Ex)
 
 
 
+#### 예제 CompareOperatorExample1.java(비교 연산자)
+
+```java
+public class CompareOperatorExample1 {
+    public static void main(String[] args) {
+        //p.88 비교 연산자
+        int num1 = 10;
+        int num2 = 10;
+        boolean result1 = (num1 == num2);
+        boolean result2 = (num1 != num2);
+        boolean result3 = (num1 <= num2);
+
+        System.out.println("result1 = " + result1);
+        System.out.println("result2 = " + result2);
+        System.out.println("result3 = " + result3);
+
+        char char1 = 'A';
+        char char2 = 'B';
+        boolean result4 = (char1 < char2);
+        System.out.println("result4 = " + result4);
+    }
+}
+```
+
+#### 결과
+
+```java
+result1 = true
+result2 = false
+result3 = true
+result4 = true
+```
+
+
+
 - 비교 연산자도 연산을 수행하기전 타입 변환을 통해 피연사자의 타입을 일치시킨다.
 
   Ex)
@@ -333,6 +728,38 @@ Ex)
   > 마찬가지로 3 == 3.0일 경우 3을 double 타입으로 변환하여 3.0 == 3.0 으로 비교한다.
   >
   > 한가지 예외가 있는데 0.1 == 0.1f는 0.1f는 0.1의 근사값으로 표현되기 때문이다.
+
+
+
+#### 예제 CompareOperatorExample2.java(비교 연산자)
+
+```java
+public class CompareOperatorExample2 {
+    public static void main(String[] args) {
+        //p.89 비교 연산자 
+        int v2 = 1;
+        double v3 = 1.0;
+        System.out.println(v2 == v3);       //true
+
+        double v4 = 0.1;
+        float v5 = 0.1f;
+        System.out.println(v4 == v5); 
+        //false v5의 0.1f는 0.1의 근사값(0.10000000149011612)이기 때문이다.
+        
+        System.out.println((float)v4 == v5);            //true
+        System.out.println((int)v4*10 == (int)v5*10);   //true
+    }
+}
+```
+
+#### 결과
+
+```java
+true
+false
+true
+true
+```
 
 
 
@@ -380,6 +807,37 @@ Ex)
 
 
 
+#### 예제 StringEqualsExample.java(문자열 비교)
+
+```java
+public class StringEqualsExample {
+    public static void main(String[] args) {
+        //p.91 문자열 비교
+        String strVar1 = "신민철";
+        String strVar2 = "신민철";
+        String strVar3 = new String("신민철");
+
+        System.out.println(strVar1 == strVar2);         //true
+        System.out.println(strVar2 == strVar3);         //false
+        System.out.println();
+        System.out.println(strVar1.equals(strVar3));    //true
+        System.out.println(strVar2.equals(strVar3));    //true
+    }
+}
+```
+
+#### 결과
+
+```
+true
+false
+
+true
+true
+```
+
+
+
 ## 4. 논리 연산자(&&, ||, &, |, ^, !)
 
 #### 논리곱(&&), 논리합(||), 배타적 논리(^), 논리 부정(!) 연산을 수행한다.
@@ -402,6 +860,54 @@ Ex)
 |                   | flase |        | flase | flase |                                                 |
 | NOT(논리부정)     |       | !      | true  | flase | 피연산자의 논리값을 바꿈                        |
 |                   |       |        | flase | true  |                                                 |
+
+
+
+#### 예제 LogicalOperatorExample.java(논리 연산자)
+
+```java
+public class LogicalOperatorExample {
+    public static void main(String[] args) {
+        //p.93 논리 연산자
+
+        int charCode = '9';
+        System.out.println(charCode);
+
+        if((charCode>=65)&(charCode<=90)){
+            System.out.println("대문자 이군요");
+        }
+
+        if((charCode>=97)&&(charCode<=122)){
+            System.out.println("소문자 이군요");
+        }
+
+        if(!(charCode<48)&&!(charCode>57)){                 //'!'는 피연산자의 논리값을 바꾼다.(< → >=, > → <=로 바꿈)
+            System.out.println("0~9 숫자 이군요");
+        }
+
+        int value = 6;
+
+        if((value%2 == 0)||(value%3 == 1)){
+            System.out.println("2또는 3의 배수 이군요");
+        }
+
+        if((value%2 == 0)||(value%3 == 0)){
+            System.out.println("2또는 3의 배수 이군요");
+        }
+   }
+}
+```
+
+#### 결과
+
+```java
+57
+0~9 숫자 이군요
+2또는 3의 배수 이군요
+2또는 3의 배수 이군요
+```
+
+
 
 ## 5. 비트 연산자(&, |, ^, ~, <<, >>, >>>) 
 
@@ -511,6 +1017,39 @@ Ex) 우측 이동 연산자(>>>)를 사용하여 정수 -8을 3비트만큼 오�
 
 
 
+#### 예제 AssignmentOperatorExample.java(대입 연산자)
+
+```java
+public class AssignmentOperatorExample {
+    public static void main(String[] args) {
+        //p.100 대입 연산자
+        int result = 0;
+        result += 10;
+        System.out.println("result = " + result);
+        result -= 5;
+        System.out.println("result = " + result);
+        result *= 3;
+        System.out.println("result = " + result);
+        result /= 5;
+        System.out.println("result = " + result);
+        result %= 3;
+        System.out.println("result = " + result);
+    }
+}
+```
+
+#### 결과
+
+```java
+result = 10
+result = 5
+result = 15
+result = 3
+result = 0
+```
+
+
+
 ## 삼항 연산자
 
 ### 삼항 연산자(?:)는 세 개의 피연산자를 필요로 하는 연산자를 말한다.
@@ -520,6 +1059,29 @@ Ex) 우측 이동 연산자(>>>)를 사용하여 정수 -8을 3비트만큼 오�
 - ### 삼항 연산자 사용방법
 
 ![image-20200413032954372](https://github.com/supreme9122/TIL/blob/master/img/image-20200413032954372.png)
+
+
+
+#### 예제 ConditionalOperationExample.java(삼항 연산자)
+
+```java
+public class ConditionalOperationExample {
+    public static void main(String[] args) {
+        //p.101 삼항 연산자
+        int score = 85;
+        char grade = (score > 90 ? 'A' : 'B');
+        System.out.println(score+"점은 "+grade+"등급입니다.");
+    }
+}
+```
+
+#### 결과
+
+```java
+85점은 B등급입니다.
+```
+
+
 
 
 
