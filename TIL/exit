@@ -1,0 +1,2573 @@
+[33mcommit 5c9c4efca291aea64e2d9110b0b26cbcb7bc0251[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Wed Apr 8 21:02:42 2020 +0900
+
+    기능 : 출력
+    문제번호 10171
+
+[1mdiff --git a/BaekJoonAlgorithm/Cat.java b/BaekJoonAlgorithm/Cat.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..7287934[m
+[1m--- /dev/null[m
+[1m+++ b/BaekJoonAlgorithm/Cat.java[m
+[36m@@ -0,0 +1,27 @@[m
+[32m+[m
+[32m+[m[32mpublic class Cat {[m
+[32m+[m[32m    public static void main(String[] args) {[m
+[32m+[m[41m        [m
+[32m+[m[32m        System.out.println("\\    /\\"+"\n"+" )  ( ')"+"\n"+"(  /  )"+"\n"+" \\(__)|");[m
+[32m+[m[41m        [m
+[32m+[m[32m     /* tab                      \t[m
+[32m+[m[41m        [m
+[32m+[m[32m        backspace                \b[m
+[32m+[m[41m        [m
+[32m+[m[32m        form feed                \f[m
+[32m+[m[41m        [m
+[32m+[m[32m        new line                 \n[m
+[32m+[m[41m        [m
+[32m+[m[32m        carriage return          \r[m
+[32m+[m[41m        [m
+[32m+[m[32m        역슬래쉬(\)               \\[m[41m [m
+[32m+[m[41m        [m
+[32m+[m[32m        작은따옴표                 \'[m[41m [m
+[32m+[m[41m        [m
+[32m+[m[32m        큰따옴표                   \"[m[41m [m
+[32m+[m[41m        [m
+[32m+[m[32m        유니코드(16진수)문자        \ u 유니코드(ex : a = '\u0041') */[m
+[32m+[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+[1mdiff --git a/BaekJoonAlgorithm/Dog.java b/BaekJoonAlgorithm/Dog.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..6337472[m
+[1m--- /dev/null[m
+[1m+++ b/BaekJoonAlgorithm/Dog.java[m
+[36m@@ -0,0 +1,7 @@[m
+[32m+[m
+[32m+[m[32mpublic class Dog {[m
+[32m+[m[32m    public static void main(String[] args) {[m
+[32m+[m[32m        System.out.println("|\\_/|\n|q p|   /}\n( 0 )\"\"\"\\\n|\"^\"`    |\n||_/=\\\\__|");[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+
+[33mcommit b8fdc5e386d0d82e096d9af9e2ef6337f6bb6894[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Wed Apr 8 21:02:09 2020 +0900
+
+    기능 : 출력
+    문제번호 2557
+
+[1mdiff --git a/BaekJoonAlgorithm/WeLoveKriii.java b/BaekJoonAlgorithm/WeLoveKriii.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e54f2ce[m
+[1m--- /dev/null[m
+[1m+++ b/BaekJoonAlgorithm/WeLoveKriii.java[m
+[36m@@ -0,0 +1,6 @@[m
+[32m+[m[32mpublic class WeLoveKriii {[m
+[32m+[m[32m    public static void main(String[] args) {[m
+[32m+[m[32m        System.out.println("강한친구 대한육군");[m
+[32m+[m[32m        System.out.println("강한친구 대한육군");[m
+[32m+[m[32m    }[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+
+[33mcommit dede2e069cd89ecd7a22c0d6729bdd62a5e22ae4[m[33m ([m[1;31mJTIL/master[m[33m)[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Wed Apr 8 02:40:11 2020 +0900
+
+    문서 : 200407_TIL
+
+[1mdiff --git a/TIL/200407_JTIL.md b/TIL/200407_JTIL.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..1164c17[m
+[1m--- /dev/null[m
+[1m+++ b/TIL/200407_JTIL.md[m
+[36m@@ -0,0 +1,18 @@[m
+[32m+[m[32m### To Do List[m
+[32m+[m
+[32m+[m[32m- [x] Java 기초 공부 및 정리(변수 마무리)[m
+[32m+[m[32m- [x] 취업 활동[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m### 느낀점[m
+[32m+[m
+[32m+[m[32m1. 오늘 변수파트에서 타입 변환에 대해 공부하면서 작년 팀 프로젝트 할때 강제 형 변환을 했던 적이 있는데 원인 이유도 모르고 그냥 했던 기억이 났다.[m
+[32m+[m[32m2. 내일은 알고리즘 문제를 조금씩 풀어봐야겠다.[m
+[32m+[m
+[32m+[m[32m### 내일 할 일[m
+[32m+[m
+[32m+[m[32m- [ ] github repositoies에 커밋을 하게 되면 이름순으로 내림차순 정렬이 되는데 commit하는 순서대로 정렬 하는 방법에 대해서 알아보자.[m
+[32m+[m[32m- [ ] Java 기초 공부 및 정리(연산자)[m
+[32m+[m[32m  - p.79 이항연사자 목표[m
+[32m+[m[32m- [ ] 백준 알고리즘 문제 풀기[m
+
+[33mcommit a4bd90769e73bd3ec122169a9caaab1a845010ad[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Wed Apr 8 02:24:55 2020 +0900
+
+    추가 : Variable.md 내용 추가
+    타입 변환(자동 타입 변환, 강제 타입 변환), 연산신에서의 자동 타입변환
+
+[1mdiff --git a/Study/java/Variable/Variable.md b/Study/java/Variable/Variable.md[m
+[1mindex 04a2802..fd89464 100644[m
+[1m--- a/Study/java/Variable/Variable.md[m
+[1m+++ b/Study/java/Variable/Variable.md[m
+[36m@@ -59,10 +59,60 @@[m
+ [m
+ # 데이터 타입[m
+ [m
+[31m-Project 폴더 내 Variable.java 내용 정리함.[m
+[32m+[m[32mProject 폴더 내 Variable.java 내용 정리함[m
+[32m+[m
+[32m+[m[32m이것이 자바다 예제 풀이[m
+ [m
+ > 각 데이터 타입별 Java 소스코드 참조.[m
+ [m
+ [m
+ [m
+[31m-참고 문서 : 이것이 자바다.(~ p.49)[m
+\ No newline at end of file[m
+[32m+[m[32m# 타입 변환[m
+[32m+[m
+[32m+[m[32mbyte  → int 또는 int → byte로 변환하는것.[m
+[32m+[m
+[32m+[m[32m자동 타입변환과 강제 타입변환이 존재함.[m
+[32m+[m
+[32m+[m[32m- #### 자동 타입 변환[m
+[32m+[m
+[32m+[m[32m  > 작은 크기 타입이 큰 크기를 가지는 타입에 저장될때 발생[m
+[32m+[m[32m  >[m
+[32m+[m[32m  > 예를 들어 byte타입은 1byte타입, int는 4byte 타입이다.[m
+[32m+[m[32m  >[m
+[32m+[m[32m  > `byte(1) < short(2) < int(4) < long(8) < float(4) < double(8)`[m
+[32m+[m[32m  >[m
+[32m+[m[32m  > *** float은 4byte크기 이지만 표현할 수 있는 값의 범위가 더 크기 때문에 위와 같이 표현**[m
+[32m+[m[32m  >[m
+[32m+[m[32m  > 정수 타입이 실수 타입으로 변환하는 것은 무조건 자동타입 변환된다.[m
+[32m+[m
+[32m+[m[41m  [m
+[32m+[m
+[32m+[m[32m- #### 강제 타입 변환 (캐스팅 : Casting)[m
+[32m+[m
+[32m+[m[32m  > 자동 타입 변환이 불가능할 때 데이터 타입을 쪼개어서 저장하는것.[m
+[32m+[m[32m  >[m
+[32m+[m[32m  > 따라서 하위 타입으로 강제 타입 변환 할경우 하위 타입의 범위안에 속해야한다.[m
+[32m+[m[32m  >[m
+[32m+[m[32m  > 캐스팅 연산자 ()를 사용한다.[m
+[32m+[m[32m  >[m
+[32m+[m[32m  > - 주의 사항[m
+[32m+[m[32m  >   1. 입력 받은 값을 변환할 때 값의 손실이 발생하면 안되기 때문에 강제 타입 변환 하기전 검사하는 것이 좋다.[m
+[32m+[m[32m  >   2. 정수 타입을 실수 타입으로 변환할 때 정밀도 손실을 피해야 한다.[m
+[32m+[m[32m  >      - p. 55에 예제(FromIntToFloat.java)를 참고 할것.[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m# 연산식에서의 자동 타입 변환[m
+[32m+[m
+[32m+[m[32m기본적인 연산은 동일한 타입에서 연산을 수행하기 때문에 두 연산자 중 크기가 큰 타입으로 자동 변환된다.[m
+[32m+[m
+[32m+[m[32m자바는 정수 연산일 경우 int타입을 기본으로 한다.[m
+[32m+[m
+[32m+[m[32mp.59 예제(OperationPromotionExample.java)를 참고 하여 이해 하면 좋음.[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m참고 문서 : 이것이 자바다.(p. 30 ~ p.59)[m
+[41m+[m
+
+[33mcommit cc86ae1c1aec2bc70cecea9b555401a5de0c37d4[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Wed Apr 8 02:20:40 2020 +0900
+
+    공부 : 연산식에서 자동타입변환 예제
+
+[1mdiff --git a/Study/java/Variable/OperationsPromotionExample.java b/Study/java/Variable/OperationsPromotionExample.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..bf29ec1[m
+[1m--- /dev/null[m
+[1m+++ b/Study/java/Variable/OperationsPromotionExample.java[m
+[36m@@ -0,0 +1,24 @@[m
+[32m+[m
+[32m+[m[32mpublic class OperationsPromotionExample {[m
+[32m+[m[32m    public static void main(String[] args) {[m
+[32m+[m[32m        byte byteValue1 = 10;[m
+[32m+[m[32m        byte byteValue2 = 20;[m
+[32m+[m[32m        //byte byteValue3 = byteValue1 + byteValue2;    //컴파일 에러 : 자바의 정수 연산일 경우 int타입을 기본으로 한다.[m
+[32m+[m[32m        int intValue = byteValue1 + byteValue2;[m
+[32m+[m[32m        System.out.println(intValue);[m
+[32m+[m
+[32m+[m[32m        char charValue1 = 'A';[m
+[32m+[m[32m        char charValue2 = 1;[m
+[32m+[m[32m        //char charValue3 = charValue1 + charValue2;    //컴파일 에러 : 위 사유와 동일[m
+[32m+[m[32m        int intValue2 = charValue1 + charValue2;[m
+[32m+[m[32m        System.out.println("유니코드 : " + intValue2);[m
+[32m+[m[32m        System.out.println("출력문자 : " + (char)intValue2);[m
+[32m+[m
+[32m+[m[32m        int intValue5 = 10;[m
+[32m+[m[32m        //int intValue6 = 10 / 4.0;    //컴파일 에러 : 4.0은 실수 이기때문에 강제 타입 변환를 해야함.[m
+[32m+[m[32m        double doubleValue = intValue5 / 4.0;[m
+[32m+[m[32m        System.out.println(doubleValue);[m
+[32m+[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+
+[33mcommit d586ee880978120a6db1fc1399320c8d2a39b538[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Tue Apr 7 21:53:58 2020 +0900
+
+    공부 : 정수 타입을 실수타입로 변환(정밀도 손실 회피)
+
+[1mdiff --git a/Study/java/Variable/FromInToDouble.java b/Study/java/Variable/FromInToDouble.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..6e0608c[m
+[1m--- /dev/null[m
+[1m+++ b/Study/java/Variable/FromInToDouble.java[m
+[36m@@ -0,0 +1,19 @@[m
+[32m+[m
+[32m+[m[32mpublic class FromInToDouble {[m
+[32m+[m[32m    public static void main(String[] args) {[m
+[32m+[m[41m        [m
+[32m+[m[32m        int num1 = 123456780;[m
+[32m+[m[32m        int num2 = 123456780;[m
+[32m+[m
+[32m+[m[32m        double num3 = num2;[m
+[32m+[m[32m        num2 = (int)num3;[m
+[32m+[m
+[32m+[m[32m        int result = num1 - num2;[m
+[32m+[m[32m        System.out.println(result);[m
+[32m+[m
+[32m+[m[32m        // 앞선 예제 float타입으로 정밀도 손실이 발생 했으나[m
+[32m+[m[32m        // double타입을 사용하니 정밀도 손실을 피할 수 있었다.[m
+[32m+[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+
+[33mcommit 6a61e82dac14030ac76427fac492f697c510431c[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Tue Apr 7 21:51:23 2020 +0900
+
+    공부 : 정수를 실수로 변환 예제(정밀도 손실)
+
+[1mdiff --git a/Study/java/Variable/FromIntToFloat.java b/Study/java/Variable/FromIntToFloat.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c8982e6[m
+[1m--- /dev/null[m
+[1m+++ b/Study/java/Variable/FromIntToFloat.java[m
+[36m@@ -0,0 +1,28 @@[m
+[32m+[m
+[32m+[m[32mpublic class FromIntToFloat {[m
+[32m+[m[32m    public static void main(String[] args) {[m
+[32m+[m[32m        // num1과 num2에 123456780을 저장시키고 num2를 float타입으로 변환시킨 후,[m
+[32m+[m[32m        // 다시 int타입으로 변환해서 num2에 저장하고 num1에서 num2를 빼면?[m
+[32m+[m
+[32m+[m[32m        int num1 = 123456780;[m
+[32m+[m[32m        int num2 = 123456780;[m
+[32m+[m
+[32m+[m[32m        float num3 = num2;[m
+[32m+[m[32m        num2 = (int)num3;[m
+[32m+[m
+[32m+[m[32m        int result = num1 - num2;[m
+[32m+[m[32m        System.out.println(result);[m
+[32m+[m
+[32m+[m[32m        // 값이 0이 나올것으로 예상했지만 -4가 출력된다.[m
+[32m+[m[32m        // float타입은 다음과 같은 비트 수가 할당 되어 있다.[m
+[32m+[m[32m        // float : 부호(1비트) + 지수(11비트) + 가수(23비트)[m
+[32m+[m[32m        // num2의 값 123456780은 23비트로 표현 할 수 없기 때문에 근사치로 값이 나온다.[m
+[32m+[m[32m        // 따라서 11라인에 자동 타입 변환 할 때 num3의 값은 근사치 값으로 num2에는 근사치 값이 저장된다.[m
+[32m+[m[32m        // 해결책으로 double 타입을 사용하면 된다.[m
+[32m+[m[32m        // double타입은 다음과 같은 비트 수가 할당 되어 있다.[m
+[32m+[m[32m        // double : 부호(1비트) + 지수(11비트) + 가수(52비트)[m
+[32m+[m[32m        // int의 크기는 32bit이므로 double의 가수52비트 보다 작기 때문에 어떠한 int값이라도 안전하게 정밀도 손실을 피할 수 있다.[m
+[32m+[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+
+[33mcommit 4d3e4f0e80304abfe226e6dd24f5921c76852cf2[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Tue Apr 7 21:37:41 2020 +0900
+
+    공부 : 데이터 손실 확인 예제
+
+[1mdiff --git a/Study/java/Variable/CheckValueBeforeCasting.java b/Study/java/Variable/CheckValueBeforeCasting.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ad80cd5[m
+[1m--- /dev/null[m
+[1m+++ b/Study/java/Variable/CheckValueBeforeCasting.java[m
+[36m@@ -0,0 +1,17 @@[m
+[32m+[m
+[32m+[m[32mpublic class CheckValueBeforeCasting {[m
+[32m+[m[32m    public static void main(String[] args) {[m
+[32m+[m[41m        [m
+[32m+[m[32m        int i = 128;[m
+[32m+[m
+[32m+[m[32m        if(i<Byte.MIN_VALUE || i>Byte.MAX_VALUE){[m
+[32m+[m[32m            System.out.println("byte 타입으로 변환할 수 없습니다.");[m
+[32m+[m[32m            System.out.println("값을 다시 확인해 주세요");[m
+[32m+[m[32m        }else{[m
+[32m+[m[32m            byte b = (byte)i;[m
+[32m+[m[32m            System.out.println(b);[m
+[32m+[m[32m        }[m
+[32m+[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+
+[33mcommit 79927f09f75d69d333300fbfb564f52e9d98d2fb[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Tue Apr 7 21:31:57 2020 +0900
+
+    공부 : 강제타입변환 예제
+
+[1mdiff --git a/Study/java/Variable/CastingExample.java b/Study/java/Variable/CastingExample.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e4c3485[m
+[1m--- /dev/null[m
+[1m+++ b/Study/java/Variable/CastingExample.java[m
+[36m@@ -0,0 +1,20 @@[m
+[32m+[m
+[32m+[m[32mpublic class CastingExample {[m
+[32m+[m[32m    public static void main(String[] args) {[m
+[32m+[m[32m        // p.54[m
+[32m+[m[41m        [m
+[32m+[m[32m        int intValue = 44032;[m
+[32m+[m[32m        char charValue = (char)intValue;[m
+[32m+[m[32m        System.out.println(charValue);[m
+[32m+[m
+[32m+[m[32m        long longValue = 500;[m
+[32m+[m[32m        intValue = (int)longValue;[m
+[32m+[m[32m        System.out.println(intValue);[m
+[32m+[m
+[32m+[m[32m        double doubleValue = 3.14;[m
+[32m+[m[32m        intValue = (int)doubleValue;[m
+[32m+[m[32m        System.out.println(intValue);[m
+[32m+[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+
+[33mcommit 8836a83999db795e64ea2bd174dcf30c333428c9[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Tue Apr 7 21:22:28 2020 +0900
+
+    공부 : 자동형변환 예제
+
+[1mdiff --git a/Study/java/Variable/PromotionExmaple.java b/Study/java/Variable/PromotionExmaple.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3aa8fb4[m
+[1m--- /dev/null[m
+[1m+++ b/Study/java/Variable/PromotionExmaple.java[m
+[36m@@ -0,0 +1,39 @@[m
+[32m+[m
+[32m+[m[32mpublic class PromotionExmaple {[m
+[32m+[m[32m    public static void main(String[] args) {[m
+[32m+[m[32m        // 이것이 자바다. p.51[m
+[32m+[m[41m        [m
+[32m+[m[32m        // int intValue = 200;[m
+[32m+[m[32m        // double doubleValue = intValue;   // 200.0[m
+[32m+[m[41m        [m
+[32m+[m[32m        // char charValue = 'A';[m
+[32m+[m[32m        // int intValue = charValue;           // 65[m
+[32m+[m
+[32m+[m[32m        // 자동타입 변환에서 단 하나의 예외[m
+[32m+[m[32m        // char는 2byte 크기를 가지지만, char의 범위는 음수가 없기 때문에 byte타입을 char타입으로 변환 시킬 수 없다.[m
+[32m+[m
+[32m+[m[32m        // byte byteValue = 65;[m
+[32m+[m[32m        // char charValue = byteValue       // 컴파일 에러[m
+[32m+[m
+[32m+[m[32m        byte byteValue = 10;[m
+[32m+[m[32m        int intValue = byteValue;           // byte → int[m[41m [m
+[32m+[m[32m        System.out.println(intValue);[m
+[32m+[m
+[32m+[m[32m        char charValue = '가';[m
+[32m+[m[32m        intValue = charValue;               // char → int[m
+[32m+[m[32m        System.out.println("가의 유니코드 : " + intValue);[m
+[32m+[m
+[32m+[m[32m        intValue = 500;[m
+[32m+[m[32m        long longValue = intValue;          // int → long[m
+[32m+[m[32m        System.out.println(longValue);[m
+[32m+[m
+[32m+[m[32m        intValue = 200;[m
+[32m+[m[32m        double doubleValue = intValue;      // int → double[m
+[32m+[m[32m        System.out.println(doubleValue);[m
+[32m+[m
+[32m+[m[32m        // short shortValue = 65;[m
+[32m+[m[32m        // charValue = shortValue;          // 위 설명과 마찬가지로 short도 자동형 변환이 안된다.[m
+[32m+[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+
+[33mcommit 63b421a7686ebc2c3ad08cb29bd60cdd1c1ba0fe[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Tue Apr 7 20:54:20 2020 +0900
+
+    공부 : Boolean 예제
+
+[1mdiff --git a/Study/java/Variable/BooleanExample.java b/Study/java/Variable/BooleanExample.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..cdc6b74[m
+[1m--- /dev/null[m
+[1m+++ b/Study/java/Variable/BooleanExample.java[m
+[36m@@ -0,0 +1,14 @@[m
+[32m+[m
+[32m+[m[32mpublic class BooleanExample {[m
+[32m+[m[32m    public static void main(String[] args) {[m
+[32m+[m[32m        // boolean 타입은 1byte로 표현되는 논리값(true/false)을 저장[m
+[32m+[m[41m        [m
+[32m+[m[32m        boolean stop = true;[m
+[32m+[m[32m        if(stop){[m
+[32m+[m[32m            System.out.println("중지합니다.");[m
+[32m+[m[32m        }else{[m
+[32m+[m[32m            System.out.println("시작합니다.");[m
+[32m+[m[32m        }[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+
+[33mcommit d1b13d90304a65ca6714bb84fc3f3df2c718c423[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Tue Apr 7 20:53:45 2020 +0900
+
+    공부 : FloatDouble타입 예제
+
+[1mdiff --git a/Study/java/Variable/FloatDoubleExample.java b/Study/java/Variable/FloatDoubleExample.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..00c3a40[m
+[1m--- /dev/null[m
+[1m+++ b/Study/java/Variable/FloatDoubleExample.java[m
+[36m@@ -0,0 +1,38 @@[m
+[32m+[m
+[32m+[m[32mpublic class FloatDoubleExample {[m
+[32m+[m[32m    public static void main(String[] args) {[m
+[32m+[m[32m        // 실수 타입(float, double)은 소수점이 있는 실수 데이터 저장[m
+[32m+[m[32m        // float = 4byte =, double = 8byte[m
+[32m+[m[32m        // double은 float보다 약 두 배의 자릿수가 배정되어 높은 정밀도를 요구하는 계산에서 사용[m
+[32m+[m[32m        // JAVA는 실수 리터럴의 기본 값을 double로 간주하기 때문에 실수 리터럴을 float에 저장하려면 리터럴뒤에 'f', 'F'를 입력해야한다.[m
+[32m+[m[41m        [m
+[32m+[m[32m        //실수값 저장[m
+[32m+[m[32m        double var1 = 3.14;[m
+[32m+[m[32m        //float var2 = 3.14; //컴파일 에러 : float타입을 사용하는데 리터럴 뒤에 'F'를 붙이지 않았기 때문[m
+[32m+[m[32m        float var3 = 3.14F;[m
+[32m+[m
+[32m+[m[32m        //정밀도 테스트[m
+[32m+[m[32m        double var4 = 0.1234567890123456789;[m
+[32m+[m[32m        float var5 = 0.1234567890123456789F;[m
+[32m+[m
+[32m+[m[32m        System.out.println("var1 : " + var1);[m
+[32m+[m[32m        System.out.println("var3 : " + var3);[m
+[32m+[m[32m        System.out.println("var4 : " + var4);[m
+[32m+[m[32m        System.out.println("var5 : " + var5);[m
+[32m+[m
+[32m+[m[32m        //e 사용하기[m
+[32m+[m[32m        int var6 = 3000000;[m
+[32m+[m[32m        double var7 = 3e6;[m
+[32m+[m[32m        float var8 = 3e6F;[m
+[32m+[m[32m        double var9 = 2e-3;[m
+[32m+[m[32m        double var10 = 2e4;[m
+[32m+[m
+[32m+[m[32m        System.out.println("var6 : " + var6);[m
+[32m+[m[32m        System.out.println("var7 : " + var7);[m
+[32m+[m[32m        System.out.println("var8 : " + var8);[m
+[32m+[m[32m        System.out.println("var9 : " + var9);[m
+[32m+[m[32m        System.out.println("var10 : " + var10);[m
+[32m+[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+
+[33mcommit 274b17941ac44ba29c0cbed4918a72f1ece853f4[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Tue Apr 7 20:52:14 2020 +0900
+
+    공부 : Long타입 예제
+
+[1mdiff --git a/Study/java/Variable/LongExample.java b/Study/java/Variable/LongExample.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..9853a34[m
+[1m--- /dev/null[m
+[1m+++ b/Study/java/Variable/LongExample.java[m
+[36m@@ -0,0 +1,19 @@[m
+[32m+[m
+[32m+[m[32mpublic class LongExample {[m
+[32m+[m[32m    public static void main(String[] args) {[m
+[32m+[m[32m        // long타입은 8byte로 표현되는 정수값을 저장[m
+[32m+[m[32m        // 8byte = 64bit = 18,446,744,073,709,551,616개 = -9,223,372,036,854,775,808 ~ 9,223,372,036,854,775,808[m
+[32m+[m[32m        // long타입 변수를 초기화 할때는 정수값 뒤에 'l', 'L'을 붙여 8byte 정수 데이터임을 알려주는것.[m
+[32m+[m
+[32m+[m[32m        long var1 = 10;[m
+[32m+[m[32m        long var2 = 20L;[m
+[32m+[m[32m        // long var3 = 1000000000000;       //컴파일 에러 : int범위를 초과 하였으나 'L'을 붙이지 않았기 때문[m
+[32m+[m[32m        long var4 = 1000000000000L;[m
+[32m+[m
+[32m+[m[32m        System.out.println(var1);[m
+[32m+[m[32m        System.out.println(var2);[m
+[32m+[m[32m        System.out.println(var4);[m
+[32m+[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+
+[33mcommit 5a0d53da4cede0c60a3aaf5291fa102ae4456320[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Tue Apr 7 20:50:50 2020 +0900
+
+    공부 : int타입 예제
+
+[1mdiff --git a/Study/java/Variable/IntExample.java b/Study/java/Variable/IntExample.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..2b39b6c[m
+[1m--- /dev/null[m
+[1m+++ b/Study/java/Variable/IntExample.java[m
+[36m@@ -0,0 +1,19 @@[m
+[32m+[m
+[32m+[m[32mpublic class IntExample {[m
+[32m+[m[32m    public static void main(String[] args) {[m
+[32m+[m[32m        // int 타입은 4byte로 표현되는 정수값을 저장[m
+[32m+[m[32m        // 4byte = 32bit = 4,294,967,296개 = -2,147,483,648 ~ 2,147,483,647[m
+[32m+[m[32m        // int 타입은 정수 연산을 위한 기본 타입이기 때문에 byte, short 타입으로 연산하면 int타입으로 자동 변환된다.[m
+[32m+[m[41m        [m
+[32m+[m[32m        int var1 = 10;[m
+[32m+[m[32m        int var2 = 012;[m
+[32m+[m[32m        int var3 = 0xA;[m
+[32m+[m
+[32m+[m[32m        System.out.println(var1);[m
+[32m+[m[32m        System.out.println(var2);[m
+[32m+[m[32m        System.out.println(var3);[m
+[32m+[m
+[32m+[m[32m        // 결과값은 모두 10으로 동일하다.[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+
+[33mcommit e52d9c9efd1d7e1499b24778b9a175494a7af626[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Tue Apr 7 03:51:24 2020 +0900
+
+    문서 : 200406_TIL
+
+[1mdiff --git a/TIL/200406_JTIL.md b/TIL/200406_JTIL.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..b50a4f2[m
+[1m--- /dev/null[m
+[1m+++ b/TIL/200406_JTIL.md[m
+[36m@@ -0,0 +1,17 @@[m
+[32m+[m[32m### To Do List[m
+[32m+[m
+[32m+[m[32m- [x] Java 기초 공부 및 정리[m
+[32m+[m[32m- [x] 취업 활동[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m### 느낀점[m
+[32m+[m
+[32m+[m[32m1. 변수(Variable)에 대하여 다시한번 복습겸 정리를 했다. 이것이 자바다(p. ~44)[m
+[32m+[m[32m2. 시간이 좀 걸리더라도 천천히 이해하며 정리해가는게 추후에 도움이 많이 될것이다.[m
+[32m+[m[32m3. 리뷰의 시간을 갖도록 하자.[m
+[32m+[m
+[32m+[m[32m### 내일 할 일[m
+[32m+[m
+[32m+[m[32m- [ ] Java 기초 공부 및 정리(변수 마무리)[m
+[32m+[m[32m- [ ] 취업 활동[m
+
+[33mcommit 7eb6e748f1807616c804103cb0220772fcab3677[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Tue Apr 7 03:50:47 2020 +0900
+
+    공부 : char 타입 변수 예제
+
+[1mdiff --git a/Study/java/Variable/CharExample.java b/Study/java/Variable/CharExample.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..8b8fe1f[m
+[1m--- /dev/null[m
+[1m+++ b/Study/java/Variable/CharExample.java[m
+[36m@@ -0,0 +1,24 @@[m
+[32m+[m
+[32m+[m[32mpublic class CharExample {[m
+[32m+[m[32m    public static void main(String[] args) {[m
+[32m+[m[32m        char c1 = 'A';          //문자를 직접 저장[m
+[32m+[m[32m        char c2 = 65;           //10진수로 저장[m
+[32m+[m[32m        char c3 = '\u0041';     //16진수로 저장[m
+[32m+[m
+[32m+[m[32m        char c4 = '가';         //문자를 직접 저장[m
+[32m+[m[32m        char c5 = 44032;        //10진수로 저장[m
+[32m+[m[32m        char c6 = '\uac00';     //16진수로 저장[m
+[32m+[m
+[32m+[m[32m        int AUnicode = 'A';     //A 유니코드 얻기[m
+[32m+[m[32m        int KaUnicode = '가';   //가 유니코드 얻기[m
+[32m+[m[41m        [m
+[32m+[m[32m        System.out.println(c1);[m
+[32m+[m[32m        System.out.println(c2);[m
+[32m+[m[32m        System.out.println(c3);[m
+[32m+[m[32m        System.out.println(c4);[m
+[32m+[m[32m        System.out.println(c5);[m
+[32m+[m[32m        System.out.println(c6);[m
+[32m+[m[32m        System.out.println(AUnicode);[m
+[32m+[m[32m        System.out.println(KaUnicode);[m
+[32m+[m[32m    }[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+
+[33mcommit e802b5e294b80fba803f8f1f95ff937319c9735d[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Tue Apr 7 03:50:02 2020 +0900
+
+    공부 : byte타입 저장값을 초과할경우
+
+[1mdiff --git a/Study/java/Variable/GarbageValueExample.java b/Study/java/Variable/GarbageValueExample.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f4b8c5e[m
+[1m--- /dev/null[m
+[1m+++ b/Study/java/Variable/GarbageValueExample.java[m
+[36m@@ -0,0 +1,15 @@[m
+[32m+[m
+[32m+[m[32mpublic class GarbageValueExample {[m
+[32m+[m[32m    public static void main(String[] args) {[m
+[32m+[m[32m        byte var1 = 125;[m
+[32m+[m[32m        int var2 = 125;[m
+[32m+[m
+[32m+[m[32m        // for문 5회 반복실행[m
+[32m+[m[32m        for(int i=0; i<5; i++){[m
+[32m+[m[32m            var1++;[m
+[32m+[m[32m            var2++;[m
+[32m+[m[32m            System.out.println("var1 : " + var1 + " \t " + "var2 : " + var2);[m
+[32m+[m[32m            // byte변수는 127이 넘어가는 순간 -128로 다시 저장됨.[m
+[32m+[m[32m        }[m
+[32m+[m[32m    }[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+
+[33mcommit b00293bc4f86de393c4d2b4c99e678c96c89ef40[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Tue Apr 7 03:48:13 2020 +0900
+
+    공부 : byte타입 예제
+
+[1mdiff --git a/Study/java/Variable/ByteExample.java b/Study/java/Variable/ByteExample.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..5f18bd2[m
+[1m--- /dev/null[m
+[1m+++ b/Study/java/Variable/ByteExample.java[m
+[36m@@ -0,0 +1,21 @@[m
+[32m+[m[32mpublic class ByteExample{[m
+[32m+[m[32m    public static void main(String[] args) {[m
+[32m+[m[32m        //byte 타입은 색상 정보 및 파일 또는 이미지 등의 이진 데이터 처리를 주로한다.[m
+[32m+[m[32m        //1byte = 8bit = 256개 = -128 ~ 127 (양수에서 0이 포함되기 때문에 127까지)[m
+[32m+[m[32m        //위 범위를 초과하는 타입 변수가 저장될때 error 발생.[m
+[32m+[m[41m        [m
+[32m+[m[32m        byte var1 = -128;[m
+[32m+[m[32m        byte var2 = -30;[m
+[32m+[m[32m        byte var3 = 0;[m
+[32m+[m[32m        byte var4 = 30;[m
+[32m+[m[32m        byte var5 = 127;[m
+[32m+[m[32m        //byte var6 = 128; //컴파일 에러[m
+[32m+[m[41m        [m
+[32m+[m[32m        System.out.println(var1);[m
+[32m+[m[32m        System.out.println(var2);[m
+[32m+[m[32m        System.out.println(var3);[m
+[32m+[m[32m        System.out.println(var4);[m
+[32m+[m[32m        System.out.println(var5);[m
+[32m+[m[32m        //System.out.println(var6);[m
+[32m+[m[32m        }[m
+[32m+[m[32m    }[m
+\ No newline at end of file[m
+
+[33mcommit 01b3d1afcdcfc5f00c41ddcf68ed59631acb190d[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Tue Apr 7 03:45:58 2020 +0900
+
+    문서 : Variable.md 위치 변경
+    Java폴더에서 Variable폴더를 새로 추가하면서 해당 문서파일의 위치를 변경함.
+
+[1mdiff --git a/Study/java/Variable/Variable.md b/Study/java/Variable/Variable.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..04a2802[m
+[1m--- /dev/null[m
+[1m+++ b/Study/java/Variable/Variable.md[m
+[36m@@ -0,0 +1,68 @@[m
+[32m+[m[32m# 변수(Variable)[m
+[32m+[m
+[32m+[m[32m#### 하나의 값을 저장할 수 있는 메모리 공간이다.[m
+[32m+[m
+[32m+[m[32m# 변수 선언[m
+[32m+[m
+[32m+[m[32m#### 타입(데이터타입) : int, String, boolean 등[m
+[32m+[m
+[32m+[m[32m#### 변수 : 사용하고자 하는 이름으로 작성[m
+[32m+[m
+[32m+[m[32m* 작성 규칙[m
+[32m+[m[32m  * 첫글자는 문자로 사용 불가[m
+[32m+[m[32m  * 영어 대소문자 구분(필수)[m
+[32m+[m[32m    * Ex) firstname과 firstName은 다른 변수[m
+[32m+[m[32m  * 첫 문자 소문자로 시작하고 다른 단어가 붙을 경우 대문자로(관례)[m
+[32m+[m[32m    * Ex) maxSpeed, firstName, carBodyColor 등[m
+[32m+[m[32m  * 자바 예약어 사용 불가[m
+[32m+[m[32m    * Ex) int, boolean, public, class, new, void, if, true, package 등[m
+[32m+[m
+[32m+[m[32m# 변수의 사용[m
+[32m+[m
+[32m+[m[32m#### 변수를 선언 후 변수값을 저장하는 것은 아래 그림과 같다.[m
+[32m+[m
+[32m+[m[32m![변수의 사용](https://github.com/supreme9122/TIL/blob/master/img/변수의 사용.jpg)[m
+[32m+[m
+[32m+[m[32m#### 초기값은 변수를 선언함과 동시에 주는것도 가능하다.[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m**`리터럴 : 소스 코드 내에서 직접 입력된 값`**[m
+[32m+[m
+[32m+[m[32m**`이스케이프(escape) : 역슬래쉬(\)가 붙은 리터럴`**[m
+[32m+[m
+[32m+[m[32m| 이스케이프 문자 |           용 도            |[m
+[32m+[m[32m| :-------------: | :------------------------: |[m
+[32m+[m[32m|     ' \t '      |          수평 탭           |[m
+[32m+[m[32m|     ' \n '      |          줄 바꿈           |[m
+[32m+[m[32m|     ' \r '      |            리턴            |[m
+[32m+[m[32m|     ' \ " '     |        " (큰따옴표)        |[m
+[32m+[m[32m|    ' \  ' '     |       ' (작은따옴표)       |[m
+[32m+[m[32m|     ' \ \ '     |             \              |[m
+[32m+[m[32m|  ' \u16진수 '   | 16진수에 해당하는 유니코드 |[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m**`문자 리터럴 : 작은따옴표( ' )로 묶은 텍스트(작은따옴표 안에 공간을 줘야 초기화 가능)`**[m
+[32m+[m
+[32m+[m[32m**`문자열 리터럴 : 큰따옴표( " )로 묶은 텍스트(텍스트가 없이 큰따옴표 공간을 주지 않아도 초기화 가능)`**[m
+[32m+[m
+[32m+[m[32m**`논리 리터럴 : true와 false로 구분`**[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m# 변수의 사용범위[m
+[32m+[m
+[32m+[m[32m#### 변수는 선언된 블록 내에서만 사용 가능하다.[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m# 데이터 타입[m
+[32m+[m
+[32m+[m[32mProject 폴더 내 Variable.java 내용 정리함.[m
+[32m+[m
+[32m+[m[32m> 각 데이터 타입별 Java 소스코드 참조.[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m참고 문서 : 이것이 자바다.(~ p.49)[m
+\ No newline at end of file[m
+
+[33mcommit 0f3ba7d7877363147a0595c95973cd1474cca085[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Tue Apr 7 03:43:48 2020 +0900
+
+    문서 : 저장위치변경
+
+[1mdiff --git a/Study/java/Variable.md b/Study/java/Variable.md[m
+[1mdeleted file mode 100644[m
+[1mindex 4fd9c0b..0000000[m
+[1m--- a/Study/java/Variable.md[m
+[1m+++ /dev/null[m
+[36m@@ -1,40 +0,0 @@[m
+[31m-# 변수(Variable)[m
+[31m-[m
+[31m-#### 하나의 값을 저장할 수 있는 메모리 공간이다.[m
+[31m-[m
+[31m-# 변수 선언[m
+[31m-[m
+[31m-#### 타입(데이터타입) : int, String, boolean 등[m
+[31m-[m
+[31m-#### 변수 : 사용하고자 하는 이름으로 작성[m
+[31m-[m
+[31m-* 작성 규칙[m
+[31m-  * 첫글자는 문자로 사용 불가[m
+[31m-  * 영어 대소문자 구분(필수)[m
+[31m-    * Ex) firstname과 firstName은 다른 변수[m
+[31m-  * 첫 문자 소문자로 시작하고 다른 단어가 붙을 경우 대문자로(관례)[m
+[31m-    * Ex) maxSpeed, firstName, carBodyColor 등[m
+[31m-  * 자바 예약어 사용 불가[m
+[31m-    * Ex) int, boolean, public, class, new, void, if, true, package 등[m
+[31m-[m
+[31m-# 변수의 사용[m
+[31m-[m
+[31m-#### 변수를 선언 후 변수값을 저장하는 것은 아래 그림과 같다.[m
+[31m-[m
+[31m-![변수의 사용](https://github.com/supreme9122/TIL/blob/master/img/변수의 사용.jpg)[m
+[31m-[m
+[31m-#### 초기값은 변수를 선언함과 동시에 주는것도 가능하다.[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-# 변수의 사용범위[m
+[31m-[m
+[31m-#### 변수는 선언된 블록 내에서만 사용 가능하다.[m
+[31m-[m
+[31m-# 데이터 타입[m
+[31m-[m
+[31m-Project 폴더 내 Variable.java 내용 정리함.[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-참고 문서 : 이것이 자바다.(~ p.49)[m
+\ No newline at end of file[m
+
+[33mcommit f91b353ac12baca6f2e8481dd0c569bb64d740a8[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Mon Apr 6 03:41:27 2020 +0900
+
+    문서 : 200404_TIL
+
+[1mdiff --git a/TIL/200405_JTIL.md b/TIL/200405_JTIL.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..691c680[m
+[1m--- /dev/null[m
+[1m+++ b/TIL/200405_JTIL.md[m
+[36m@@ -0,0 +1,18 @@[m
+[32m+[m[32m### To Do List[m
+[32m+[m
+[32m+[m[32m- [ ] Java 기초 공부 및 정리[m
+[32m+[m[32m- [ ] 집에 있는 PC에 SQL, Java 등 프로그래밍 관련 프로그램 설치[m
+[32m+[m
+[32m+[m[32m- [x] 4월 중순부터 있을 교육기관 가입 전 과제 제출 내용 작성[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m### 느낀점[m
+[32m+[m
+[32m+[m[32m1. 오늘은 집안에 일이있었고 내일까지 제출해야 하는 과제가 있었어 늦게나마 TIL이라도 작성하자 라는 마음으로 작성 중이다.[m
+[32m+[m[32m2. 내일은 Java 공부에 좀더 집중하도록 해야겠다.[m
+[32m+[m
+[32m+[m[32m### 내일 할 일[m
+[32m+[m
+[32m+[m[32m- [ ] Java 기초 공부 및 정리[m
+[32m+[m[32m- [ ] 취업 활동[m
+
+[33mcommit 36e2ec4f41706992565ec688341ac6232b023e10[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Sun Apr 5 02:11:35 2020 +0900
+
+    문서 : 200404_TIL
+
+[1mdiff --git a/TIL/200404_JTIL.md b/TIL/200404_JTIL.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..5195b66[m
+[1m--- /dev/null[m
+[1m+++ b/TIL/200404_JTIL.md[m
+[36m@@ -0,0 +1,28 @@[m
+[32m+[m[32m### To Do List[m
+[32m+[m
+[32m+[m[32m- [x] Java 기초 공부 및 정리[m
+[32m+[m
+[32m+[m[32m- [ ] 집에 있는 PC에 SQL, Java 등 프로그래밍 관련 프로그램 설치[m
+[32m+[m
+[32m+[m[32m- [x] Restful API 개념 이해하기(유튜브 시청, 개념 정리)[m
+[32m+[m
+[32m+[m[32m- [x] 책 정리(What is Java) 내용중 추가적으로 알아봐야 할 내용[m
+[32m+[m
+[32m+[m[32m  - 3. 함수적 스타일 코딩 지원, 4. 멀티 쓰레드[m
+[32m+[m
+[32m+[m[32m    - 병렬처리, 이벤트 지향 프로그램, 람다식[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m### 느낀점[m
+[32m+[m
+[32m+[m[32m1. Restful API 개념에 대해 알아 보았는데 정확한 개념 이해가 되지 않는다... Get방식 Post방식은 대략적인 내용만 알고 있을 뿐 특징 비교를 했을 때 확실하게 답하지 못할 것 같다. 이 내용은 추후에 다시 다뤄보도록 해야겠다.[m
+[32m+[m[32m2. 함수적 스타일 코딩과 병렬처리에 대해 알아 보았으나 이부분도 잘 이해가 되지 않는게 많았다. 재귀 함수, 스칼라에 대해 공부가 필요 할것으로 사료 된다.[m
+[32m+[m
+[32m+[m[32m### 내일 할 일[m
+[32m+[m
+[32m+[m[32m- [ ] Java 기초 공부 및 정리[m
+[32m+[m
+[32m+[m[32m- [ ] 집에 있는 PC에 SQL, Java 등 프로그래밍 관련 프로그램 설치[m
+[32m+[m
+[32m+[m[32m- [ ] 4월 중순부터 있을 교육기관 가입 전 과제 제출 내용 작성[m
+
+[33mcommit 18afc62e7e2331c0475c38e3aa37771d41cbed9b[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Sun Apr 5 02:02:10 2020 +0900
+
+    문서 : Variable 내용 정리
+
+[1mdiff --git a/Study/java/Variable.md b/Study/java/Variable.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..4fd9c0b[m
+[1m--- /dev/null[m
+[1m+++ b/Study/java/Variable.md[m
+[36m@@ -0,0 +1,40 @@[m
+[32m+[m[32m# 변수(Variable)[m
+[32m+[m
+[32m+[m[32m#### 하나의 값을 저장할 수 있는 메모리 공간이다.[m
+[32m+[m
+[32m+[m[32m# 변수 선언[m
+[32m+[m
+[32m+[m[32m#### 타입(데이터타입) : int, String, boolean 등[m
+[32m+[m
+[32m+[m[32m#### 변수 : 사용하고자 하는 이름으로 작성[m
+[32m+[m
+[32m+[m[32m* 작성 규칙[m
+[32m+[m[32m  * 첫글자는 문자로 사용 불가[m
+[32m+[m[32m  * 영어 대소문자 구분(필수)[m
+[32m+[m[32m    * Ex) firstname과 firstName은 다른 변수[m
+[32m+[m[32m  * 첫 문자 소문자로 시작하고 다른 단어가 붙을 경우 대문자로(관례)[m
+[32m+[m[32m    * Ex) maxSpeed, firstName, carBodyColor 등[m
+[32m+[m[32m  * 자바 예약어 사용 불가[m
+[32m+[m[32m    * Ex) int, boolean, public, class, new, void, if, true, package 등[m
+[32m+[m
+[32m+[m[32m# 변수의 사용[m
+[32m+[m
+[32m+[m[32m#### 변수를 선언 후 변수값을 저장하는 것은 아래 그림과 같다.[m
+[32m+[m
+[32m+[m[32m![변수의 사용](https://github.com/supreme9122/TIL/blob/master/img/변수의 사용.jpg)[m
+[32m+[m
+[32m+[m[32m#### 초기값은 변수를 선언함과 동시에 주는것도 가능하다.[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m# 변수의 사용범위[m
+[32m+[m
+[32m+[m[32m#### 변수는 선언된 블록 내에서만 사용 가능하다.[m
+[32m+[m
+[32m+[m[32m# 데이터 타입[m
+[32m+[m
+[32m+[m[32mProject 폴더 내 Variable.java 내용 정리함.[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m참고 문서 : 이것이 자바다.(~ p.49)[m
+\ No newline at end of file[m
+
+[33mcommit 831ee3ba12ba64ef76a56240c0e32f6e22e0f22e[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Sun Apr 5 01:52:41 2020 +0900
+
+    문서 : 사진 등록
+    Variable 문서 작성중 사진 첨부를 위해 관련 내용 등록
+
+[1mdiff --git a/img/변수의 사용.jpg b/img/변수의 사용.jpg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..01bfefe[m
+Binary files /dev/null and b/img/변수의 사용.jpg differ
+
+[33mcommit 28431841a90c62a98c48ef636295134e62665654[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Sun Apr 5 01:34:05 2020 +0900
+
+    문서 : WhatIsJava 내용 추가
+    함수형 프로그래밍 정리 추가, 병렬처리 개념 정리 추가
+    이해가 잘되지 않는다. 추후 다시 개념 정리가 필요할것 같다.
+
+[1mdiff --git a/Study/java/WhatIsJava.md b/Study/java/WhatIsJava.md[m
+[1mindex 8e8ef58..eabf301 100644[m
+[1m--- a/Study/java/WhatIsJava.md[m
+[1m+++ b/Study/java/WhatIsJava.md[m
+[36m@@ -25,6 +25,34 @@[m
+ [m
+ ​	대용량 데이터의 병렬 처리 이벤트 지향 프로그래밍을 위해 적합하다는데 **병렬처리, 이벤트 지향 프로그램**이 뭔지 모르겠다. 함수적  프로그래밍을 위해 **람다식**을 지원한다는데 람다식은 나중에 다시 다루면서 정리하도록 해야겠다.[m
+ [m
+[32m+[m[32m***함수적 프로그래밍**[m
+[32m+[m
+[32m+[m[32m> 1. 함수형 프로그래밍은 '선언형'이다.[m
+[32m+[m[32m>[m
+[32m+[m[32m> 2. 함수도 '값'이다.[m
+[32m+[m[32m>[m
+[32m+[m[32m>    > Ex) function say_it (given){[m
+[32m+[m[32m>    >[m
+[32m+[m[32m>    > ​	console.log(given);[m
+[32m+[m[32m>    >[m
+[32m+[m[32m>    > }[m
+[32m+[m[32m>[m
+[32m+[m[32m>    > var say_it = function (given) {[m
+[32m+[m[32m>    >[m
+[32m+[m[32m>    > ​	console.log(given);[m
+[32m+[m[32m>    >[m
+[32m+[m[32m>    > }[m
+[32m+[m[32m>[m
+[32m+[m[32m> 3. 고계함수 : 프로그래밍이  동작하는 중에 함수가 만들어지 지는것.[m
+[32m+[m[32m>[m
+[32m+[m[32m> 4. 커링 : 함수형 프로그래밍 기법[m
+[32m+[m[32m>[m
+[32m+[m[32m> 5. 함수 컴비네이터 : 배열이나 리스트 같은 컬렉션에서 자주 사용[m
+[32m+[m
+[32m+[m[32m*** 스칼라 : Javascript와 같은 dynamic type 언어처럼 편하게 사용 가능하게 만듦.**[m
+[32m+[m
+[32m+[m[32m**(스칼라 언어 공부 필요)**[m
+[32m+[m
+ #### 4. 메모리를 자동으로 관리한다.[m
+ [m
+ ​	C언어 같은경우 메모리에 생성된 객체를 제거하기위해 코드 작성을 해야 하지만 Java는 자동적으로 사용하지 않는 객체를 제거 해주기 때문에 다른 코드 작성에 집중 할수 있다. 힙?에 대한 내용이 떠오르는데 추후에 잘 알아보자.[m
+[36m@@ -37,6 +65,12 @@[m
+ [m
+ ​	하나의 프로그램이 동시에 여러 작업을 처리 할 경우 대용량 작업을 신속하게 처리 하기 위해 작업을 분리해서 병렬 처리 하려면 멀티 스레드 프로그래밍이 필요하다. 자바는 스레드 생성 및 제어와 관련된 라이브러리 API를 제공한다.[m
+ [m
+[32m+[m[32m***병렬 처리(Parallel Operation : 하나의 작업을 분할해서 처리하여 작업처리 시간을 줄여줌.**[m
+[32m+[m
+[32m+[m[32m- 동시성(Concurrency)와 병렬성(Parallelism)[m
+[32m+[m[32m  - 동시성 : 멀티 스레드 환경에서 스레드가 번갈아 가며 실행(싱글 코어)[m
+[32m+[m[32m  - 병렬성 : 멀티 스레드 환경에서 여러 코어들이 병렬적으로 실행(멀티 코어)[m
+[32m+[m
+ #### 7. 동적 로딩(Dynamic Loading)을 지원한다.[m
+ [m
+ ​	하나의 프로그램이 실행될때 모든 객체가 생성, 실행되지 않고 객체가 필요한 시점에서 동적 로딩을 한다.[m
+
+[33mcommit 56ea47c79aad758b36cde29eef57405b9021942c[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Sat Apr 4 01:04:40 2020 +0900
+
+    문서 : 200403_TIL
+
+[1mdiff --git a/TIL/200403_JTIL.md b/TIL/200403_JTIL.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..84bd1eb[m
+[1m--- /dev/null[m
+[1m+++ b/TIL/200403_JTIL.md[m
+[36m@@ -0,0 +1,27 @@[m
+[32m+[m[32m### To Do List[m
+[32m+[m
+[32m+[m[32m- [ ] Java 기초 공부 및 정리[m
+[32m+[m
+[32m+[m[32m- [ ] 집에 있는 PC에 SQL, Java 등 프로그래밍 관련 프로그램 설치[m
+[32m+[m
+[32m+[m[32m- [ ] Restful API 개념 이해하기(유튜브 시청, 개념 정리)[m
+[32m+[m
+[32m+[m[32m- [ ] 책 정리(What is Java) 내용중 추가적으로 알아봐야 할 내용[m
+[32m+[m
+[32m+[m[32m  - 3. 함수적 스타일 코딩 지원, 4. 멀티 쓰레드[m
+[32m+[m
+[32m+[m[32m    - 병렬처리, 이벤트 지향 프로그램, 람다식[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m### 느낀점[m
+[32m+[m
+[32m+[m[32m오늘 아침부터 할일이 있어서 To Do List를 하지 못했다.[m
+[32m+[m
+[32m+[m[32mJava책 정리를 하려고 했으나 집중이 잘 되지 않고 Rest API 개념을 이해하기 위해 유튜브 시청을 하였으나 너무 피곤한지 집중이 되지 않는다... 내일도 아침부터 일이 있어서 오늘은 쉬고 내일 하도록 해야겠다.[m
+[32m+[m
+[32m+[m[32mTIL이라도 남기고 잠자리에 들어야겠다.[m
+[32m+[m
+[32m+[m[32m### 내일 할 일[m
+[32m+[m
+[32m+[m[32m오늘 하지 못했던 내용 다시 하기.[m
+\ No newline at end of file[m
+
+[33mcommit b72b8bdab50dd6c9ffc36c5c333e0d8a9884c07e[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Fri Apr 3 03:06:59 2020 +0900
+
+    문서: 삭제
+    새로운 폴더 생성으로 문서 이동 및 삭제함.
+
+[1mdiff --git a/Study/WhatIsGit.md b/Study/WhatIsGit.md[m
+[1mdeleted file mode 100644[m
+[1mindex df2a55c..0000000[m
+[1m--- a/Study/WhatIsGit.md[m
+[1m+++ /dev/null[m
+[36m@@ -1,110 +0,0 @@[m
+[31m-# Git 과 GitHub란?[m
+[31m-[m
+[31m-- 버전관리 툴[m
+[31m-  (버전별 백업관리, 형상관리)[m
+[31m-- 통상 프로젝트를 진행 할 때 수정사항이 발생하면 수정 내용과 날짜 및 버전 정보를 파일명에 표시하고 저장을 해야 할것이다. 이렇게 무자비하게 보관하다보면 용량 부담이 클것이다. 이런 점을 보안하기 위해 만든 것이 Git이다.[m
+[31m-[m
+[31m-# Git과 Github의 차이점[m
+[31m-[m
+[31m-Git은 버전관리 위한 소프트웨어[m
+[31m-Github은 Git으로 Local내 저장돼서 원격전송된 내역들이 저장되는 공간을 제공하는 서비스이다.[m
+[31m-[m
+[31m-ex)[m
+[31m-Git은 영상을 찍는 앱[m
+[31m-Github는 유튜브로 생각하기[m
+[31m-[m
+[31m-#  Git 명령어[m
+[31m-###  $ git init[m
+[31m-[m
+[31m->Windows Terminal 또는 Git Bash에서 이동한 경로 (ex : c:\user\name\GitTest\....)내에 .git이라는 투명한 폴더의 Git의 Local내 저장소를 만들게 된다. 한번 지정하고 나면 그후로 지정할 필요가 없음.[m
+[31m-[m
+[31m-###  $ git status[m
+[31m-[m
+[31m->저장소의 상태를 확인하기 위해 사용 하는 명령어.[m
+[31m->현재 브랜치의 이름과 추가변경된 파일 및 디렉토리 목록을 표시[m
+[31m-[m
+[31m-### $ git add -A [m
+[31m-[m
+[31m->변동이 있는 파일 및 폴더(수정, 추가, 삭제) 전체를 저장소(.git)에 저장[m
+[31m-[m
+[31m-### $ git add name[m
+[31m-[m
+[31m->변동 파일 및 폴더의 name(제목)을 저장소(.git)에 저장[m
+[31m-[m
+[31m-### $ git commit -m "(작업수행내용)"[m
+[31m->수행된 작업을 기록하는것.[m
+[31m->-a옵션 지정시 변경된 파일을 검색하고 인덱스에 추가하는 작업도 동시에 실행[m
+[31m->[m
+[31m->ex) git commit -am "A first commit"[m
+[31m-[m
+[31m-### $ git remote[m
+[31m-[m
+[31m->원격 저장소를 조작하는데 사용[m
+[31m-[m
+[31m-- git remote : 원격 저장소의 이름 목록 표시[m
+[31m-- git remote -v : 원격 저장소에 대한 자세한 목록[m
+[31m-- git remote add [name] [url] : 원격 저장소 추가[m
+[31m-- git remote remove [name] : 원격 저장소를 제거[m
+[31m-[m
+[31m-### $ git push [name][m
+[31m-[m
+[31m->마지막 commit 내용을 원격저장소(GitHub)로 전송한다.[m
+[31m-[m
+[31m-### $ git branch[m
+[31m-[m
+[31m->브랜치에 대한 다양한 작업을 수행하기 위한것.[m
+[31m-- git branch [branch-name] : 브랜치 만들기[m
+[31m-- git branch : 브랜치 목록보기[m
+[31m-- git branch -d [branch-name] : 지정한 브렌치를 삭제[m
+[31m-[m
+[31m-### $ git branch -d 브랜치 이름[m
+[31m-[m
+[31m->브랜치 삭제[m
+[31m-[m
+[31m-### $ git branch -D[m
+[31m-[m
+[31m->병합하지 않은 브랜치 강제 삭제[m
+[31m-[m
+[31m-### $ git checkout[m
+[31m->로컬 저장소의 브랜치를 전활 할때 사용.[m
+[31m-[m
+[31m-### $ git log [m
+[31m->지금까지 해왔던 작업 기록을 확인하는것.[m
+[31m-[m
+[31m-### $ git grep[m
+[31m->저장소의 파일 내용에서 검색하고자 할 때 사용.[m
+[31m-- git grep"검색 단어"[m
+[31m-[m
+[31m-### $ git clone[m
+[31m->기존 원격 저장소를 로컬에 다운로드하기 위하여 사용하는것.[m
+[31m-[m
+[31m-### $ git reset --hard ******(로그 앞 6자리)[m
+[31m->과거 내용을 원상태로 복원하는것.[m
+[31m-[m
+[31m-### $ git merge[m
+[31m->현재 브랜치에 다른 지점에서 변경 사항을 병합할때 사용[m
+[31m-[m
+[31m-### $ git pull[m
+[31m->원격 브랜치의 변경 사항을 캡처하기 위해서 사용[m
+[31m-[m
+[31m-### $ git log -p[m
+[31m-[m
+[31m->지금까지 작업 했던 내역을 출력해줌(자세하게)[m
+[31m-[m
+[31m-### $ git diff[m
+[31m-[m
+[31m->현재 작업중인 변경사항을 보여줌 (commit 전)[m
+[31m-[m
+[31m-### $ git commit -a[m
+[31m-[m
+[31m->git add없이 바로 업로드[m
+[31m-[m
+[31m-### $ git commit -am[m
+[31m-[m
+[31m->git commit -a, git commit -m을 동시에 적용[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-*** git 명령어 관련 좋은 블로그**[m
+[31m-[m
+[31m-[빨간당무 마을](https://redcarrot.tistory.com/227)[m
+\ No newline at end of file[m
+[1mdiff --git a/Study/커밋메시지중요성.md b/Study/커밋메시지중요성.md[m
+[1mdeleted file mode 100644[m
+[1mindex 694a2ae..0000000[m
+[1m--- a/Study/커밋메시지중요성.md[m
+[1m+++ /dev/null[m
+[36m@@ -1,128 +0,0 @@[m
+[31m-# 영문일 경우[m
+[31m-[m
+[31m-### 커밋 메시지 중요성[m
+[31m-[m
+[31m-영어, 한글 번갈아 가면서 커밋 메시지를 작성하고 구분 단위 없이 무작성 커밋만 하다 보니 체계가 필요하다는 생각이 들었다. 처음부터 잘 되지는 않을 것 같지만 최대한 지키고 내 커밋 스타일을 만들도록 노력해야겠다.[m
+[31m-[m
+[31m-### 좋은 git 커밋 메시지를 작성하기 위한 7가지 약속[m
+[31m-[m
+[31m-> 이하 약속은 커밋 메시지를 English로 작성하는 경우에 최적화되어 있습니다. 한글 커밋 메시지를 작성하는 경우에는 더 유연하게 적용하셔도 좋을 것 같네요.[m
+[31m-[m
+[31m-1. 제목과 본문을 한 줄 띄워 분리하기[m
+[31m-2. 제목은 영문 기준 50자 이내로[m
+[31m-3. 제목 첫글자를 대문자로[m
+[31m-4. 제목 끝에 . 금지[m
+[31m-5. 제목은 명령조로[m
+[31m-6. 본문은 영문 기준 72자마다 줄 바꾸기[m
+[31m-7. 본문은 어떻게보다 무엇을, 왜에 맞춰 작성하기[m
+[31m-[m
+[31m-출처 : [HOW TO WRITE A GIT COMMIT MESSAGE](https://chris.beams.io/posts/git-commit/)[m
+[31m-[m
+[31m-### 많이 쓰는 커밋 명령어[m
+[31m-[m
+[31m-**FIX** - 보통 올바르지 않은 동작을 고친 경우에 사용합니다.   [m
+[31m-**ADD** - 코드나 테스트, 예제, 문서 등의 추가가 있을 때 사용합니다.   [m
+[31m-**REMOVE** - 코드의 삭제가 있을 때 사용.   [m
+[31m-REFACTOR - 전면 수정이 있을 때 사용합니다.     [m
+[31m-UPDATE - 원래도 정상적으로 동작하고 있었지만, 수정, 추가, 보완을 한다는 개념입니다. 코드보다는 주로 문서나 리소스, 라이브러리등에 사용합니다.   [m
+[31m-IMPROVE - 향상이 있을 때 사용합니다. 호환성, 테스트 커버리지, 성능, 검증 기능, 접근성 등 다양한 것들이 목적   [m
+[31m-MAKE - 주로 기존 동작의 변경을 명시합니다.   [m
+[31m-**REVISE** - 문서의 개정이 있을 때 주로 사용합니다.   [m
+[31m-CORRECT - 주로 문법의 오류나 타입의 변경, 이름 변경 등에 사용합니다.   [m
+[31m-MOVE - 코드의 이동이 있을 때 사용합니다.   [m
+[31m-**RENAME** - 이름 변경이 있을 때 사용합니다.   [m
+[31m-VERIFY - 검증 코드를 넣을 때 주로 사용합니다.   [m
+[31m-**SET** - 변수 값을 변경하는 등의 작은 수정에 주로 사용합니다.[m
+[31m-[m
+[31m-*** 위 내용은 영어로 작성하는 경우 해당됨.**[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-# 한글일 경우[m
+[31m-[m
+[31m-### 공통 규칙[m
+[31m-[m
+[31m-1. 커밋 메시지는 __최대한 한글로 작성__ 한다.[m
+[31m-2. 메시지 본문에 **모든 변경 사항을 상세히 작성**한다. 축약하여 쓰지 않고 제 3자가 쉽게 이해할 수 있도록 최대한 풀어서 작성한다.[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-### 커밋 메시지 구성[m
+[31m-[m
+[31m-1. 모든 커밋 메시지는 다음과 같이 __세 영역으로 구성__, 각 영역은 __빈 줄로 분리__[m
+[31m-   * 제목[m
+[31m-   * 본문 (제목 만으로 표현이 가능할때 생략 가능)[m
+[31m-   * 꼬리말(관련 이슈 없으면 생략 가능)[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-#### 제목[m
+[31m-[m
+[31m-1. 제목 줄은 **50자 내로 작성**한다.[m
+[31m-[m
+[31m-   [m
+[31m-[m
+[31m-2. 제목 줄은 **"유형:제목"**의 형식으로 작성한다.[m
+[31m-[m
+[31m-   [m
+[31m-[m
+[31m-3. 커밋 메시지 유형은 다음 중 하나를 사용한다.[m
+[31m-[m
+[31m-   * **기능** : 기능 추가, 삭제, 변경 (제품 코드 수정 발생)[m
+[31m-[m
+[31m-   * **버그** : 버그 수정(제품 코드 수정 발생)[m
+[31m-[m
+[31m-   * **리팩토링** : 코드 리팩토링(제품 코드 수정 발생)[m
+[31m-[m
+[31m-   * **형식** : 코드 형식, 정렬, 주석 등의 변경 (제품 코드 수정 발생. 하지만 동작에 영향을 주는 변경은 없음.)[m
+[31m-[m
+[31m-   * **테스트** : 테스트 코드 추가, 삭제, 변경 등(제품 코드 수정 발생. 테스트 코드에 관련된 모든 변경에 해당)[m
+[31m-[m
+[31m-   * **문서** : 문서 추가, 삭제, 변경 (코드 수정 없음)[m
+[31m-[m
+[31m-   * **기타** : 위에 해당되지 않는 모든 변경 (예: 빌드 스크립트 수정, 패키지 배포 설정 변경 등)을 포함(코드 수정 없음)[m
+[31m-[m
+[31m-   * 이외 분리가 어려운 경우는 상위 **"유형"**으로 작성.[m
+[31m-[m
+[31m-     [m
+[31m-[m
+[31m-4. 제목은 **개조식 구문으로 작성**한다.[m
+[31m-[m
+[31m-   * 예 : "기능 : 로그 출력 기능 추가"[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-#### 본문 작성[m
+[31m-[m
+[31m-1. 본문은 **한 줄 당 72자 내**로 작성한다.(Git은 자동 줄바꿈을 해 주지 않으므로, 직접 줄바꿈을 해야 한다.)[m
+[31m-[m
+[31m-   [m
+[31m-[m
+[31m-2. 본문 내용은 양에 구애받지 않고 **최대한 상세히 작성**한다.[m
+[31m-[m
+[31m-   [m
+[31m-[m
+[31m-3. 본문 내용은 어떻게 변경했는지 보다 **무엇을 변경했는지** 또는 **왜 변경했는지**를 설명한다.[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-#### 꼬리말 작성[m
+[31m-[m
+[31m-1. 꼬리말에는 **이슈 트래커**를 작성한다.[m
+[31m-2. 꼬리말은 **"유형:#이슈번호"** 형식으로 작성한다.[m
+[31m-3. 이슈 트래커 유형은 다음 중 하나를 사용한다.[m
+[31m-   * 해결 : 이슈 해결 시 사용[m
+[31m-   * 관련 : 해당 커밋에 관련된 이슈번호(아직 해결되지 않은 경우)[m
+[31m-   * 참고 : 참고할 이슈가 있을 때 사용[m
+[31m-[m
+[31m-출처 : [오늘도 야근](https://tttsss77.tistory.com/58)[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-![image-20200331230414690](https://github.com/supreme9122/TIL/blob/master/img/image-20200331230414690.png)[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-#### * 좋은 Commit message를 위한 영문, 한글로 나누어 정리 해보았는데 중복되는 점이 있다. 영문을 기본으로 한글 작성을 해보는것으로 결정 했다. *[m
+\ No newline at end of file[m
+
+[33mcommit f180d80474747bbac3b238fdff12f6408b8ce264[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Fri Apr 3 03:05:55 2020 +0900
+
+    문서 : 200402_TIL
+    약간의 오타 수정
+
+[1mdiff --git a/TIL/200402_JTIL.md b/TIL/200402_JTIL.md[m
+[1mindex 3302e64..12cd883 100644[m
+[1m--- a/TIL/200402_JTIL.md[m
+[1m+++ b/TIL/200402_JTIL.md[m
+[36m@@ -30,11 +30,11 @@[m
+ 2. 데이터베이스[m
+ [m
+    - 프로그래머스에 sql문제도 있으니 우선 sql은 프로그래머스의 도움을 받자.[m
+[32m+[m[32m   - 작년 sqld자격 취득 하려고 했을 때 사뒀던 책과 문제를 풀면서 익숙해지자.[m
+    [m
+[31m-- 작년 sqld자격 취득 하려고 했을 때 사뒀던 책과 문제를 풀면서 익숙해지자.[m
+[31m-   [m
+[31m-  [m
+[31m-   [m
+[32m+[m
+[32m+[m
+[32m+[m
+ 3. 이것이 자바다 책을 다시 펼쳐서 읽고 이해하면서 내용을 정리해보니 그 때당시 이해가 되지 않던 내용들이 하나둘씩 이해가 잘 되었다. 그럼에도 역시 공부해야 할게 많고 모르는것 투성인것 같다.[m
+ [m
+    [m
+
+[33mcommit bc4991d983beeb932bcc71f3c2404711569791b9[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Fri Apr 3 03:03:27 2020 +0900
+
+    문서 : 200402_TIL
+
+[1mdiff --git a/TIL/200402_JTIL.md b/TIL/200402_JTIL.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3302e64[m
+[1m--- /dev/null[m
+[1m+++ b/TIL/200402_JTIL.md[m
+[36m@@ -0,0 +1,56 @@[m
+[32m+[m[32m### To Do List[m
+[32m+[m
+[32m+[m[32m- [x] Java책을 읽어보고 내용 정리 하기[m
+[32m+[m
+[32m+[m[32m- [x] 매일프로그래밍, 백준 알고리즘, 프로그래머스 등 공부계획 짜기[m
+[32m+[m
+[32m+[m[32m- [x] 데이터베이스 공부는 어떻게?[m
+[32m+[m
+[32m+[m[32m- [x] git명령어 추가내용 확인[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m### 느낀점[m
+[32m+[m
+[32m+[m[32m1. 공부계획[m
+[32m+[m
+[32m+[m[32m   - 매일프로그래밍, 백준 알고리즘, 프로그래머스 모두 회원가입 완료[m
+[32m+[m[32m   - 매일프로그래밍[m
+[32m+[m[32m     - 매주 월요일에 이메일로 문제를 준다고 한다.[m
+[32m+[m[32m     - 일주일 한문제 푸는것을 목표로 하자.[m
+[32m+[m[32m   - 백준 알고리즘[m
+[32m+[m[32m     - 다음날 할게 없다면 막히는 문제까지 풀어보는것을 목표로 하자.[m
+[32m+[m[32m   - 프로그래머스[m
+[32m+[m[32m     - 스킬 체크를 통해 내 실력을 확인해보자.[m
+[32m+[m
+[32m+[m[32m   ***1day 1commit, TIL 을 진행할때 이미없는 코드를 커밋하지 말라는 내용이 있는데 사실 커밋이 부담으로 다가온다면 포기 할것이다. 뭐든지 하루아침에 이뤄 질 수 없다.   1day 1commit! 100일 챌린지가 아닌 forever 챌린지가 되기위해 항상 조급해 하지말고 욕심내지 않고 꾸준히만 하자!**[m
+[32m+[m
+[32m+[m[41m   [m
+[32m+[m
+[32m+[m[32m2. 데이터베이스[m
+[32m+[m
+[32m+[m[32m   - 프로그래머스에 sql문제도 있으니 우선 sql은 프로그래머스의 도움을 받자.[m
+[32m+[m[41m   [m
+[32m+[m[32m- 작년 sqld자격 취득 하려고 했을 때 사뒀던 책과 문제를 풀면서 익숙해지자.[m
+[32m+[m[41m   [m
+[32m+[m[41m  [m
+[32m+[m[41m   [m
+[32m+[m[32m3. 이것이 자바다 책을 다시 펼쳐서 읽고 이해하면서 내용을 정리해보니 그 때당시 이해가 되지 않던 내용들이 하나둘씩 이해가 잘 되었다. 그럼에도 역시 공부해야 할게 많고 모르는것 투성인것 같다.[m
+[32m+[m
+[32m+[m[41m   [m
+[32m+[m
+[32m+[m[32m   ***개발자... 다시한번 말하지만 할게 정말 많은것 같다. 매사 긍정적으로 생각하고 할일이 많은것에 감사하며 살자.**[m
+[32m+[m
+[32m+[m[32m### 내일 할 일[m
+[32m+[m
+[32m+[m[32m- [ ] Java 기초 공부 및 정리[m
+[32m+[m
+[32m+[m[32m- [ ] 집에 있는 PC에 SQL, Java 등 프로그래밍 관련 프로그램 설치[m
+[32m+[m
+[32m+[m[32m- [ ] Restful API 개념 이해하기(유튜브 시청, 개념 정리)[m
+[32m+[m
+[32m+[m[32m- [ ] 책 정리(What is Java) 내용중 추가적으로 알아봐야 할 내용[m
+[32m+[m
+[32m+[m[32m  - 3. 함수적 스타일 코딩 지원, 4. 멀티 쓰레드[m
+[32m+[m
+[32m+[m[32m    - 병렬처리, 이벤트 지향 프로그램, 람다식[m
+\ No newline at end of file[m
+
+[33mcommit b81827140eba8e1869981c2cc121c87c6048f03f[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Fri Apr 3 03:01:23 2020 +0900
+
+    문서 : Java폴더 생성
+    Study 폴더안에 Java에 관련된 내용을 정리하기 위해 폴더 추가
+
+[1mdiff --git a/Study/java/WhatIsJava.md b/Study/java/WhatIsJava.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..8e8ef58[m
+[1m--- /dev/null[m
+[1m+++ b/Study/java/WhatIsJava.md[m
+[36m@@ -0,0 +1,50 @@[m
+[32m+[m[32m# Java란?[m
+[32m+[m
+[32m+[m[32m- 고급프로그래밍 언어이다.[m
+[32m+[m[32m- 자바는 1995년 Oak라는 언어로 시작하여 가전제품에  사용될 목적으로 만들어졌다.[m
+[32m+[m[32m- 처음엔 각광받지 못했지만 1999년부터 인터넷이 활성화 되면서 현재는 서버 어플리캐이션을 개발하는 중추적 언어로 자리매김 되었다.[m
+[32m+[m
+[32m+[m[32m# Java의 특징[m
+[32m+[m
+[32m+[m[32m#### 1. 이식성이 높은 언어이다.[m
+[32m+[m
+[32m+[m[32m​	이식성이 높다는 것은 여러 OS에서 실행이 가능한 것이다. Java는 자바실행환경(JRE: Java	Runtime Environment)이 설치되어 있는 모든 OS에서 실행이 가능하기 때문에 이식성이 높다.[m
+[32m+[m
+[32m+[m[32m#### 2. 객체(Object) 지향 언어이다.[m
+[32m+[m
+[32m+[m[32m​	객체를 여러개 만들어 이것들을 하나하나 연결하여 전체 프로그램을 완성하는 기법으로 객체 지향 프로그래밍(OOP : Object Oriented Programing)이다. 객체라는 단어가 생소해서 객체라는 개념이 헷갈렸던 기억이 있다. 객체는 물리적, 추상적으로 나뉠 수 있다.[m
+[32m+[m
+[32m+[m[32m- 물리적 객체[m
+[32m+[m[32m  - 강아지, 자동차, 자전거 등[m
+[32m+[m[32m- 추상적 객체[m
+[32m+[m[32m  - 학과, 강의, 주문 등[m
+[32m+[m
+[32m+[m[32m또 한, 객체는 속성(Property), 동작(Method)로 구성되어 있다. 이 내용은 나중에...[m
+[32m+[m
+[32m+[m[32m#### 3. 함수적 스타일 코딩을 지원한다.[m
+[32m+[m
+[32m+[m[32m​	대용량 데이터의 병렬 처리 이벤트 지향 프로그래밍을 위해 적합하다는데 **병렬처리, 이벤트 지향 프로그램**이 뭔지 모르겠다. 함수적  프로그래밍을 위해 **람다식**을 지원한다는데 람다식은 나중에 다시 다루면서 정리하도록 해야겠다.[m
+[32m+[m
+[32m+[m[32m#### 4. 메모리를 자동으로 관리한다.[m
+[32m+[m
+[32m+[m[32m​	C언어 같은경우 메모리에 생성된 객체를 제거하기위해 코드 작성을 해야 하지만 Java는 자동적으로 사용하지 않는 객체를 제거 해주기 때문에 다른 코드 작성에 집중 할수 있다. 힙?에 대한 내용이 떠오르는데 추후에 잘 알아보자.[m
+[32m+[m
+[32m+[m[32m#### 5. 다양한 어플리캐이션 개발이 가능하다.[m
+[32m+[m
+[32m+[m[32m​	윈도우 어플리캐이션, 서버용 웹 어플리캐이션, 모바일 안드리오드 앱까지 모든 곳에서 실행되는 프로그램을 개발 할 수 있다.[m
+[32m+[m
+[32m+[m[32m#### 6. 멀티 스레드(Multi-Thread)를 쉽게 구현할 수 있다.[m
+[32m+[m
+[32m+[m[32m​	하나의 프로그램이 동시에 여러 작업을 처리 할 경우 대용량 작업을 신속하게 처리 하기 위해 작업을 분리해서 병렬 처리 하려면 멀티 스레드 프로그래밍이 필요하다. 자바는 스레드 생성 및 제어와 관련된 라이브러리 API를 제공한다.[m
+[32m+[m
+[32m+[m[32m#### 7. 동적 로딩(Dynamic Loading)을 지원한다.[m
+[32m+[m
+[32m+[m[32m​	하나의 프로그램이 실행될때 모든 객체가 생성, 실행되지 않고 객체가 필요한 시점에서 동적 로딩을 한다.[m
+[32m+[m
+[32m+[m[32m#### 8. 막강한 오픈소스 라이브러리가 풍부하다.[m
+[32m+[m
+[32m+[m[32m​	고급 기능을 구현하는 코드릴 직접 작성하게 되면, 시간과 노력이 많이 필요하고 안정성을 보장 받을 수 없다. 하지만 자바는 검증된 라이브러리가 풍부 하기 때문에 개발 시간을 단축하면서 안정성있는 프로그램 개발을 쉽게 할 수 있다.[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m참고문서 : 이것이 자바다. (~p.6)[m
+\ No newline at end of file[m
+
+[33mcommit fb0b18a3294a0b084ab8fa3dcc172679150d4844[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Fri Apr 3 02:59:33 2020 +0900
+
+    문서:Git폴더 추가
+    Study 폴더안에 Git 폴더 추가함.
+
+[1mdiff --git a/Study/Git/커밋메시지중요성.md b/Study/Git/커밋메시지중요성.md[m
+[1mindex 694a2ae..17579b2 100644[m
+[1m--- a/Study/Git/커밋메시지중요성.md[m
+[1m+++ b/Study/Git/커밋메시지중요성.md[m
+[36m@@ -18,7 +18,7 @@[m
+ [m
+ 출처 : [HOW TO WRITE A GIT COMMIT MESSAGE](https://chris.beams.io/posts/git-commit/)[m
+ [m
+[31m-### 많이 쓰는 커밋 명령어[m
+[32m+[m[32m### 많이 쓰는 커밋 명령어[m[41m [m
+ [m
+ **FIX** - 보통 올바르지 않은 동작을 고친 경우에 사용합니다.   [m
+ **ADD** - 코드나 테스트, 예제, 문서 등의 추가가 있을 때 사용합니다.   [m
+
+[33mcommit 736ae1ab5e5aa2eeeae041d3a2d27d478abe8027[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Fri Apr 3 02:56:14 2020 +0900
+
+    문서:What is Java
+    자바란 무엇인가를 이것이 자바다 책을 통해 정리함.
+
+[1mdiff --git a/Study/Git/WhatIsGit.md b/Study/Git/WhatIsGit.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..df2a55c[m
+[1m--- /dev/null[m
+[1m+++ b/Study/Git/WhatIsGit.md[m
+[36m@@ -0,0 +1,110 @@[m
+[32m+[m[32m# Git 과 GitHub란?[m
+[32m+[m
+[32m+[m[32m- 버전관리 툴[m
+[32m+[m[32m  (버전별 백업관리, 형상관리)[m
+[32m+[m[32m- 통상 프로젝트를 진행 할 때 수정사항이 발생하면 수정 내용과 날짜 및 버전 정보를 파일명에 표시하고 저장을 해야 할것이다. 이렇게 무자비하게 보관하다보면 용량 부담이 클것이다. 이런 점을 보안하기 위해 만든 것이 Git이다.[m
+[32m+[m
+[32m+[m[32m# Git과 Github의 차이점[m
+[32m+[m
+[32m+[m[32mGit은 버전관리 위한 소프트웨어[m
+[32m+[m[32mGithub은 Git으로 Local내 저장돼서 원격전송된 내역들이 저장되는 공간을 제공하는 서비스이다.[m
+[32m+[m
+[32m+[m[32mex)[m
+[32m+[m[32mGit은 영상을 찍는 앱[m
+[32m+[m[32mGithub는 유튜브로 생각하기[m
+[32m+[m
+[32m+[m[32m#  Git 명령어[m
+[32m+[m[32m###  $ git init[m
+[32m+[m
+[32m+[m[32m>Windows Terminal 또는 Git Bash에서 이동한 경로 (ex : c:\user\name\GitTest\....)내에 .git이라는 투명한 폴더의 Git의 Local내 저장소를 만들게 된다. 한번 지정하고 나면 그후로 지정할 필요가 없음.[m
+[32m+[m
+[32m+[m[32m###  $ git status[m
+[32m+[m
+[32m+[m[32m>저장소의 상태를 확인하기 위해 사용 하는 명령어.[m
+[32m+[m[32m>현재 브랜치의 이름과 추가변경된 파일 및 디렉토리 목록을 표시[m
+[32m+[m
+[32m+[m[32m### $ git add -A[m[41m [m
+[32m+[m
+[32m+[m[32m>변동이 있는 파일 및 폴더(수정, 추가, 삭제) 전체를 저장소(.git)에 저장[m
+[32m+[m
+[32m+[m[32m### $ git add name[m
+[32m+[m
+[32m+[m[32m>변동 파일 및 폴더의 name(제목)을 저장소(.git)에 저장[m
+[32m+[m
+[32m+[m[32m### $ git commit -m "(작업수행내용)"[m
+[32m+[m[32m>수행된 작업을 기록하는것.[m
+[32m+[m[32m>-a옵션 지정시 변경된 파일을 검색하고 인덱스에 추가하는 작업도 동시에 실행[m
+[32m+[m[32m>[m
+[32m+[m[32m>ex) git commit -am "A first commit"[m
+[32m+[m
+[32m+[m[32m### $ git remote[m
+[32m+[m
+[32m+[m[32m>원격 저장소를 조작하는데 사용[m
+[32m+[m
+[32m+[m[32m- git remote : 원격 저장소의 이름 목록 표시[m
+[32m+[m[32m- git remote -v : 원격 저장소에 대한 자세한 목록[m
+[32m+[m[32m- git remote add [name] [url] : 원격 저장소 추가[m
+[32m+[m[32m- git remote remove [name] : 원격 저장소를 제거[m
+[32m+[m
+[32m+[m[32m### $ git push [name][m
+[32m+[m
+[32m+[m[32m>마지막 commit 내용을 원격저장소(GitHub)로 전송한다.[m
+[32m+[m
+[32m+[m[32m### $ git branch[m
+[32m+[m
+[32m+[m[32m>브랜치에 대한 다양한 작업을 수행하기 위한것.[m
+[32m+[m[32m- git branch [branch-name] : 브랜치 만들기[m
+[32m+[m[32m- git branch : 브랜치 목록보기[m
+[32m+[m[32m- git branch -d [branch-name] : 지정한 브렌치를 삭제[m
+[32m+[m
+[32m+[m[32m### $ git branch -d 브랜치 이름[m
+[32m+[m
+[32m+[m[32m>브랜치 삭제[m
+[32m+[m
+[32m+[m[32m### $ git branch -D[m
+[32m+[m
+[32m+[m[32m>병합하지 않은 브랜치 강제 삭제[m
+[32m+[m
+[32m+[m[32m### $ git checkout[m
+[32m+[m[32m>로컬 저장소의 브랜치를 전활 할때 사용.[m
+[32m+[m
+[32m+[m[32m### $ git log[m[41m [m
+[32m+[m[32m>지금까지 해왔던 작업 기록을 확인하는것.[m
+[32m+[m
+[32m+[m[32m### $ git grep[m
+[32m+[m[32m>저장소의 파일 내용에서 검색하고자 할 때 사용.[m
+[32m+[m[32m- git grep"검색 단어"[m
+[32m+[m
+[32m+[m[32m### $ git clone[m
+[32m+[m[32m>기존 원격 저장소를 로컬에 다운로드하기 위하여 사용하는것.[m
+[32m+[m
+[32m+[m[32m### $ git reset --hard ******(로그 앞 6자리)[m
+[32m+[m[32m>과거 내용을 원상태로 복원하는것.[m
+[32m+[m
+[32m+[m[32m### $ git merge[m
+[32m+[m[32m>현재 브랜치에 다른 지점에서 변경 사항을 병합할때 사용[m
+[32m+[m
+[32m+[m[32m### $ git pull[m
+[32m+[m[32m>원격 브랜치의 변경 사항을 캡처하기 위해서 사용[m
+[32m+[m
+[32m+[m[32m### $ git log -p[m
+[32m+[m
+[32m+[m[32m>지금까지 작업 했던 내역을 출력해줌(자세하게)[m
+[32m+[m
+[32m+[m[32m### $ git diff[m
+[32m+[m
+[32m+[m[32m>현재 작업중인 변경사항을 보여줌 (commit 전)[m
+[32m+[m
+[32m+[m[32m### $ git commit -a[m
+[32m+[m
+[32m+[m[32m>git add없이 바로 업로드[m
+[32m+[m
+[32m+[m[32m### $ git commit -am[m
+[32m+[m
+[32m+[m[32m>git commit -a, git commit -m을 동시에 적용[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m*** git 명령어 관련 좋은 블로그**[m
+[32m+[m
+[32m+[m[32m[빨간당무 마을](https://redcarrot.tistory.com/227)[m
+\ No newline at end of file[m
+[1mdiff --git a/Study/Git/커밋메시지중요성.md b/Study/Git/커밋메시지중요성.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..694a2ae[m
+[1m--- /dev/null[m
+[1m+++ b/Study/Git/커밋메시지중요성.md[m
+[36m@@ -0,0 +1,128 @@[m
+[32m+[m[32m# 영문일 경우[m
+[32m+[m
+[32m+[m[32m### 커밋 메시지 중요성[m
+[32m+[m
+[32m+[m[32m영어, 한글 번갈아 가면서 커밋 메시지를 작성하고 구분 단위 없이 무작성 커밋만 하다 보니 체계가 필요하다는 생각이 들었다. 처음부터 잘 되지는 않을 것 같지만 최대한 지키고 내 커밋 스타일을 만들도록 노력해야겠다.[m
+[32m+[m
+[32m+[m[32m### 좋은 git 커밋 메시지를 작성하기 위한 7가지 약속[m
+[32m+[m
+[32m+[m[32m> 이하 약속은 커밋 메시지를 English로 작성하는 경우에 최적화되어 있습니다. 한글 커밋 메시지를 작성하는 경우에는 더 유연하게 적용하셔도 좋을 것 같네요.[m
+[32m+[m
+[32m+[m[32m1. 제목과 본문을 한 줄 띄워 분리하기[m
+[32m+[m[32m2. 제목은 영문 기준 50자 이내로[m
+[32m+[m[32m3. 제목 첫글자를 대문자로[m
+[32m+[m[32m4. 제목 끝에 . 금지[m
+[32m+[m[32m5. 제목은 명령조로[m
+[32m+[m[32m6. 본문은 영문 기준 72자마다 줄 바꾸기[m
+[32m+[m[32m7. 본문은 어떻게보다 무엇을, 왜에 맞춰 작성하기[m
+[32m+[m
+[32m+[m[32m출처 : [HOW TO WRITE A GIT COMMIT MESSAGE](https://chris.beams.io/posts/git-commit/)[m
+[32m+[m
+[32m+[m[32m### 많이 쓰는 커밋 명령어[m
+[32m+[m
+[32m+[m[32m**FIX** - 보통 올바르지 않은 동작을 고친 경우에 사용합니다.[m[41m   [m
+[32m+[m[32m**ADD** - 코드나 테스트, 예제, 문서 등의 추가가 있을 때 사용합니다.[m[41m   [m
+[32m+[m[32m**REMOVE** - 코드의 삭제가 있을 때 사용.[m[41m   [m
+[32m+[m[32mREFACTOR - 전면 수정이 있을 때 사용합니다.[m[41m     [m
+[32m+[m[32mUPDATE - 원래도 정상적으로 동작하고 있었지만, 수정, 추가, 보완을 한다는 개념입니다. 코드보다는 주로 문서나 리소스, 라이브러리등에 사용합니다.[m[41m   [m
+[32m+[m[32mIMPROVE - 향상이 있을 때 사용합니다. 호환성, 테스트 커버리지, 성능, 검증 기능, 접근성 등 다양한 것들이 목적[m[41m   [m
+[32m+[m[32mMAKE - 주로 기존 동작의 변경을 명시합니다.[m[41m   [m
+[32m+[m[32m**REVISE** - 문서의 개정이 있을 때 주로 사용합니다.[m[41m   [m
+[32m+[m[32mCORRECT - 주로 문법의 오류나 타입의 변경, 이름 변경 등에 사용합니다.[m[41m   [m
+[32m+[m[32mMOVE - 코드의 이동이 있을 때 사용합니다.[m[41m   [m
+[32m+[m[32m**RENAME** - 이름 변경이 있을 때 사용합니다.[m[41m   [m
+[32m+[m[32mVERIFY - 검증 코드를 넣을 때 주로 사용합니다.[m[41m   [m
+[32m+[m[32m**SET** - 변수 값을 변경하는 등의 작은 수정에 주로 사용합니다.[m
+[32m+[m
+[32m+[m[32m*** 위 내용은 영어로 작성하는 경우 해당됨.**[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m# 한글일 경우[m
+[32m+[m
+[32m+[m[32m### 공통 규칙[m
+[32m+[m
+[32m+[m[32m1. 커밋 메시지는 __최대한 한글로 작성__ 한다.[m
+[32m+[m[32m2. 메시지 본문에 **모든 변경 사항을 상세히 작성**한다. 축약하여 쓰지 않고 제 3자가 쉽게 이해할 수 있도록 최대한 풀어서 작성한다.[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m### 커밋 메시지 구성[m
+[32m+[m
+[32m+[m[32m1. 모든 커밋 메시지는 다음과 같이 __세 영역으로 구성__, 각 영역은 __빈 줄로 분리__[m
+[32m+[m[32m   * 제목[m
+[32m+[m[32m   * 본문 (제목 만으로 표현이 가능할때 생략 가능)[m
+[32m+[m[32m   * 꼬리말(관련 이슈 없으면 생략 가능)[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m#### 제목[m
+[32m+[m
+[32m+[m[32m1. 제목 줄은 **50자 내로 작성**한다.[m
+[32m+[m
+[32m+[m[41m   [m
+[32m+[m
+[32m+[m[32m2. 제목 줄은 **"유형:제목"**의 형식으로 작성한다.[m
+[32m+[m
+[32m+[m[41m   [m
+[32m+[m
+[32m+[m[32m3. 커밋 메시지 유형은 다음 중 하나를 사용한다.[m
+[32m+[m
+[32m+[m[32m   * **기능** : 기능 추가, 삭제, 변경 (제품 코드 수정 발생)[m
+[32m+[m
+[32m+[m[32m   * **버그** : 버그 수정(제품 코드 수정 발생)[m
+[32m+[m
+[32m+[m[32m   * **리팩토링** : 코드 리팩토링(제품 코드 수정 발생)[m
+[32m+[m
+[32m+[m[32m   * **형식** : 코드 형식, 정렬, 주석 등의 변경 (제품 코드 수정 발생. 하지만 동작에 영향을 주는 변경은 없음.)[m
+[32m+[m
+[32m+[m[32m   * **테스트** : 테스트 코드 추가, 삭제, 변경 등(제품 코드 수정 발생. 테스트 코드에 관련된 모든 변경에 해당)[m
+[32m+[m
+[32m+[m[32m   * **문서** : 문서 추가, 삭제, 변경 (코드 수정 없음)[m
+[32m+[m
+[32m+[m[32m   * **기타** : 위에 해당되지 않는 모든 변경 (예: 빌드 스크립트 수정, 패키지 배포 설정 변경 등)을 포함(코드 수정 없음)[m
+[32m+[m
+[32m+[m[32m   * 이외 분리가 어려운 경우는 상위 **"유형"**으로 작성.[m
+[32m+[m
+[32m+[m[41m     [m
+[32m+[m
+[32m+[m[32m4. 제목은 **개조식 구문으로 작성**한다.[m
+[32m+[m
+[32m+[m[32m   * 예 : "기능 : 로그 출력 기능 추가"[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m#### 본문 작성[m
+[32m+[m
+[32m+[m[32m1. 본문은 **한 줄 당 72자 내**로 작성한다.(Git은 자동 줄바꿈을 해 주지 않으므로, 직접 줄바꿈을 해야 한다.)[m
+[32m+[m
+[32m+[m[41m   [m
+[32m+[m
+[32m+[m[32m2. 본문 내용은 양에 구애받지 않고 **최대한 상세히 작성**한다.[m
+[32m+[m
+[32m+[m[41m   [m
+[32m+[m
+[32m+[m[32m3. 본문 내용은 어떻게 변경했는지 보다 **무엇을 변경했는지** 또는 **왜 변경했는지**를 설명한다.[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m#### 꼬리말 작성[m
+[32m+[m
+[32m+[m[32m1. 꼬리말에는 **이슈 트래커**를 작성한다.[m
+[32m+[m[32m2. 꼬리말은 **"유형:#이슈번호"** 형식으로 작성한다.[m
+[32m+[m[32m3. 이슈 트래커 유형은 다음 중 하나를 사용한다.[m
+[32m+[m[32m   * 해결 : 이슈 해결 시 사용[m
+[32m+[m[32m   * 관련 : 해당 커밋에 관련된 이슈번호(아직 해결되지 않은 경우)[m
+[32m+[m[32m   * 참고 : 참고할 이슈가 있을 때 사용[m
+[32m+[m
+[32m+[m[32m출처 : [오늘도 야근](https://tttsss77.tistory.com/58)[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m![image-20200331230414690](https://github.com/supreme9122/TIL/blob/master/img/image-20200331230414690.png)[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m#### * 좋은 Commit message를 위한 영문, 한글로 나누어 정리 해보았는데 중복되는 점이 있다. 영문을 기본으로 한글 작성을 해보는것으로 결정 했다. *[m
+\ No newline at end of file[m
+
+[33mcommit 126faebd2b147238444a6b0b6e6b36e6e47b7749[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Thu Apr 2 21:42:45 2020 +0900
+
+    내용삭제
+
+[1mdiff --git a/Study/Github b/Study/Github[m
+[1mdeleted file mode 100644[m
+[1mindex f05ecf9..0000000[m
+Binary files a/Study/Github and /dev/null differ
+[1mdiff --git a/Study/TEST.md b/Study/TEST.md[m
+[1mdeleted file mode 100644[m
+[1mindex 13bcba0..0000000[m
+Binary files a/Study/TEST.md and /dev/null differ
+
+[33mcommit 015720efec02a108a5f57a9f7758e467305f8986[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Thu Apr 2 21:41:32 2020 +0900
+
+    문서:제목, 내용 변경 및 추가
+    git 명령어 일부 추가
+    git 명령어 정리 블로그 링크 추가
+    해당 문서 제목 변경
+
+[1mdiff --git a/Study/GIt이란.md b/Study/WhatIsGit.md[m
+[1msimilarity index 84%[m
+[1mrename from Study/GIt이란.md[m
+[1mrename to Study/WhatIsGit.md[m
+[1mindex d4a04b7..df2a55c 100644[m
+[1m--- a/Study/GIt이란.md[m
+[1m+++ b/Study/WhatIsGit.md[m
+[36m@@ -57,6 +57,14 @@[m [mGithub는 유튜브로 생각하기[m
+ - git branch : 브랜치 목록보기[m
+ - git branch -d [branch-name] : 지정한 브렌치를 삭제[m
+ [m
+[32m+[m[32m### $ git branch -d 브랜치 이름[m
+[32m+[m
+[32m+[m[32m>브랜치 삭제[m
+[32m+[m
+[32m+[m[32m### $ git branch -D[m
+[32m+[m
+[32m+[m[32m>병합하지 않은 브랜치 강제 삭제[m
+[32m+[m
+ ### $ git checkout[m
+ >로컬 저장소의 브랜치를 전활 할때 사용.[m
+ [m
+[36m@@ -77,4 +85,26 @@[m [mGithub는 유튜브로 생각하기[m
+ >현재 브랜치에 다른 지점에서 변경 사항을 병합할때 사용[m
+ [m
+ ### $ git pull[m
+[31m->원격 브랜치의 변경 사항을 캡처하기 위해서 사용[m
+\ No newline at end of file[m
+[32m+[m[32m>원격 브랜치의 변경 사항을 캡처하기 위해서 사용[m
+[32m+[m
+[32m+[m[32m### $ git log -p[m
+[32m+[m
+[32m+[m[32m>지금까지 작업 했던 내역을 출력해줌(자세하게)[m
+[32m+[m
+[32m+[m[32m### $ git diff[m
+[32m+[m
+[32m+[m[32m>현재 작업중인 변경사항을 보여줌 (commit 전)[m
+[32m+[m
+[32m+[m[32m### $ git commit -a[m
+[32m+[m
+[32m+[m[32m>git add없이 바로 업로드[m
+[32m+[m
+[32m+[m[32m### $ git commit -am[m
+[32m+[m
+[32m+[m[32m>git commit -a, git commit -m을 동시에 적용[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m*** git 명령어 관련 좋은 블로그**[m
+[32m+[m
+[32m+[m[32m[빨간당무 마을](https://redcarrot.tistory.com/227)[m
+\ No newline at end of file[m
+
+[33mcommit 59e2be757d280e3648eac965c17ad734f3add319[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Thu Apr 2 02:10:37 2020 +0900
+
+    문서 : 200401_TIL
+
+[1mdiff --git a/TIL/200401_JTIL.md b/TIL/200401_JTIL.md[m
+[1mindex 405db08..9e605bc 100644[m
+[1m--- a/TIL/200401_JTIL.md[m
+[1m+++ b/TIL/200401_JTIL.md[m
+[36m@@ -19,4 +19,4 @@[m
+ - [ ] Java책을 읽어보고 내용 정리 하기[m
+ - [ ] 매일프로그래밍, 백준 알고리즘, 프로그래머스 등 공부계획 짜기[m
+ - [ ] 데이터베이스 공부는 어떻게?[m
+[31m-- [ ] git명령어 추가내용 확인[m
+\ No newline at end of file[m
+[32m+[m[32m- [ ] git명령어 추가내용 확인[m[41m [m
+\ No newline at end of file[m
+
+[33mcommit 9b0756d69ae76655e28139e88938c72ccfcd2843[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Thu Apr 2 02:08:57 2020 +0900
+
+    문서:200401_TIL
+
+[1mdiff --git a/TIL/200401_JTIL.md b/TIL/200401_JTIL.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..405db08[m
+[1m--- /dev/null[m
+[1m+++ b/TIL/200401_JTIL.md[m
+[36m@@ -0,0 +1,22 @@[m
+[32m+[m[32m### To Do List[m
+[32m+[m
+[32m+[m[32m- [x] vs코드를 이용하여 projects 내용 채워 나가기(간단한 코딩)[m
+[32m+[m[32m- [x] 마크다운 문법을 통해 좋은 정보를 제공해주시는 출처의 정보를 정확한 링크로 표시하기[m
+[32m+[m[32m- [x] 이미지 파일의 설정을 다시 조정하여 정확하게 표현되도록 구현 하기[m
+[32m+[m[32m- [x] 오늘 커밋한 Study내용의 일부분이 제대로 작성되지 않았으므로 마크다운 문법을 정확하게 활용 하여 수정하기[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m### 느낀점[m
+[32m+[m
+[32m+[m[32m1. 간단한 코딩을 통해 차근차근 공부 및 정리하여 기초를 탄탄히 다잡는 생각을 갖자.[m
+[32m+[m[32m2. 사람은 역시 적응에 동물인듯 git을 계속 활용하다 보니 자연스레 적응하게 되는것 같다. 처음 할때보다 확실히 commit, push 속도가 향상된게 느껴진다. 좋은 커밋메시지를 남길때 까지 꾸준히 연습하자.[m
+[32m+[m[32m3. git에 적응되다 보니 자신감도 생겨 vs코드로 Project를 빠르게 저장소에 저장할 수 있었다. Java책을 다시 한번 보면서 이론적인 내용도 정리 해야겠다.[m
+[32m+[m[32m4. 개발자......... 해야 되는일이 너무너무 많다...........ㅋㅋㅋ[m
+[32m+[m
+[32m+[m[32m### 내일 할 일[m
+[32m+[m
+[32m+[m[32m- [ ] Java책을 읽어보고 내용 정리 하기[m
+[32m+[m[32m- [ ] 매일프로그래밍, 백준 알고리즘, 프로그래머스 등 공부계획 짜기[m
+[32m+[m[32m- [ ] 데이터베이스 공부는 어떻게?[m
+[32m+[m[32m- [ ] git명령어 추가내용 확인[m
+\ No newline at end of file[m
+
+[33mcommit e768f8b547bfcd9a632fc6c72c19dcd4da700c1d[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Wed Apr 1 20:41:18 2020 +0900
+
+    문서:제목, 내용 일부 추가
+    제목 띄어쓰기되어 있어서 git add가 안되는것 같아 제목 수정하였으나 안됨.
+
+[1mdiff --git a/Study/커밋 메시지 중요성.md b/Study/커밋메시지중요성.md[m
+[1msimilarity index 99%[m
+[1mrename from Study/커밋 메시지 중요성.md[m
+[1mrename to Study/커밋메시지중요성.md[m
+[1mindex a87db9e..694a2ae 100644[m
+[1m--- a/Study/커밋 메시지 중요성.md[m	
+[1m+++ b/Study/커밋메시지중요성.md[m
+[36m@@ -1,3 +1,5 @@[m
+[32m+[m[32m# 영문일 경우[m
+[32m+[m
+ ### 커밋 메시지 중요성[m
+ [m
+ 영어, 한글 번갈아 가면서 커밋 메시지를 작성하고 구분 단위 없이 무작성 커밋만 하다 보니 체계가 필요하다는 생각이 들었다. 처음부터 잘 되지는 않을 것 같지만 최대한 지키고 내 커밋 스타일을 만들도록 노력해야겠다.[m
+
+[33mcommit 5c3a051378834c9b82ebf3a60b672d2698ea9411[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Wed Apr 1 20:37:07 2020 +0900
+
+    기능:링크 재수정
+
+[1mdiff --git a/Study/커밋 메시지 중요성.md b/Study/커밋 메시지 중요성.md[m
+[1mindex b95a72e..a87db9e 100644[m
+[1m--- a/Study/커밋 메시지 중요성.md[m	
+[1m+++ b/Study/커밋 메시지 중요성.md[m	
+[36m@@ -113,7 +113,7 @@[m [mVERIFY - 검증 코드를 넣을 때 주로 사용합니다.[m
+    * 관련 : 해당 커밋에 관련된 이슈번호(아직 해결되지 않은 경우)[m
+    * 참고 : 참고할 이슈가 있을 때 사용[m
+ [m
+[31m-출처 : [오늘도 야근] (https://tttsss77.tistory.com/58)[m
+[32m+[m[32m출처 : [오늘도 야근](https://tttsss77.tistory.com/58)[m
+ [m
+ [m
+ [m
+
+[33mcommit 8a3e96c9234957b50cf8d4c79ec34a84ddbd268f[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Wed Apr 1 20:35:39 2020 +0900
+
+    기능:링크, 이미지, 줄바꿈 수정
+    각 기능을 보기 좋게 수정하였음.
+
+[1mdiff --git a/Study/커밋 메시지 중요성.md b/Study/커밋 메시지 중요성.md[m
+[1mindex 90edcb3..b95a72e 100644[m
+[1m--- a/Study/커밋 메시지 중요성.md[m	
+[1m+++ b/Study/커밋 메시지 중요성.md[m	
+[36m@@ -18,18 +18,18 @@[m
+ [m
+ ### 많이 쓰는 커밋 명령어[m
+ [m
+[31m-**FIX** - 보통 올바르지 않은 동작을 고친 경우에 사용합니다.[m
+[31m-**ADD** - 코드나 테스트, 예제, 문서 등의 추가가 있을 때 사용합니다[m
+[31m-**REMOVE** - 코드의 삭제가 있을 때 사용[m
+[31m-REFACTOR - 전면 수정이 있을 때 사용합니다.[m
+[31m-UPDATE - 원래도 정상적으로 동작하고 있었지만, 수정, 추가, 보완을 한다는 개념입니다. 코드보다는 주로 문서나 리소스, 라이브러리등에 사용합니다[m
+[31m-IMPROVE - 향상이 있을 때 사용합니다. 호환성, 테스트 커버리지, 성능, 검증 기능, 접근성 등 다양한 것들이 목적[m
+[31m-MAKE - 주로 기존 동작의 변경을 명시합니다.[m
+[31m-**REVISE** - 문서의 개정이 있을 때 주로 사용합니다.[m
+[31m-CORRECT - 주로 문법의 오류나 타입의 변경, 이름 변경 등에 사용합니다.[m
+[31m-MOVE - 코드의 이동이 있을 때 사용합니다.[m
+[31m-**RENAME** - 이름 변경이 있을 때 사용합니다.[m
+[31m-VERIFY - 검증 코드를 넣을 때 주로 사용합니다.[m
+[32m+[m[32m**FIX** - 보통 올바르지 않은 동작을 고친 경우에 사용합니다.[m[41m   [m
+[32m+[m[32m**ADD** - 코드나 테스트, 예제, 문서 등의 추가가 있을 때 사용합니다.[m[41m   [m
+[32m+[m[32m**REMOVE** - 코드의 삭제가 있을 때 사용.[m[41m   [m
+[32m+[m[32mREFACTOR - 전면 수정이 있을 때 사용합니다.[m[41m     [m
+[32m+[m[32mUPDATE - 원래도 정상적으로 동작하고 있었지만, 수정, 추가, 보완을 한다는 개념입니다. 코드보다는 주로 문서나 리소스, 라이브러리등에 사용합니다.[m[41m   [m
+[32m+[m[32mIMPROVE - 향상이 있을 때 사용합니다. 호환성, 테스트 커버리지, 성능, 검증 기능, 접근성 등 다양한 것들이 목적[m[41m   [m
+[32m+[m[32mMAKE - 주로 기존 동작의 변경을 명시합니다.[m[41m   [m
+[32m+[m[32m**REVISE** - 문서의 개정이 있을 때 주로 사용합니다.[m[41m   [m
+[32m+[m[32mCORRECT - 주로 문법의 오류나 타입의 변경, 이름 변경 등에 사용합니다.[m[41m   [m
+[32m+[m[32mMOVE - 코드의 이동이 있을 때 사용합니다.[m[41m   [m
+[32m+[m[32m**RENAME** - 이름 변경이 있을 때 사용합니다.[m[41m   [m
+[32m+[m[32mVERIFY - 검증 코드를 넣을 때 주로 사용합니다.[m[41m   [m
+ **SET** - 변수 값을 변경하는 등의 작은 수정에 주로 사용합니다.[m
+ [m
+ *** 위 내용은 영어로 작성하는 경우 해당됨.**[m
+[36m@@ -41,7 +41,7 @@[m [mVERIFY - 검증 코드를 넣을 때 주로 사용합니다.[m
+ ### 공통 규칙[m
+ [m
+ 1. 커밋 메시지는 __최대한 한글로 작성__ 한다.[m
+[31m-2. 메시지 본문에 __모든 변경 사항을 상세히 작성__한다. 축약하여 쓰지 않고 제 3자가 쉽게 이해할 수 있도록 최대한 풀어서 작성한다.[m
+[32m+[m[32m2. 메시지 본문에 **모든 변경 사항을 상세히 작성**한다. 축약하여 쓰지 않고 제 3자가 쉽게 이해할 수 있도록 최대한 풀어서 작성한다.[m
+ [m
+ [m
+ [m
+[36m@@ -113,13 +113,11 @@[m [mVERIFY - 검증 코드를 넣을 때 주로 사용합니다.[m
+    * 관련 : 해당 커밋에 관련된 이슈번호(아직 해결되지 않은 경우)[m
+    * 참고 : 참고할 이슈가 있을 때 사용[m
+ [m
+[31m-출처 : [오늘도 야근] [yagnlink][m
+[32m+[m[32m출처 : [오늘도 야근] (https://tttsss77.tistory.com/58)[m
+ [m
+[31m-[yagnlink] : https://tttsss77.tistory.com/58 "오늘도 야근"[m
+ [m
+ [m
+[31m-[m
+[31m-![image-20200331230414690](C:\Users\김재빠\AppData\Roaming\Typora\typora-user-images\image-20200331230414690.png)[m
+[32m+[m[32m![image-20200331230414690](https://github.com/supreme9122/TIL/blob/master/img/image-20200331230414690.png)[m
+ [m
+ [m
+ [m
+
+[33mcommit 3f4bc100ffb2122f0ed6fe8afbc4e3f97d1288ae[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Wed Apr 1 20:30:49 2020 +0900
+
+    기타:이미지폴더
+    마크다운에 사용할 이미지폴더 저장소에 업로드
+
+[1mdiff --git a/img/image-20200331230414690.png b/img/image-20200331230414690.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..a9592cd[m
+Binary files /dev/null and b/img/image-20200331230414690.png differ
+
+[33mcommit 3d9a3ae926e0083b72580a63968d144fd83a65cb[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Wed Apr 1 20:13:33 2020 +0900
+
+    기능:변수정리
+    변수의 종류를 정리함.
+
+[1mdiff --git a/Projects/Variable.java b/Projects/Variable.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..1cb928d[m
+[1m--- /dev/null[m
+[1m+++ b/Projects/Variable.java[m
+[36m@@ -0,0 +1,41 @@[m
+[32m+[m[32mpublic class Variable {[m
+[32m+[m
+[32m+[m[32m    public static void main(String[] args) {[m
+[32m+[m[32m        //정수형[m
+[32m+[m[32m        byte by = -1;       // 1byte = 8bit = 256개 = -128 ~ 127[m
+[32m+[m[32m        short sh = 2;      // 2byte = 16bit = 65,536개 = -32768 ~ 32767[m
+[32m+[m[32m        int in = 4;          // 4byte = 32bit = 4,294,967,296개 = -2,147,483,648 ~ 2,147,483,647[m
+[32m+[m[32m        long lo = 8;        // 8byte = 64bit = 18,446,744,073,709,551,616개 = -9,223,372,036,854,775,808 ~ 9,223,372,036,854,775,808[m
+[32m+[m[41m        [m
+[32m+[m[32m        //실수형(소수점을 나타내기 위한 데이터형)[m
+[32m+[m[32m        float fl = 4;      // 4byte = 32bit[m
+[32m+[m[32m        double dou = 8.8;  // 8byte = 64bit[m
+[32m+[m
+[32m+[m[32m        in = in +2;[m
+[32m+[m[32m        System.out.println("정수형 입니다.");[m
+[32m+[m[32m        System.out.println(by);[m
+[32m+[m[32m        System.out.println(sh);[m
+[32m+[m[32m        System.out.println(in);[m
+[32m+[m[32m        System.out.println(lo);[m
+[32m+[m
+[32m+[m[32m        dou = dou + 0.2;[m
+[32m+[m[32m        System.out.println("실수형 입니다.");[m
+[32m+[m[32m        System.out.println(fl);[m
+[32m+[m[32m        System.out.println(dou);[m
+[32m+[m
+[32m+[m[32m        //문자형(하나의 문자, ''를 사용한다.)[m
+[32m+[m[32m        char ch = 'a';[m
+[32m+[m[32m        System.out.println("문자형 입니다.");[m
+[32m+[m[32m        System.out.println(ch);[m
+[32m+[m
+[32m+[m[32m        //문자열[m
+[32m+[m[32m        String str = "String";[m
+[32m+[m[32m        System.out.println("문자열 입니다.");[m
+[32m+[m[32m        System.out.println(str);[m
+[32m+[m
+[32m+[m[32m        //논리형[m
+[32m+[m[32m        boolean bool = true;[m
+[32m+[m[32m        System.out.println("논리형 입니다.");[m
+[32m+[m[32m        System.out.println(bool);[m
+[32m+[m[32m    }[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+
+[33mcommit 9551b7bb16dc550b34ba29e159a73a829a110bc0[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Wed Apr 1 19:26:13 2020 +0900
+
+    기능:헬로월드^
+    간단한 코딩으로 GitHub에 저장하기
+
+[1mdiff --git a/Projects/HelloWorld.java b/Projects/HelloWorld.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..362561a[m
+[1m--- /dev/null[m
+[1m+++ b/Projects/HelloWorld.java[m
+[36m@@ -0,0 +1,5 @@[m
+[32m+[m[32mpublic class HelloWorld {[m
+[32m+[m[32m    public static void main(String[] org){[m
+[32m+[m[32m        System.out.println("hello world");[m
+[32m+[m[32m    }[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+
+[33mcommit dee72d5b7175f6441bf093f5eccdeac7cc3281ab[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Tue Mar 31 23:37:16 2020 +0900
+
+    문서 : 200331_TIL
+
+[1mdiff --git a/TIL/200331_JTIL.md b/TIL/200331_JTIL.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..af8eba9[m
+[1m--- /dev/null[m
+[1m+++ b/TIL/200331_JTIL.md[m
+[36m@@ -0,0 +1,23 @@[m
+[32m+[m[32m### To Do List[m
+[32m+[m
+[32m+[m[32m- [x] git과 github의 차이점[m
+[32m+[m[32m- [x] git 명령어 정리[m
+[32m+[m[32m- [x] git commit 메세지에 대한 내용 정리[m
+[32m+[m[32m- [ ] vs코드를 이용하여 projects 내용 채워 나가기(간단한 코딩)[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m### 느낀점[m
+[32m+[m
+[32m+[m[32m1. 지속적인 1Day 1Commit 및 TIL을 하기 위해서 마크다운 문법에 익숙해 져야 할 것 같다.[m
+[32m+[m
+[32m+[m[32m2. 오늘은 GIt관련 내용과 좋은 Commit Message의 규칙에 대해 공부 정리를 한번에 해놓고 "git add -A"로 지정을 하다보니 각 문서파일에 대한 상세 Commit Message를 지정하지 못한것 같다. 내일부터 각 파일을 add하여 commit 하도록 해야겠다.[m
+[32m+[m
+[32m+[m[41m   [m
+[32m+[m
+[32m+[m[32m### 내일 할 일[m
+[32m+[m
+[32m+[m[32m- [ ] vs코드를 이용하여 projects 내용 채워 나가기(간단한 코딩)[m
+[32m+[m[32m- [ ] 마크다운 문법을 통해 좋은 정보를 제공해주시는 출처의 정보를 정확한 링크로 표시하기[m
+[32m+[m[32m- [ ] 이미지 파일의 설정을 다시 조정하여 정확하게 표현되도록 구현 하기[m
+[32m+[m[32m- [ ] 오늘 커밋한 Study내용의 일부분이 제대로 작성되지 않았으므로 마크다운 문법을 정확하게 활용 하여 수정하기[m
+\ No newline at end of file[m
+
+[33mcommit 53a7314b7c8f7d69df231f18553a342dd3f30bcf[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Tue Mar 31 23:16:02 2020 +0900
+
+    문서 : Git과 GitHub, Commit Message의 중요성 등록^
+    Git과 GitHub의 차이점 및 명령어 정리^
+    좋은 Commit message를 작성하기 위한 규칙정리(영문, 한글)
+
+[1mdiff --git a/Study/GIt이란.md b/Study/GIt이란.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..d4a04b7[m
+[1m--- /dev/null[m
+[1m+++ b/Study/GIt이란.md[m
+[36m@@ -0,0 +1,80 @@[m
+[32m+[m[32m# Git 과 GitHub란?[m
+[32m+[m
+[32m+[m[32m- 버전관리 툴[m
+[32m+[m[32m  (버전별 백업관리, 형상관리)[m
+[32m+[m[32m- 통상 프로젝트를 진행 할 때 수정사항이 발생하면 수정 내용과 날짜 및 버전 정보를 파일명에 표시하고 저장을 해야 할것이다. 이렇게 무자비하게 보관하다보면 용량 부담이 클것이다. 이런 점을 보안하기 위해 만든 것이 Git이다.[m
+[32m+[m
+[32m+[m[32m# Git과 Github의 차이점[m
+[32m+[m
+[32m+[m[32mGit은 버전관리 위한 소프트웨어[m
+[32m+[m[32mGithub은 Git으로 Local내 저장돼서 원격전송된 내역들이 저장되는 공간을 제공하는 서비스이다.[m
+[32m+[m
+[32m+[m[32mex)[m
+[32m+[m[32mGit은 영상을 찍는 앱[m
+[32m+[m[32mGithub는 유튜브로 생각하기[m
+[32m+[m
+[32m+[m[32m#  Git 명령어[m
+[32m+[m[32m###  $ git init[m
+[32m+[m
+[32m+[m[32m>Windows Terminal 또는 Git Bash에서 이동한 경로 (ex : c:\user\name\GitTest\....)내에 .git이라는 투명한 폴더의 Git의 Local내 저장소를 만들게 된다. 한번 지정하고 나면 그후로 지정할 필요가 없음.[m
+[32m+[m
+[32m+[m[32m###  $ git status[m
+[32m+[m
+[32m+[m[32m>저장소의 상태를 확인하기 위해 사용 하는 명령어.[m
+[32m+[m[32m>현재 브랜치의 이름과 추가변경된 파일 및 디렉토리 목록을 표시[m
+[32m+[m
+[32m+[m[32m### $ git add -A[m[41m [m
+[32m+[m
+[32m+[m[32m>변동이 있는 파일 및 폴더(수정, 추가, 삭제) 전체를 저장소(.git)에 저장[m
+[32m+[m
+[32m+[m[32m### $ git add name[m
+[32m+[m
+[32m+[m[32m>변동 파일 및 폴더의 name(제목)을 저장소(.git)에 저장[m
+[32m+[m
+[32m+[m[32m### $ git commit -m "(작업수행내용)"[m
+[32m+[m[32m>수행된 작업을 기록하는것.[m
+[32m+[m[32m>-a옵션 지정시 변경된 파일을 검색하고 인덱스에 추가하는 작업도 동시에 실행[m
+[32m+[m[32m>[m
+[32m+[m[32m>ex) git commit -am "A first commit"[m
+[32m+[m
+[32m+[m[32m### $ git remote[m
+[32m+[m
+[32m+[m[32m>원격 저장소를 조작하는데 사용[m
+[32m+[m
+[32m+[m[32m- git remote : 원격 저장소의 이름 목록 표시[m
+[32m+[m[32m- git remote -v : 원격 저장소에 대한 자세한 목록[m
+[32m+[m[32m- git remote add [name] [url] : 원격 저장소 추가[m
+[32m+[m[32m- git remote remove [name] : 원격 저장소를 제거[m
+[32m+[m
+[32m+[m[32m### $ git push [name][m
+[32m+[m
+[32m+[m[32m>마지막 commit 내용을 원격저장소(GitHub)로 전송한다.[m
+[32m+[m
+[32m+[m[32m### $ git branch[m
+[32m+[m
+[32m+[m[32m>브랜치에 대한 다양한 작업을 수행하기 위한것.[m
+[32m+[m[32m- git branch [branch-name] : 브랜치 만들기[m
+[32m+[m[32m- git branch : 브랜치 목록보기[m
+[32m+[m[32m- git branch -d [branch-name] : 지정한 브렌치를 삭제[m
+[32m+[m
+[32m+[m[32m### $ git checkout[m
+[32m+[m[32m>로컬 저장소의 브랜치를 전활 할때 사용.[m
+[32m+[m
+[32m+[m[32m### $ git log[m[41m [m
+[32m+[m[32m>지금까지 해왔던 작업 기록을 확인하는것.[m
+[32m+[m
+[32m+[m[32m### $ git grep[m
+[32m+[m[32m>저장소의 파일 내용에서 검색하고자 할 때 사용.[m
+[32m+[m[32m- git grep"검색 단어"[m
+[32m+[m
+[32m+[m[32m### $ git clone[m
+[32m+[m[32m>기존 원격 저장소를 로컬에 다운로드하기 위하여 사용하는것.[m
+[32m+[m
+[32m+[m[32m### $ git reset --hard ******(로그 앞 6자리)[m
+[32m+[m[32m>과거 내용을 원상태로 복원하는것.[m
+[32m+[m
+[32m+[m[32m### $ git merge[m
+[32m+[m[32m>현재 브랜치에 다른 지점에서 변경 사항을 병합할때 사용[m
+[32m+[m
+[32m+[m[32m### $ git pull[m
+[32m+[m[32m>원격 브랜치의 변경 사항을 캡처하기 위해서 사용[m
+\ No newline at end of file[m
+[1mdiff --git a/Study/커밋 메시지 중요성.md b/Study/커밋 메시지 중요성.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..90edcb3[m
+[1m--- /dev/null[m
+[1m+++ b/Study/커밋 메시지 중요성.md[m	
+[36m@@ -0,0 +1,128 @@[m
+[32m+[m[32m### 커밋 메시지 중요성[m
+[32m+[m
+[32m+[m[32m영어, 한글 번갈아 가면서 커밋 메시지를 작성하고 구분 단위 없이 무작성 커밋만 하다 보니 체계가 필요하다는 생각이 들었다. 처음부터 잘 되지는 않을 것 같지만 최대한 지키고 내 커밋 스타일을 만들도록 노력해야겠다.[m
+[32m+[m
+[32m+[m[32m### 좋은 git 커밋 메시지를 작성하기 위한 7가지 약속[m
+[32m+[m
+[32m+[m[32m> 이하 약속은 커밋 메시지를 English로 작성하는 경우에 최적화되어 있습니다. 한글 커밋 메시지를 작성하는 경우에는 더 유연하게 적용하셔도 좋을 것 같네요.[m
+[32m+[m
+[32m+[m[32m1. 제목과 본문을 한 줄 띄워 분리하기[m
+[32m+[m[32m2. 제목은 영문 기준 50자 이내로[m
+[32m+[m[32m3. 제목 첫글자를 대문자로[m
+[32m+[m[32m4. 제목 끝에 . 금지[m
+[32m+[m[32m5. 제목은 명령조로[m
+[32m+[m[32m6. 본문은 영문 기준 72자마다 줄 바꾸기[m
+[32m+[m[32m7. 본문은 어떻게보다 무엇을, 왜에 맞춰 작성하기[m
+[32m+[m
+[32m+[m[32m출처 : [HOW TO WRITE A GIT COMMIT MESSAGE](https://chris.beams.io/posts/git-commit/)[m
+[32m+[m
+[32m+[m[32m### 많이 쓰는 커밋 명령어[m
+[32m+[m
+[32m+[m[32m**FIX** - 보통 올바르지 않은 동작을 고친 경우에 사용합니다.[m
+[32m+[m[32m**ADD** - 코드나 테스트, 예제, 문서 등의 추가가 있을 때 사용합니다[m
+[32m+[m[32m**REMOVE** - 코드의 삭제가 있을 때 사용[m
+[32m+[m[32mREFACTOR - 전면 수정이 있을 때 사용합니다.[m
+[32m+[m[32mUPDATE - 원래도 정상적으로 동작하고 있었지만, 수정, 추가, 보완을 한다는 개념입니다. 코드보다는 주로 문서나 리소스, 라이브러리등에 사용합니다[m
+[32m+[m[32mIMPROVE - 향상이 있을 때 사용합니다. 호환성, 테스트 커버리지, 성능, 검증 기능, 접근성 등 다양한 것들이 목적[m
+[32m+[m[32mMAKE - 주로 기존 동작의 변경을 명시합니다.[m
+[32m+[m[32m**REVISE** - 문서의 개정이 있을 때 주로 사용합니다.[m
+[32m+[m[32mCORRECT - 주로 문법의 오류나 타입의 변경, 이름 변경 등에 사용합니다.[m
+[32m+[m[32mMOVE - 코드의 이동이 있을 때 사용합니다.[m
+[32m+[m[32m**RENAME** - 이름 변경이 있을 때 사용합니다.[m
+[32m+[m[32mVERIFY - 검증 코드를 넣을 때 주로 사용합니다.[m
+[32m+[m[32m**SET** - 변수 값을 변경하는 등의 작은 수정에 주로 사용합니다.[m
+[32m+[m
+[32m+[m[32m*** 위 내용은 영어로 작성하는 경우 해당됨.**[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m# 한글일 경우[m
+[32m+[m
+[32m+[m[32m### 공통 규칙[m
+[32m+[m
+[32m+[m[32m1. 커밋 메시지는 __최대한 한글로 작성__ 한다.[m
+[32m+[m[32m2. 메시지 본문에 __모든 변경 사항을 상세히 작성__한다. 축약하여 쓰지 않고 제 3자가 쉽게 이해할 수 있도록 최대한 풀어서 작성한다.[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m### 커밋 메시지 구성[m
+[32m+[m
+[32m+[m[32m1. 모든 커밋 메시지는 다음과 같이 __세 영역으로 구성__, 각 영역은 __빈 줄로 분리__[m
+[32m+[m[32m   * 제목[m
+[32m+[m[32m   * 본문 (제목 만으로 표현이 가능할때 생략 가능)[m
+[32m+[m[32m   * 꼬리말(관련 이슈 없으면 생략 가능)[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m#### 제목[m
+[32m+[m
+[32m+[m[32m1. 제목 줄은 **50자 내로 작성**한다.[m
+[32m+[m
+[32m+[m[41m   [m
+[32m+[m
+[32m+[m[32m2. 제목 줄은 **"유형:제목"**의 형식으로 작성한다.[m
+[32m+[m
+[32m+[m[41m   [m
+[32m+[m
+[32m+[m[32m3. 커밋 메시지 유형은 다음 중 하나를 사용한다.[m
+[32m+[m
+[32m+[m[32m   * **기능** : 기능 추가, 삭제, 변경 (제품 코드 수정 발생)[m
+[32m+[m
+[32m+[m[32m   * **버그** : 버그 수정(제품 코드 수정 발생)[m
+[32m+[m
+[32m+[m[32m   * **리팩토링** : 코드 리팩토링(제품 코드 수정 발생)[m
+[32m+[m
+[32m+[m[32m   * **형식** : 코드 형식, 정렬, 주석 등의 변경 (제품 코드 수정 발생. 하지만 동작에 영향을 주는 변경은 없음.)[m
+[32m+[m
+[32m+[m[32m   * **테스트** : 테스트 코드 추가, 삭제, 변경 등(제품 코드 수정 발생. 테스트 코드에 관련된 모든 변경에 해당)[m
+[32m+[m
+[32m+[m[32m   * **문서** : 문서 추가, 삭제, 변경 (코드 수정 없음)[m
+[32m+[m
+[32m+[m[32m   * **기타** : 위에 해당되지 않는 모든 변경 (예: 빌드 스크립트 수정, 패키지 배포 설정 변경 등)을 포함(코드 수정 없음)[m
+[32m+[m
+[32m+[m[32m   * 이외 분리가 어려운 경우는 상위 **"유형"**으로 작성.[m
+[32m+[m
+[32m+[m[41m     [m
+[32m+[m
+[32m+[m[32m4. 제목은 **개조식 구문으로 작성**한다.[m
+[32m+[m
+[32m+[m[32m   * 예 : "기능 : 로그 출력 기능 추가"[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m#### 본문 작성[m
+[32m+[m
+[32m+[m[32m1. 본문은 **한 줄 당 72자 내**로 작성한다.(Git은 자동 줄바꿈을 해 주지 않으므로, 직접 줄바꿈을 해야 한다.)[m
+[32m+[m
+[32m+[m[41m   [m
+[32m+[m
+[32m+[m[32m2. 본문 내용은 양에 구애받지 않고 **최대한 상세히 작성**한다.[m
+[32m+[m
+[32m+[m[41m   [m
+[32m+[m
+[32m+[m[32m3. 본문 내용은 어떻게 변경했는지 보다 **무엇을 변경했는지** 또는 **왜 변경했는지**를 설명한다.[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m#### 꼬리말 작성[m
+[32m+[m
+[32m+[m[32m1. 꼬리말에는 **이슈 트래커**를 작성한다.[m
+[32m+[m[32m2. 꼬리말은 **"유형:#이슈번호"** 형식으로 작성한다.[m
+[32m+[m[32m3. 이슈 트래커 유형은 다음 중 하나를 사용한다.[m
+[32m+[m[32m   * 해결 : 이슈 해결 시 사용[m
+[32m+[m[32m   * 관련 : 해당 커밋에 관련된 이슈번호(아직 해결되지 않은 경우)[m
+[32m+[m[32m   * 참고 : 참고할 이슈가 있을 때 사용[m
+[32m+[m
+[32m+[m[32m출처 : [오늘도 야근] [yagnlink][m
+[32m+[m
+[32m+[m[32m[yagnlink] : https://tttsss77.tistory.com/58 "오늘도 야근"[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m![image-20200331230414690](C:\Users\김재빠\AppData\Roaming\Typora\typora-user-images\image-20200331230414690.png)[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m#### * 좋은 Commit message를 위한 영문, 한글로 나누어 정리 해보았는데 중복되는 점이 있다. 영문을 기본으로 한글 작성을 해보는것으로 결정 했다. *[m
+\ No newline at end of file[m
+
+[33mcommit b88a6a78dcac20c6bd2f66735caf46b502bc434e[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Mon Mar 30 21:42:18 2020 +0900
+
+    2020330_TIL
+
+[1mdiff --git a/TIL/200327_JTIL.md b/TIL/200327_JTIL.md[m
+[1mdeleted file mode 100644[m
+[1mindex b13f965..0000000[m
+[1m--- a/TIL/200327_JTIL.md[m
+[1m+++ /dev/null[m
+[36m@@ -1,24 +0,0 @@[m
+[31m-문제점 해결 [m
+[31m-[m
+[31m-여러개의 repository를 구성하려면 폴더를 새로 만들어서 지정하는게 맞는것 같다.[m
+[31m-(추가적인 확인사항 필요 - test repository를 새롭게 만들어서 테스트 해볼 예정)[m
+[31m-[m
+[31m-결국 모든 repository와 .git을 삭제후 현재는 readme.md라는 폴더안에 Study, TIL, Projects [m
+[31m-[m
+[31m-폴더로 구분지어 업로드를 다시 하였다.[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-*깨달은 점[m
+[31m-[m
+[31m-1. 현재 바탕화면에 readme.md라는 폴더를 생성하여 git init을 적용해 .git(버전관리)이 생성되었다. 처음에는 readme.md 폴더안에 study, til 폴더안에 .git을 모두 만들어서 각 github에 여러 repository를 관리 하려고 하였으나 원격저장소 이름을 중복되게 만들어서 그런지 push가 잘되지 않았다.  따라서 github에 하나의 repository(TIL)를 관리 하여 하나의 리포지토리에 여러 폴더를 만들어서 관리 하려고 한다.[m
+[31m-[m
+[31m-2. 실물 결과물이 수정되지 않으면 git status가 변동 되는게 없기 때문에 commit되지 않는다. 따라서 결과물을 직접 열어서 수정, 저장 하여야지만 commit이 되고 push가 가능해진다.[m
+[31m-[m
+[31m-   [m
+[31m-[m
+[31m-*내일 할 일(0330)[m
+[31m-[m
+[31m-1. 현재 까지 배운 git과 github 내용을 정리하여 study 폴더에 커밋할것.[m
+[31m-2. vs코드를 이용하여 projects 내용 채워 나가기[m
+[31m-   - 힘들것으로 예상되어 간단한 코딩 업로드 하기[m
+\ No newline at end of file[m
+
+[33mcommit 37141e089e724ff4b619d344773dcd39fcf1e435[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Mon Mar 30 21:41:16 2020 +0900
+
+    20200330_TIL
+
+[1mdiff --git a/TIL/200330_JTIL.md b/TIL/200330_JTIL.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f1bf654[m
+[1m--- /dev/null[m
+[1m+++ b/TIL/200330_JTIL.md[m
+[36m@@ -0,0 +1,27 @@[m
+[32m+[m[32m문제점 해결[m[41m [m
+[32m+[m
+[32m+[m[32m여러개의 repository를 구성하려면 폴더를 새로 만들어서 지정하는게 맞는것 같다.[m
+[32m+[m[32m(추가적인 확인사항 필요 - test repository를 새롭게 만들어서 테스트 해볼 예정)[m
+[32m+[m
+[32m+[m[32m결국 모든 repository와 .git을 삭제후 현재는 readme.md라는 폴더안에 Study, TIL, Projects[m[41m [m
+[32m+[m
+[32m+[m[32m폴더로 구분지어 업로드를 다시 하였다.[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m*깨달은 점[m
+[32m+[m
+[32m+[m[32m1. 현재 바탕화면에 readme.md라는 폴더를 생성하여 git init을 적용해 .git(버전관리)이 생성되었다. 처음에는 readme.md 폴더안에 study, til 폴더안에 .git을 모두 만들어서 각 github에 여러 repository를 관리 하려고 하였으나 원격저장소 이름을 중복되게 만들어서 그런지 push가 잘되지 않았다.  따라서 github에 하나의 repository(TIL)를 관리 하여 하나의 리포지토리에 여러 폴더를 만들어서 관리 하려고 한다.[m
+[32m+[m
+[32m+[m[32m2. 실물 결과물이 수정되지 않으면 git status가 변동 되는게 없기 때문에 commit되지 않는다. 따라서 결과물을 직접 열어서 수정, 저장 하여야지만 commit이 되고 push가 가능해진다.[m
+[32m+[m
+[32m+[m[41m   [m
+[32m+[m
+[32m+[m[32m*내일 할 일(0330)[m
+[32m+[m
+[32m+[m[32m1. 현재 까지 배운 git과 github 내용을 정리하여 study 폴더에 커밋할것.[m
+[32m+[m[32m   - git과 github의 차이점[m
+[32m+[m[32m   - git 명령어 정리[m
+[32m+[m[32m   - git commit 메세지에 대한 내용 정리[m
+[32m+[m[32m2. vs코드를 이용하여 projects 내용 채워 나가기[m
+[32m+[m[32m   - 힘들것으로 예상되어 간단한 코딩 업로드 하기[m
+\ No newline at end of file[m
+
+[33mcommit 825aaaa9fa3129df1c1d09cf755d9c42d3331da5[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Mon Mar 30 21:40:01 2020 +0900
+
+    20200330_TIL
+
+[1mdiff --git a/TIL/200327_JTIL.md b/TIL/200327_JTIL.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..b13f965[m
+[1m--- /dev/null[m
+[1m+++ b/TIL/200327_JTIL.md[m
+[36m@@ -0,0 +1,24 @@[m
+[32m+[m[32m문제점 해결[m[41m [m
+[32m+[m
+[32m+[m[32m여러개의 repository를 구성하려면 폴더를 새로 만들어서 지정하는게 맞는것 같다.[m
+[32m+[m[32m(추가적인 확인사항 필요 - test repository를 새롭게 만들어서 테스트 해볼 예정)[m
+[32m+[m
+[32m+[m[32m결국 모든 repository와 .git을 삭제후 현재는 readme.md라는 폴더안에 Study, TIL, Projects[m[41m [m
+[32m+[m
+[32m+[m[32m폴더로 구분지어 업로드를 다시 하였다.[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m*깨달은 점[m
+[32m+[m
+[32m+[m[32m1. 현재 바탕화면에 readme.md라는 폴더를 생성하여 git init을 적용해 .git(버전관리)이 생성되었다. 처음에는 readme.md 폴더안에 study, til 폴더안에 .git을 모두 만들어서 각 github에 여러 repository를 관리 하려고 하였으나 원격저장소 이름을 중복되게 만들어서 그런지 push가 잘되지 않았다.  따라서 github에 하나의 repository(TIL)를 관리 하여 하나의 리포지토리에 여러 폴더를 만들어서 관리 하려고 한다.[m
+[32m+[m
+[32m+[m[32m2. 실물 결과물이 수정되지 않으면 git status가 변동 되는게 없기 때문에 commit되지 않는다. 따라서 결과물을 직접 열어서 수정, 저장 하여야지만 commit이 되고 push가 가능해진다.[m
+[32m+[m
+[32m+[m[41m   [m
+[32m+[m
+[32m+[m[32m*내일 할 일(0330)[m
+[32m+[m
+[32m+[m[32m1. 현재 까지 배운 git과 github 내용을 정리하여 study 폴더에 커밋할것.[m
+[32m+[m[32m2. vs코드를 이용하여 projects 내용 채워 나가기[m
+[32m+[m[32m   - 힘들것으로 예상되어 간단한 코딩 업로드 하기[m
+\ No newline at end of file[m
+
+[33mcommit bccebfa77d470640fc4a25b44e7f7ac6d651cb13[m
+Author: Kim Jae Young <supreme9122@gmail.com>
+Date:   Mon Mar 30 21:01:52 2020 +0900
+
+    First commit
+
+[1mdiff --git a/Study/Github b/Study/Github[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f05ecf9[m
+Binary files /dev/null and b/Study/Github differ
+[1mdiff --git a/Study/TEST.md b/Study/TEST.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..13bcba0[m
+Binary files /dev/null and b/Study/TEST.md differ
+[1mdiff --git a/TIL/200325_JTIL.md b/TIL/200325_JTIL.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..05d7a29[m
+Binary files /dev/null and b/TIL/200325_JTIL.md differ
+[1mdiff --git a/TIL/200326_JTIL.md b/TIL/200326_JTIL.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..1251fdf[m
+[1m--- /dev/null[m
+[1m+++ b/TIL/200326_JTIL.md[m
+[36m@@ -0,0 +1,30 @@[m
+[32m+[m[32m오늘은 한게 없는거 같다....[m
+[32m+[m
+[32m+[m[32m새로운 Study repository를 만들어서 그안에 공부한 내용들을 적어 넣으려고 했는데[m[41m [m
+[32m+[m
+[32m+[m[32mReadme.md란 폴더에 또 다른 폴더(Study)를 넣어 업로드 하고 싶었는데 생각처럼 잘 되지 않[m
+[32m+[m
+[32m+[m[32m는것 같다.[m[41m [m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m문제점[m
+[32m+[m
+[32m+[m[32m현재 생각되는 문제점으로 터미널내에서 JTIL이란 저장소만 지정되어 업로드 되는듯하다.[m
+[32m+[m
+[32m+[m[32m내일은 좀 더 많은 시간을 투자하여 다시한번 도전 해보기로 하자.[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m*내일 할일(0326)[m
+[32m+[m
+[32m+[m[32m1. JTIL에 폴더를 업로드 하는 방법으로 폴더 업로드에 대해 정확히 파악하기.[m
+[32m+[m
+[32m+[m[32m2. 여러 repository를 다루는 방법[m
+[32m+[m
+[32m+[m[32m- 터미널내에서 각각의 repository에 접속을 하는건지?[m
+[32m+[m[32m- 커밋할때 해당 repository를 지정해서 업로드 하는것인지.[m
+[32m+[m
+[32m+[m[32m이번주는 git 업로드 방법에 대해 계속해서 알아봐야 하겠다.[m
+[32m+[m
+[32m+[m[41m   [m
+\ No newline at end of file[m
+[1mdiff --git a/TIL/introduce.md b/TIL/introduce.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..d04178b[m
+[1m--- /dev/null[m
+[1m+++ b/TIL/introduce.md[m
+[36m@@ -0,0 +1,24 @@[m
+[32m+[m[32m## 자기소개[m
+[32m+[m
+[32m+[m[32m* 이름 : 김재영[m
+[32m+[m
+[32m+[m[32m* 나이 : 30대[m
+[32m+[m
+[32m+[m[32m* 혈액형 : A형[m
+[32m+[m
+[32m+[m[32m* 사는곳[m
+[32m+[m
+[32m+[m[32m  - 서울[m
+[32m+[m
+[32m+[m[32m* 하고싶은 말[m
+[32m+[m
+[32m+[m[32m  개발자 어렵고 어렵지만 하나하나 알아가는것에 감사하자[m
+[32m+[m
+[32m+[m[32m  어제부터 오늘까지 git과 github에 대해 알아보는데 정말 많은 시간이 소비 되었다.[m
+[32m+[m
+[32m+[m[32m  좋은 분들의 글을 보면서 하나하나 천천히 알아가자(조급해 하지 않기)[m
+[32m+[m
+[32m+[m[32m  ReadMe.md(리드미)에 대해 알아가며 나의 일상을 기록하는게 부끄럽지만 후에 더 나은내가 되어 있을때 이글을 보며 좋은 추억이 될 수 있기를 바라자...[m
+[32m+[m
+[32m+[m[32m# 20200325_TIL[m
+[32m+[m
