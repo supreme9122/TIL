@@ -46,7 +46,7 @@ Github는 유튜브로 생각하기
 - git remote add [name] [url] : 원격 저장소 추가
 - git remote remove [name] : 원격 저장소를 제거
 
-### $ git push [name]
+### $ git push [name] master
 
 >마지막 commit 내용을 원격저장소(GitHub)로 전송한다.
 
@@ -75,17 +75,8 @@ Github는 유튜브로 생각하기
 >저장소의 파일 내용에서 검색하고자 할 때 사용.
 - git grep"검색 단어"
 
-### $ git clone
->기존 원격 저장소를 로컬에 다운로드하기 위하여 사용하는것.
-
-### $ git reset --hard ******(로그 앞 6자리)
->과거 내용을 원상태로 복원하는것.
-
 ### $ git merge
 >현재 브랜치에 다른 지점에서 변경 사항을 병합할때 사용
-
-### $ git pull
->원격 브랜치의 변경 사항을 캡처하기 위해서 사용
 
 ### $ git log -p
 
@@ -105,6 +96,46 @@ Github는 유튜브로 생각하기
 
 
 
+### $ git clone [url] (저장할 폴더 이름``생략가능``)
+
+>기존 원격 저장소를 로컬에 다운로드하기 위하여 사용하는것.
+
+### $ git reset --hard ******(로그 앞 6자리)
+
+>과거 내용을 원상태로 복원하는것.
+
+### $ git pull [name] master
+
+>원격 브랜치의 변경 사항을 캡처하기 위해서 사용
+
+
+
+### $ git reset head [file]
+
+>git add 취소하기(파일 상태를 Unstage로 변경)
+>
+>뒤에 파일명이 없으면 add한 전체를 취소한다.
+
+
+
+### $ git reset
+
+>[방법 1] commit을 취소하고 해당 파일들은 staged 상태로 워킹 디렉터리에 보존
+>$ git reset --soft HEAD^
+>[방법 2] commit을 취소하고 해당 파일들은 unstaged 상태로 워킹 디렉터리에 보존
+>$ git reset --mixed HEAD^ // 기본 옵션
+>$ git reset HEAD^ // 위와 동일
+>$ git reset HEAD~2 // 마지막 2개의 commit을 취소
+>[방법 3] commit을 취소하고 해당 파일들은 unstaged 상태로 워킹 디렉터리에서 삭제
+>$ git reset --hard HEAD^
+
+
+
+
+
+
 *** git 명령어 관련 좋은 블로그**
 
 [빨간당무 마을](https://redcarrot.tistory.com/227)
+
+[Heee's Development https://gmlwjd9405.github.io/2018/05/25/git-add-cancle.html
