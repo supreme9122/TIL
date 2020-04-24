@@ -64,7 +64,15 @@
 
 
 
-#### ③ 시스템 속성에서 고급탭으로 가면 환경 변수 설정창을 띄울 수 있다, 새로 만들기 후
+#### ③ 시스템 속성에서 고급탭으로 가면 환경 변수 설정창을 띄울 수 있다
+
+#### 
+
+
+
+![JDKInstall10](https://github.com/supreme9122/TIL/blob/master/img/JDK_Install/JDKInstall10.png)
+
+#### 새로 만들기
 
 ### 변수 이름(N) : JAVA_HOME
 
@@ -72,9 +80,9 @@
 
 #### 을 입력하자.
 
+#### 
 
-
-![JDKInstall11](https://github.com/supreme9122/TIL/blob/master/img/JDK_Install/JDKInstall10.png)
+![JDKInstall11](https://github.com/supreme9122/TIL/blob/master/img/JDK_Install/JDKInstall11.png)
 
 
 
@@ -86,17 +94,13 @@
 
 #### 을 입력하자. ※ 오타 나지 않게 주의 ※
 
-![JDKInstall12](https://github.com/supreme9122/TIL/blob/master/img/JDK_Install/JDKInstall11.png)
+#### 
 
-
-
-#### 시스템 변수 중 Path변수를 찾아 편집을 열어준다.
-
-
+#### 
 
 ![JDKInstall12](https://github.com/supreme9122/TIL/blob/master/img/JDK_Install/JDKInstall12.png)
 
-
+#### 
 
 #### 변수 편집으로 진입하여 새로 만들기 클릭!
 
@@ -113,6 +117,12 @@
 ![JDKInstall14](https://github.com/supreme9122/TIL/blob/master/img/JDK_Install/JDKInstall14.png)
 
 
+
+#### 시스템 변수 중 Path변수를 찾아 편집을 열어준다.
+
+
+
+![JDKInstall15](https://github.com/supreme9122/TIL/blob/master/img/JDK_Install/JDKInstall15.png)
 
 #### ④ cmd창을 열어 java -version을 입력하여 java 설치가 잘 되었는지 확인한다.
 
