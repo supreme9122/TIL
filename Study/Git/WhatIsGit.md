@@ -138,4 +138,4 @@ Github는 유튜브로 생각하기
 
 [빨간당무 마을](https://redcarrot.tistory.com/227)
 
-[Heee's Development https://gmlwjd9405.github.io/2018/05/25/git-add-cancle.html
+[Heee's Development](https://gmlwjd9405.github.io/2018/05/25/git-add-cancle.html)
