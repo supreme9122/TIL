@@ -72,6 +72,8 @@
 
 ![JDKInstall10](https://github.com/supreme9122/TIL/blob/master/img/JDK_Install/JDKInstall10.png)
 
+#### 
+
 #### 새로 만들기
 
 ### 변수 이름(N) : JAVA_HOME
