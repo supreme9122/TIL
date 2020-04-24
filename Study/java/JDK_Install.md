@@ -4,7 +4,7 @@
 
 
 
-![JDKInstall1](D:\JDKInstall1.png)
+![JDKInstall1](https://github.com/supreme9122/TIL/blob/master/img/JDK_Install/JDKInstall1.png)
 
 
 
@@ -12,7 +12,7 @@
 
 
 
-#### ![JDKInstall2](D:\JDKInstall2.png)
+#### ![JDKInstall2](https://github.com/supreme9122/TIL/blob/master/img/JDK_Install/JDKInstall2.png)
 
 
 
@@ -20,7 +20,7 @@
 
 
 
-#### ![JDKInstall3](D:\JDKInstall3.png)
+#### ![JDKInstall3](https://github.com/supreme9122/TIL/blob/master/img/JDK_Install/JDKInstall3.png)
 
 
 
@@ -28,7 +28,7 @@
 
 
 
-![JDKInstall5](D:\JDKInstall5.png)
+![JDKInstall5](https://github.com/supreme9122/TIL/blob/master/img/JDK_Install/JDKInstall5.png)
 
 
 
@@ -36,7 +36,7 @@
 
 
 
-#### ![JDKInstall6](D:\JDKInstall6.png)
+#### ![JDKInstall6](https://github.com/supreme9122/TIL/blob/master/img/JDK_Install/JDKInstall6.png)
 
 
 
@@ -44,7 +44,7 @@
 
 
 
-#### ![JDKInstall7](D:\JDKInstall7.png)
+#### ![JDKInstall7](https://github.com/supreme9122/TIL/blob/master/img/JDK_Install/JDKInstall7.png)
 
 
 
@@ -52,7 +52,7 @@
 
 
 
-![JDKInstall8](D:\JDKInstall8.png)
+![JDKInstall8](https://github.com/supreme9122/TIL/blob/master/img/JDK_Install/JDKInstall8.png)
 
 
 
@@ -60,7 +60,7 @@
 
 
 
-![JDKInstall9](D:\JDKInstall9.png)
+![JDKInstall9](https://github.com/supreme9122/TIL/blob/master/img/JDK_Install/JDKInstall9.png)
 
 
 
@@ -74,7 +74,7 @@
 
 
 
-![JDKInstall11](D:\JDKInstall11.png)
+![JDKInstall11](https://github.com/supreme9122/TIL/blob/master/img/JDK_Install/JDKInstall10.png)
 
 
 
@@ -86,7 +86,7 @@
 
 #### 을 입력하자. ※ 오타 나지 않게 주의 ※
 
-![JDKInstall12](D:\JDKInstall12.png)
+![JDKInstall12](https://github.com/supreme9122/TIL/blob/master/img/JDK_Install/JDKInstall11.png)
 
 
 
@@ -94,7 +94,7 @@
 
 
 
-![](D:\JDKInstall15.png)
+![JDKInstall12](https://github.com/supreme9122/TIL/blob/master/img/JDK_Install/JDKInstall12.png)
 
 
 
@@ -102,7 +102,7 @@
 
 
 
-![JDKInstall13](D:\JDKInstall13.png)
+![JDKInstall13](https://github.com/supreme9122/TIL/blob/master/img/JDK_Install/JDKInstall13.png)
 
 
 
@@ -110,7 +110,7 @@
 
 
 
-![JDKInstall14](D:\JDKInstall14.png)
+![JDKInstall14](https://github.com/supreme9122/TIL/blob/master/img/JDK_Install/JDKInstall14.png)
 
 
 
@@ -118,7 +118,7 @@
 
 
 
-#### ![JDKInstall16](D:\JDKInstall16.png)
+#### ![JDKInstall16](https://github.com/supreme9122/TIL/blob/master/img/JDK_Install/JDKInstall16.png)
 
 
 
@@ -128,7 +128,7 @@
 
 
 
-![](D:\JDKInstall17.png)
+![JDKInstall17](https://github.com/supreme9122/TIL/blob/master/img/JDK_Install/JDKInstall17.png)
 
 
 
