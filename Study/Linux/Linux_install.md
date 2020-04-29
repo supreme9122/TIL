@@ -12,7 +12,7 @@
 
 
 
-![LinuxInstall1](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall1.png)
+![LinuxInstall1](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall1.png)
 
 
 
@@ -20,7 +20,7 @@
 
 
 
-![LinuxInstall2](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall2.png)
+![LinuxInstall2](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall2.png)
 
 
 
@@ -28,7 +28,7 @@
 
 
 
-![LinuxInstall3](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall3.png)
+![LinuxInstall3](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall3.png)
 
 
 
@@ -36,11 +36,11 @@
 
 
 
-![LinuxInstall4](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall4.png)
+![LinuxInstall4](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall4.png)
 
-![LinuxInstall5](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall5.png)
+![LinuxInstall5](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall5.png)
 
-![LinuxInstall6](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall6.png)
+![LinuxInstall6](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall6.png)
 
 
 
@@ -48,7 +48,7 @@
 
 
 
-![LinuxInstall8](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall8.png)
+![LinuxInstall8](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall8.png)
 
 
 
@@ -58,7 +58,7 @@
 
 ### Linux 설치
 
-![LinuxInstall9](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall9.png)
+![LinuxInstall9](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall9.png)
 
 
 
@@ -66,7 +66,7 @@
 
 
 
-![LinuxInstall10](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall10.png)
+![LinuxInstall10](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall10.png)
 
 
 
@@ -74,7 +74,7 @@
 
 
 
-![LinuxInstall11](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall11.png)
+![LinuxInstall11](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall11.png)
 
 
 
@@ -82,7 +82,7 @@
 
 
 
-![LinuxInstall12](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall12.png)
+![LinuxInstall12](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall12.png)
 
 
 
@@ -90,9 +90,9 @@
 
 
 
-![LinuxInstall13](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall13.png)
+![LinuxInstall13](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall13.png)
 
-![LinuxInstall14](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall14.png)
+![LinuxInstall14](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall14.png)
 
 
 
@@ -100,9 +100,9 @@
 
 
 
-![LinuxInstall15](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall15.png)
+![LinuxInstall15](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall15.png)
 
-![LinuxInstall16](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall16(1).png)
+![LinuxInstall16](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall16(1).png)
 
 #### ⑥ Enter키를 누르면 설치를 진행한다.
 
@@ -110,11 +110,11 @@
 
 ##### A. Num Lock버튼 해결 방법
 
-> ![LinuxInstall17](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall17.png)
+> ![LinuxInstall17](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall17.png)
 >
 > 1. cmd창에 osk 입력
 >
-> ![LinuxInstall18](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall18.png)
+> ![LinuxInstall18](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall18.png)
 >
 > 2. 화상키보드 '옵션'	→	'숫자 키패드 켜기'	→	'Num Lock'
 
@@ -122,17 +122,17 @@
 
 > 호스트 키 조합의 경우 지정된 키를 모를경우 마우스가 VirtualBox에서 빠져 나오지 못한다. ※ 분실에 유의 ※
 >
-> ![LinuxInstall19](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall19.png)
+> ![LinuxInstall19](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall19.png)
 >
 > 1. 입력	→	키보드	→	키보드 설정
 >
-> ![LinuxInstall20](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall20.png)
+> ![LinuxInstall20](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall20.png)
 >
 > 2. 단축키를 설정해 준다.
 
 
 
-![LinuxInstall22](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall22.png)
+![LinuxInstall22](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall22.png)
 
 
 
@@ -140,7 +140,7 @@
 
 
 
-![LinuxInstall23](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall23.png)
+![LinuxInstall23](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall23.png)
 
 
 
@@ -148,9 +148,9 @@
 
 
 
-![LinuxInstall24](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall24.png)
+![LinuxInstall24](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall24.png)
 
-![LinuxInstall25](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall25.png)
+![LinuxInstall25](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall25.png)
 
 
 
@@ -158,7 +158,7 @@
 
 
 
-![LinuxInstall26](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall26.png)
+![LinuxInstall26](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall26.png)
 
 
 
@@ -166,7 +166,7 @@
 
 
 
-![LinuxInstall27](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall27.png)
+![LinuxInstall27](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall27.png)
 
 
 
@@ -174,19 +174,19 @@
 
 
 
-![LinuxInstall28](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall28.png)
+![LinuxInstall28](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall28.png)
 
-![LinuxInstall29](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall29.png)
+![LinuxInstall29](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall29.png)
 
-![LinuxInstall30](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall30.png)
+![LinuxInstall30](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall30.png)
 
-![LinuxInstall31](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall31.png)
+![LinuxInstall31](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall31.png)
 
-![LinuxInstall32](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall32.png)
+![LinuxInstall32](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall32.png)
 
-![LinuxInstall33](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall33.png)
+![LinuxInstall33](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall33.png)
 
-![LinuxInstall34](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall34.png)
+![LinuxInstall34](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall34.png)
 
 
 
@@ -206,9 +206,9 @@
 
 
 
-![LinuxInstall35](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall35.png)
+![LinuxInstall35](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall35.png)
 
-![LinuxInstall36](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall36.png)
+![LinuxInstall36](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall36.png)
 
 
 
@@ -216,7 +216,7 @@
 
 
 
-![LinuxInstall37](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall37.png)
+![LinuxInstall37](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall37.png)
 
 
 
@@ -224,7 +224,7 @@
 
 
 
-![LinuxInstall38](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall38.png)
+![LinuxInstall38](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall38.png)
 
 
 
@@ -232,7 +232,7 @@
 
 
 
-![LinuxInstall39](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall39.png)
+![LinuxInstall39](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall39.png)
 
 
 
@@ -240,9 +240,9 @@
 
 
 
-![LinuxInstall41](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall41.png)
+![LinuxInstall41](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall41.png)
 
-![LinuxInstall42](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall42.png)
+![LinuxInstall42](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall42.png)
 
 
 
@@ -250,7 +250,7 @@
 
 
 
-![LinuxInstall43](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall43.png)
+![LinuxInstall43](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall43.png)
 
 
 
@@ -258,13 +258,13 @@
 
 
 
-![LinuxInstall9](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall9.png)
+![LinuxInstall9](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall9.png)
 
-![LinuxInstall10](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall10.png)
+![LinuxInstall10](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall10.png)
 
-![LinuxInstall44](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall44.png)
+![LinuxInstall44](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall44.png)
 
-#### ![LinuxInstall45](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall45.png)
+#### ![LinuxInstall45](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall45.png)
 
 
 
@@ -272,7 +272,7 @@
 
 
 
-![LinuxInstall46](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall46.png)
+![LinuxInstall46](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall46.png)
 
 
 
@@ -280,7 +280,7 @@
 
 
 
-![LinuxInstall47](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall47.png)
+![LinuxInstall47](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall47.png)
 
 
 
@@ -288,7 +288,7 @@
 
 
 
-![LinuxInstall48](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall48.png)
+![LinuxInstall48](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall48.png)
 
 
 
@@ -296,7 +296,7 @@
 
 
 
-![LinuxInstall49](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall49.png)
+![LinuxInstall49](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall49.png)
 
 
 
@@ -304,9 +304,9 @@
 
 
 
-![LinuxInstall50](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall50.png)
+![LinuxInstall50](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall50.png)
 
-![LinuxInstall51](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall51.png)
+![LinuxInstall51](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall51.png)
 
 
 
@@ -314,7 +314,7 @@
 
 
 
-![LinuxInstall52](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall52.png)
+![LinuxInstall52](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall52.png)
 
 
 
@@ -322,9 +322,9 @@
 
 
 
-![LinuxInstall53](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall53.png)
+![LinuxInstall53](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall53.png)
 
-![LinuxInstall54](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall54.png)
+![LinuxInstall54](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall54.png)
 
 
 
@@ -332,9 +332,9 @@
 
 
 
-![LinuxInstall55](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall55.png)
+![LinuxInstall55](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall55.png)
 
-![LinuxInstall56](C:\Users\supre\Desktop\Github\img\Linux\LinuxInstall56.png)
+![LinuxInstall56](https://github.com/supreme9122/TIL/blob/master/img/Linux/LinuxInstall56.png)
 
 #### ㉗ 사운드 카드와 추가 CD 모두 기본 값으로 하자
 
