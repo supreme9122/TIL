@@ -34,9 +34,61 @@
 
 
 
-## 2. GNU 프로젝트
+## 2. GNU 프로젝트(GNU is Not Unix)
 
 ##### 1984년, 리처드 스톨먼에 의해서 GNU 프로젝트가 시작되었다. GNU 프로젝트의 목표는 '모두가 공유할 수 있는 소프트웨어'를 만드는 것이었고, 리처드 톨먼은 1985년 자유 소프트웨어 제단(Free Software Foundation, FSF)을 설립했다. FSF의 목표는 누구든지 소프트웨어를 자유롭게 사용 하게 하는 것이다. FSF에서 제공하는 소프트웨어 대부분은 GPL(General Public License)이라는 라이선스를 따르도록 되어 있다. 이 라이선스는 자유 소프트웨어의 수정과 공유하는 데 있어 자유를 보장하는 것을 기본으로 한다.
 
 
 
+## 3. 커널
+
+##### 커널은 위에 보이는 리눅스 배포판의 구성을 보면 현재 제어하는 하드웨어 장치의 지원 여부 정보, 하드웨어 성능, 하드웨어를 제어하는 코드들이 들어 있다.
+
+##### 리누스 토르발스가 Linux의 핵심인 '커널'을 만들게 되었다.
+
+- ##### 커널은 기계어를 이해할 수 있기 때문에 app에서 전달된 명령어를 해석기인 shell에 전달하여 동작한다.
+
+- ##### 리눅스 커널의 버전은 안정 버전(Stable Version)과 개발 버전(Developmental Version)으로 나뉘어서 배포한다.
+
+#### ※ 버전의 의미 ※
+
+> x . y . z
+<<<<<<< HEAD
+>
+> x : 주, Major, 큰(획기적) 변화
+>
+> y : 부, Minor, 작은(기능) 변화 (짝수 : 안정버전, 홀수 : 테스트버전)
+>
+> z : 패치, Patch, 문제 해결
+=======
+>  x				 : 주, Major, 큰(획기적) 변화
+>       y			: 부, Minor, 작은(기능) 변화 (짝수 : 안정버전, 홀수 : 테스트버전)
+>        	z	   : 패치, Patch, 문제 해결
+
+
+>>>>>>> eb84d9baf1ffc62228bd69c6006e3cd41766bdc1
+
+# 리눅스 배포판
+
+[리눅스 배포판 계보확인](http://futurist.se/gldt/)
+
+- 비교적 잘 알려진 리눅스 배포판에는 데비안, 슬랙 웨어, 레드헷 이 리눅스의 가장 큰 갈래이다. 대표적으로 데비안은 우분투, 레드헷은 CentOS 페도라등이 있다.
+<<<<<<< HEAD
+- 리눅스를 설치하려고 iso 파일을 찾다 보면 x86과 같은 약어를 확인할 수 있는데 이는 x86(386, 486, 586, 686) intel사에서 만든 32bit 계열의 cpu를 뜻한다. x64 : intel사에서 출시하는 64bit CPU (ia64라는 명칭도 사용) x86_34 : AMD사에서 32bit CPU에서 64bit 처리 기능을 추가한 CPU(AMD64, EM64T)
+
+
+
+**[Min-Zero](https://min-zero.tistory.com/entry/KITRI-Day1%EB%A6%AC%EB%88%85%EC%8A%A4-%EA%B8%B0%EB%B3%B8?category=835727](https://min-zero.tistory.com/entry/KITRI-Day1리눅스-기본?category=835727)) (같은 학원에서 교육을 받고있는 ACE의 tistory)**
+
+=======
+
+- 리눅스를 설치하려고 iso 파일을 찾다 보면 x86과 같은 약어를 확인할 수 있는데 이는 x86(386, 486, 586, 686) intel사에서 만든 32bit 계열의 cpu를 뜻한다. 
+  x64 : intel사에서 출시하는 64bit CPU (ia64라는 명칭도 사용)
+  x86_34 : AMD사에서 32bit CPU에서 64bit 처리 기능을 추가한 CPU(AMD64, EM64T)
+
+
+
+
+
+**[Min-Zero]([https://min-zero.tistory.com/entry/KITRI-Day1%EB%A6%AC%EB%88%85%EC%8A%A4-%EA%B8%B0%EB%B3%B8?category=835727](https://min-zero.tistory.com/entry/KITRI-Day1리눅스-기본?category=835727)) (같은 학원에서 교육을 받고있는 ACE의 tistory)**
+>>>>>>> eb84d9baf1ffc62228bd69c6006e3cd41766bdc1
