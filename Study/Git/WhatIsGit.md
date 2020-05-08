@@ -49,6 +49,18 @@ Github는 유튜브로 생각하기
 ### $ git push [name] master
 
 >마지막 commit 내용을 원격저장소(GitHub)로 전송한다.
+>
+>TIP 경고를 무시하고 강제로 push 하기
+>
+>[방법 1] -f 옵션
+>–force 옵션과 동일하다.
+>
+>$ git push origin [branch name] -f
+>
+>[방법 2] +[branch name]
+>해당 branch를 강제로 push한다.
+>
+>$ git push origin +[branch name]
 
 ### $ git branch
 
