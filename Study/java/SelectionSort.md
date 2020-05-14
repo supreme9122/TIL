@@ -4,13 +4,13 @@
 
 ##### ※ 주의사항 : 회전당 각각의 인덱스와 크기 비교를 통해 검사하기 때문에 위치 이동 후 변경된 값으로 다음 검색을 해야 한다는 것.
 
-![초기값 설정](C:\Users\supre\Desktop\Github\img\SelectSort\초기값 설정.png)
+![초기값 설정](https://github.com/supreme9122/TIL/blob/master/img/SelectSort/초기값%20설정.png)
 
 
 
 
 
-![1회전](C:\Users\supre\Desktop\Github\img\SelectSort\1회전.png)
+![1회전](https://github.com/supreme9122/TIL/blob/master/img/SelectSort/1회전.png)
 
 
 
@@ -18,19 +18,19 @@
 
 
 
-![2회전](C:\Users\supre\Desktop\Github\img\SelectSort\2회전.png)
+![2회전](https://github.com/supreme9122/TIL/blob/master/img/SelectSort/2회전.png)
 
 
 
 
 
-![3회전](C:\Users\supre\Desktop\Github\img\SelectSort\3회전.png)
+![3회전](https://github.com/supreme9122/TIL/blob/master/img/SelectSort/3회전.png)
 
 
 
 
 
-![4회전](C:\Users\supre\Desktop\Github\img\SelectSort\4회전.png)
+![4회전](https://github.com/supreme9122/TIL/blob/master/img/SelectSort/4회전.png)
 
 ##### < 코드 >
 
