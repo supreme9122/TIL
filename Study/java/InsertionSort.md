@@ -19,23 +19,23 @@
 
 
 
-![초기값 설정](https://github.com/supreme9122/TIL/blob/master/img/BubbleSort/초기값 설정.png)
+![초기값 설정](https://github.com/supreme9122/TIL/blob/master/img/InsertionSort/초기값%20설정.png)
 
-![1회전](C:\Users\supre\Desktop\Github\img\InsertionSort\1회전.png)
-
-
-
-![2회전](C:\Users\supre\Desktop\Github\img\InsertionSort\2회전.png)
+![1회전](https://github.com/supreme9122/TIL/blob/master/img/InsertionSort/1회전.png)
 
 
 
+![2회전](https://github.com/supreme9122/TIL/blob/master/img/InsertionSort/2회전.png)
 
 
-![3회전](C:\Users\supre\Desktop\Github\img\InsertionSort\3회전.png)
 
 
 
-![4회전](C:\Users\supre\Desktop\Github\img\InsertionSort\4회전.png)
+![3회전](https://github.com/supreme9122/TIL/blob/master/img/InsertionSort/3회전.png)
+
+
+
+![4회전](https://github.com/supreme9122/TIL/blob/master/img/InsertionSort/4회전.png)
 
 ##### < 코드 >
 
