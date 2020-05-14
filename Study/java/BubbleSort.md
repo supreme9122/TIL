@@ -7,7 +7,7 @@
 
 
 
-![초기값 설정](https://github.com/supreme9122/TIL/blob/master/img/BubbleSort/초기값 설정.png)
+![초기값 설정](https://github.com/supreme9122/TIL/blob/master/img/BubbleSort/초기값%20설정.png)
 
 
 
