@@ -19,3 +19,31 @@
 
 
 
+```java
+public class Test{
+    public static void main(String[] args) {
+    
+        int arr[] = {254,3,213,64,75,56,4,324,65,78,9,5,76,3410,8,342,76};
+        int temp;
+
+        for(int i = 0; i < arr.length-1; i++){          //회전수
+            for(int j = 0; j < arr.length-i-1; j++){    //1회전당 검사 수 
+                //j = 0으로 시작해야 0번부터 새로 다시 검색한다.
+                //버블 정렬은 1회전이 끝나면 마지막 값이 최대값이다.
+                //따라서 j < arr.length-i-1을 해야 마지막 값을 검사 하지 않는다.
+                if(arr[j] > arr[j+1]){
+                    temp = arr[j];
+                    arr[j] = arr[j+1];
+                    arr[j+1] = temp;
+                }
+            }
+        }
+
+        //반복문 출력값
+        for(int i = 0; i < arr.length; i++){
+            System.out.println(arr[i]);
+        }
+    }
+}
+```
+
