@@ -19,7 +19,7 @@
 
 
 
-![초기값 설정](C:\Users\supre\Desktop\Github\img\InsertionSort\초기값 설정.png)
+![초기값 설정](https://github.com/supreme9122/TIL/blob/master/img/BubbleSort/초기값 설정.png)
 
 ![1회전](C:\Users\supre\Desktop\Github\img\InsertionSort\1회전.png)
 
