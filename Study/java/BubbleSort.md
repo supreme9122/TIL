@@ -11,13 +11,15 @@
 
 
 
-![1회전](C:\Users\supre\Desktop\Github\img\BubbleSort\1회전.png)
+![1회전](https://github.com/supreme9122/TIL/blob/master/img/BubbleSort/1회전.png)
 
 
 
-![2회전](C:\Users\supre\Desktop\Github\img\BubbleSort\2회전.png)
+![2회전](https://github.com/supreme9122/TIL/blob/master/img/BubbleSort/2회전.png)
 
 
+
+##### < 코드 >
 
 ```java
 public class Test{
@@ -45,5 +47,27 @@ public class Test{
         }
     }
 }
+```
+
+##### < 결과 >
+
+```java
+3
+4
+5
+8
+9
+56
+64
+65
+75
+76
+76
+78
+213
+254
+324
+342
+3410
 ```
 
