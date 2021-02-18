@@ -4,9 +4,18 @@
 <meta charset="EUC-KR">
 <title>Insert title here</title>
 <style> 
+h1 {
+	height : 30px;
+	width : 850px;
+	line-height: 30px;
+	vertical-align: middle;
+	text-align: center;
+	color : #2d2d2d;
+	}
+	
 #topMenu {  
 	height: 30px; /* topMenu의 높이를 30px로 설정(제대로 설정 안하면 아래 내용이 깨짐) */ 
-	width: 850px; /* topMenu의 넓이를 850px로 설정(제대로 설정 안하면 브라우져 넓이가 좁아지면 깨짐) */ 
+	width: 900px; /* topMenu의 넓이를 850px로 설정(제대로 설정 안하면 브라우져 넓이가 좁아지면 깨짐) */ 
 } 
 #topMenu ul li { /* topMenu의 ID를 가진 태그 안에 <ul> 태그 안에 <li> 태그의 스타일을 지정 */ 
 	list-style: none; /* <li> 태그는 위의 이미지처럼 목록을 나타내는 점을 없앤다 */ 
@@ -21,7 +30,7 @@
 	text-decoration:none; /* 링크(<a> 태그)가 가지는 기본 꾸밈 효과(밑줄 등)을 없앰 */ 
 	color: white; /* 폰트색을 흰색으로 설정 */ 
 	display: block; /* 링크를 글씨가 있는 부분 뿐만아니라 전체 영역을 클릭해도 링크가 걸리게 설정 */ 
-	width: 150px; /* 메뉴링크의 넓이 설정 */ 
+	width: 127px; /* 메뉴링크의 넓이 설정 */ 
 	font-size: 12px; /* 폰트 사이즈 12px로 설정 */ 
 	font-weight: bold; /* 폰트를 굵게 */ 
 	font-family: "Trebuchet MS", Dotum, Arial; /* 기본 폰트 적용, 시스템 폰트를 종류별로 순서대로 */ 
@@ -30,23 +39,120 @@
 	color: red; /* 글씨 색을 붉은색으로 설정 */ 
 	background-color: #4d4d4d; /* 배경색을 조금 더 밝은 회색으로 설정 */ 
 } 
+
+#middlePage{
+	height : 900px;
+	width : 850px;
+	line-height: 30px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.mainTopContent {
+	margin: 20px 20px 0px 20px;
+	padding: 10px;
+	border: 5px solid #ccc;
+	background: #666;
+	height: 100px; /* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	height: 70px;
+	}
+html>body #top {
+	height: 70px; /* ie5win fudge ends */
+	}
+	
+.mainLeftContent {
+	position: absolute;
+	top: 223px;
+	left: 9px;
+	margin: 20px;
+	padding: 10px;
+	border: 5px solid #ccc;
+	background: #666;
+	width: 150px; /* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 120px;
+	height : 700px;
+	}
+html>body .mainLeftContent {
+	width: 120px; /* ie5win fudge ends */
+	}
+	
+	
+.mainMiddleContainer {
+	margin: 20px 160px 20px 160px;
+	padding: 10px;
+	border: 5px solid #ccc;
+	background: #666;
+	height : 700px;
+	}
+	
+.mainMiddelContent{
+	position : absolute;
+	margin: 20px 10px 20px 10px;
+	display : inline-block;
+	height : 50px;
+	top : 300px;
+	left : 250px;
+}	
+	
+.mainRightContent {
+	position: absolute;
+	top: 223px;
+	right: 94px; /* Opera5.02 will show a space 
+	at right when there is no scroll bar */
+	margin: 20px;
+	padding: 10px;
+	border: 5px solid #ccc;
+	background: #666;
+	width: 150px; /* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 120px;
+	height : 700px;
+	}
+html>body .mainRightContent {
+	width: 120px; /* ie5win fudge ends */
+	}
+
 </style>
 </head>
 <body>
 
-<header><h1>안녕하세요 첫번째 페이지 입니다.</h1></header>
+<!-- Page Title -->
+<header><h1>JaeBBA's Shopping Center</h1></header>
+<!-- end Page Title -->
 
+
+<!-- navigater Start! -->
 <nav id="topMenu" > 
 	<ul> 
 		<li><a class="menuLink" href="#">About us</a></li> 
-		<li><a class="menuLink" href="#">Ministries</a></li> 
+		<li><a class="menuLink" href="#">Top</a></li> 
+		<li><a class="menuLink" href="#">Shirts</a></li> 
+		<li><a class="menuLink" href="#">Pants</a></li> 
 		<li><a class="menuLink" href="#">Community</a></li> 
-		<li><a class="menuLink" href="#">Locations</a></li> 
 		<li><a class="menuLink" href="#">Blog</a></li> 
 	</ul>
 </nav>
+<!-- end navigater -->
 
-<section><p>Section 영역</p></section>
+<section id = "middlePage">
+	<div class = "container">
+		<div class = "mainTopContent">Top</div>
+		<div class = "mainMiddleContainer">Middle
+			<div>
+				<div class = "mainMiddelContent">Test</div>
+				<div class = "mainMiddelContent">Test1</div>
+				<div class = "mainMiddelContent">Test2</div>
+			</div>
+		</div>
+		<div class = "mainLeftContent">Left</div>
+		<div class = "mainRightContent">Right</div>
+	</div>
+</section>
 
 <footer><h2>Footer 영역</h2></footer>
 
