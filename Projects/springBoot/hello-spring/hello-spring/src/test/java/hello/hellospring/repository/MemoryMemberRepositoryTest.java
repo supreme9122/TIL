@@ -17,6 +17,7 @@ class MemoryMemberRepositoryTest {
 	public void save() {
 		Member member = new Member();
 		member.setName("hello");					//member 객체에 등록할 이름 추가
+		member.setPw("hello11");					//member 객체에 등록할 이름 추가
 		
 		repository.save(member);					//실제 repsository에 save메소드를 호출해서 회원등록
 		
@@ -30,37 +31,38 @@ class MemoryMemberRepositoryTest {
 	public void findByName( ) {
 		Member member1 = new Member();
 		member1.setName("spring1");
+		member1.setPw("qaz");
 		repository.save(member1);
 		
 		Member member2 = new Member();
 		member2.setName("spring2");
+		member2.setPw("wsx");
+		
 		repository.save(member2);
 			
-		System.out.println(member2.getId());
 		Member result = repository.findByName("spring1").get();
 		
 		assertThat(result).isEqualTo(member1);
 	}
 	
-//	@Test
-//	public void findByPw() {
-//		Member memberPw1 = new Member();
-//		memberPw1.setPw("hello");
-//		repository.save(memberPw1);
-//		
-//		Member memberPw2 = new Member();
-//		memberPw2.setPw("hello2");
-//		repository.save(memberPw2);
-//		
-//		Member memberPw3 = new Member();
-//		memberPw3.setPw("hello2");
-//		repository.save(memberPw3);
-//		
-//		Member result = repository.findByPw("hello").get();
-//		
-//		
-//		assertThat(result).isEqualTo(memberPw1);
-//	}
+	@Test
+	public void findByPw() {
+		Member memberPw1 = new Member();
+		memberPw1.setName("hello12");
+		memberPw1.setPw("hello12");
+		repository.save(memberPw1);
+		
+		Member memberPw2 = new Member();
+		memberPw2.setName("hello2");
+		memberPw2.setPw("hello2");
+		repository.save(memberPw2);
+		
+		
+		Member result = repository.findByPw(memberPw1.getPw()).get();
+		
+		
+		assertThat(result).isEqualTo(memberPw1);
+	}
 	
 	@Test
 	public void findAll() {
@@ -69,10 +71,9 @@ class MemoryMemberRepositoryTest {
 		repository.save(member1);
 		
 		Member member2 = new Member();
-		member1.setName("spring2");
+		member2.setName("spring2");
 		repository.save(member1);
 		
-		System.out.println(member2.getId());
 		List<Member> result = repository.findAll();
 		
 		assertThat(result.size()).isEqualTo(2);
