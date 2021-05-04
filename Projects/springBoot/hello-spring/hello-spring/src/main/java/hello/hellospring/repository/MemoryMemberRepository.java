@@ -15,7 +15,8 @@ public class MemoryMemberRepository implements MemberRepository{
 	//memory 이므로 저장공간이 필요함.
 	private static Map<Long, Member> store = new HashMap<>();		//회원 id가 Key이기 때문에 제너럴에 Long 선언합니다.
 	private static Long sequence = 0L;
-	private Object member;
+//	private Object memberNm;
+//	private Object memberPw;
 	
 	@Override
 	public Member save(Member member) {
