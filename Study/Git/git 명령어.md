@@ -1,23 +1,8 @@
-# Git 과 GitHub란?
-
-- 버전관리 툴
-  (버전별 백업관리, 형상관리)
-- 통상 프로젝트를 진행 할 때 수정사항이 발생하면 수정 내용과 날짜 및 버전 정보를 파일명에 표시하고 저장을 해야 할것이다. 이렇게 무자비하게 보관하다보면 용량 부담이 클것이다. 이런 점을 보안하기 위해 만든 것이 Git이다.
-
-# Git과 Github의 차이점
-
-Git은 버전관리 위한 소프트웨어
-Github은 Git으로 Local내 저장돼서 원격전송된 내역들이 저장되는 공간을 제공하는 서비스이다.
-
-ex)
-Git은 영상을 찍는 앱
-Github는 유튜브로 생각하기
-
 # Git 명령어
 
 ### $ git init
 
-> Windows Terminal 또는 Git Bash에서 이동한 경로 (ex : c:\user\name\GitTest\....)내에 .git이라는 투명한 폴더의 Git의 Local내 저장소를 만들게 된다. 한번 지정하고 나면 그후로 지정할 필요가 없음.
+> Windows Terminal 또는 Git Bash에서 이동한 경로 (ex : c:\user\name\GitTest....)내에 .git이라는 투명한 폴더의 Git의 Local내 저장소를 만들게 된다. 한번 지정하고 나면 그후로 지정할 필요가 없음.
 
 ### $ git status
 
@@ -114,7 +99,7 @@ Github는 유튜브로 생각하기
 
 > git commit -a, git commit -m을 동시에 적용
 
-### $ git clone [url] (저장할 폴더 이름``생략가능``)
+### $ git clone [url] (저장할 폴더 이름`생략가능`)
 
 > 기존 원격 저장소를 로컬에 다운로드하기 위하여 사용하는것.
 
@@ -155,6 +140,14 @@ Github는 유튜브로 생각하기
 > ```
 > $ git reset --hard HEAD^
 > ```
+
+### git config --list
+
+> git 환경셋팅
+
+
+
+
 
 *** git 명령어 관련 좋은 블로그**
 
